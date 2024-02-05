@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_23/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1962278 2977726
+primary variables: 253970
+
+................................
+Total Sol.s: 32
+Analysis Time: 26417 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_24/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 69
+original ub: 816
+Adjusted ub: 103
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 816
+Adjusted ub: 34
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 25
+original ub: 816
+Adjusted ub: 59
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 142
+original ub: 3504
+Adjusted ub: 380
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 65
+original ub: 8322
+Adjusted ub: 577
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 4964
+Adjusted ub: 141
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 177
+original ub: 10804
+Adjusted ub: 1041
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 70
+original ub: 2886
+Adjusted ub: 226
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 70
+original ub: 2886
+Adjusted ub: 226
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 71
+original ub: 2451
+Adjusted ub: 432
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 60
+original ub: 684
+Adjusted ub: 84
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 57
+original ub: 114
+Adjusted ub: 61
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 63
+original ub: 399
+Adjusted ub: 77
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 459
+original ub: 78694
+Adjusted ub: 13975
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 355
+original ub: 78694
+Adjusted ub: 13871
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 459
+original ub: 23177
+Adjusted ub: 6194
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 459
+original ub: 6468
+Adjusted ub: 1419
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 459
+original ub: 1078
+Adjusted ub: 619
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 459
+original ub: 3773
+Adjusted ub: 1019
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 163
+original ub: 39886
+Adjusted ub: 7919
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 146
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 146
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 146
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 539
+Adjusted ub: 80
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 539
+Adjusted ub: 80
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 146
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 146
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 539
+Adjusted ub: 80
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 146
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 146
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 539
+Adjusted ub: 80
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjustment Time: 10319 ms. 
+
+
+---STATS---
+p cnf 157332 373146
+primary variables: 46011
+
+................................
+Total Kodkod Rels: 1035
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 32
+Analysis Time: 5024 ms. 
+
+=====================================

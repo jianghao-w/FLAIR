@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_38/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1290787 1880755
+primary variables: 166907
+
+............
+Total Sol.s: 12
+Analysis Time: 12801 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_39/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 88
+original ub: 1368
+Adjusted ub: 124
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 1[[org_logicallycreative_movingpolygons/org_logicallycreative_movingpolygons$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0]]
+original ub: 1368
+Adjusted ub: 37
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 38
+original ub: 1368
+Adjusted ub: 74
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 104
+original ub: 4256
+Adjusted ub: 512
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 60
+original ub: 6944
+Adjusted ub: 764
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 6[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, am_zoom_mlauncher/appDeclaration/BIND_INPUT_METHOD$0], [org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0, am_zoom_mlauncher/appDeclaration/ACCESS_COARSE_LOCATION$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, am_zoom_mlauncher/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0]]
+original ub: 4032
+Adjusted ub: 294
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 90
+original ub: 9520
+Adjusted ub: 770
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 85
+original ub: 3315
+Adjusted ub: 85
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 85
+original ub: 3315
+Adjusted ub: 85
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 82
+original ub: 3100
+Adjusted ub: 362
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 62
+original ub: 558
+Adjusted ub: 200
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 62
+original ub: 124
+Adjusted ub: 66
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 74
+original ub: 558
+Adjusted ub: 92
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 32
+original ub: 48384
+Adjusted ub: 45088
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 12[[intent2__igf1afurilqo7ahee671ito1mh$0, bander_notepad/bander_notepad_Preferences$0], [intent6__m8jba9iv0ij76edi3tkqi09glm$0, bander_notepad/bander_notepad_Preferences$0], [intent7__th3clh655c66mb08ra348lp78h$0, bander_notepad/bander_notepad_Preferences$0], [intent8__4kv9u4p7nmge4rruaen0kdr12g$0, bander_notepad/bander_notepad_Preferences$0], [intent9__56mgh7lm47hsfgrtl4ij8qki6d$0, bander_notepad/bander_notepad_Preferences$0], [intent12__td3k63fstva1u81pmnl6tvnka0$0, bander_notepad/bander_notepad_Preferences$0], [intent21__91sfio98ohjdm06qe09vg104ee$0, bander_notepad/bander_notepad_Preferences$0], [intent22__2f0e5nul60552p9vtcka2tnbvd$0, bander_notepad/bander_notepad_Preferences$0], [intent24__c7omnssq01v96on65c3o07mfbr$0, bander_notepad/bander_notepad_Preferences$0], [intent26__trp2kqmhlqe70utratejnf6e0g$0, bander_notepad/bander_notepad_Preferences$0], [intent31__sgehn4be9g8v6iujmhl0htnh94$0, bander_notepad/bander_notepad_Preferences$0], [intent32__1p1ad201gptmfnv6r3ld0gt4e0$0, bander_notepad/bander_notepad_Preferences$0]]
+original ub: 48384
+Adjusted ub: 45068
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 32
+original ub: 21600
+Adjusted ub: 20128
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 32
+original ub: 3888
+Adjusted ub: 3696
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 32
+original ub: 864
+Adjusted ub: 832
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 32
+original ub: 3888
+Adjusted ub: 3632
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 20[[intent2__igf1afurilqo7ahee671ito1mh$0, bander_notepad/detailedPath_bander_notepad_10$0], [intent3__ofab8l69dsm2d3tktfp1dcj4c8$0, bander_notepad/detailedPath_bander_notepad_9$0], [intent3__ofab8l69dsm2d3tktfp1dcj4c8$0, bander_notepad/detailedPath_bander_notepad_11$0], [intent3__ofab8l69dsm2d3tktfp1dcj4c8$0, bander_notepad/detailedPath_bander_notepad_12$0], [intent3__ofab8l69dsm2d3tktfp1dcj4c8$0, bander_notepad/detailedPath_bander_notepad_13$0], [intent4__ch3c7khh6i0qiste1la6mmdv32$0, bander_notepad/detailedPath_bander_notepad_9$0], [intent4__ch3c7khh6i0qiste1la6mmdv32$0, bander_notepad/detailedPath_bander_notepad_11$0], [intent4__ch3c7khh6i0qiste1la6mmdv32$0, bander_notepad/detailedPath_bander_notepad_12$0], [intent4__ch3c7khh6i0qiste1la6mmdv32$0, bander_notepad/detailedPath_bander_notepad_13$0], [intent6__m8jba9iv0ij76edi3tkqi09glm$0, bander_notepad/detailedPath_bander_notepad_10$0], [intent9__56mgh7lm47hsfgrtl4ij8qki6d$0, bander_notepad/detailedPath_bander_notepad_10$0], [intent17__v4ag2retffbotou2sggfab27tq$0, bander_notepad/detailedPath_bander_notepad_9$0], [intent17__v4ag2retffbotou2sggfab27tq$0, bander_notepad/detailedPath_bander_notepad_11$0], [intent17__v4ag2retffbotou2sggfab27tq$0, bander_notepad/detailedPath_bander_notepad_12$0], [intent17__v4ag2retffbotou2sggfab27tq$0, bander_notepad/detailedPath_bander_notepad_13$0], [intent22__2f0e5nul60552p9vtcka2tnbvd$0, bander_notepad/detailedPath_bander_notepad_10$0], [intent28__h8j12smm8dunoarmvnod31h6tt$0, bander_notepad/detailedPath_bander_notepad_9$0], [intent28__h8j12smm8dunoarmvnod31h6tt$0, bander_notepad/detailedPath_bander_notepad_11$0], [intent28__h8j12smm8dunoarmvnod31h6tt$0, bander_notepad/detailedPath_bander_notepad_12$0], [intent28__h8j12smm8dunoarmvnod31h6tt$0, bander_notepad/detailedPath_bander_notepad_13$0]]
+original ub: 36720
+Adjusted ub: 34020
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 8[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_CheatsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_DeviceListActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_EmulatorActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_EmulatorSettings$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_FileChooser$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_KeyProfilesActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_StateSlotsActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 8[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_CheatsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_DeviceListActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_EmulatorActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_EmulatorSettings$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_FileChooser$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_KeyProfilesActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_StateSlotsActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 8[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_CheatsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_DeviceListActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_EmulatorActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_EmulatorSettings$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_FileChooser$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_KeyProfilesActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_androidemu_nes/com_androidemu_nes_StateSlotsActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 400
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 400
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 8[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_CheatsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_DeviceListActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_EmulatorActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_EmulatorSettings$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_FileChooser$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_KeyProfilesActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_StateSlotsActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 8[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_CheatsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_DeviceListActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_EmulatorActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_EmulatorSettings$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_FileChooser$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_KeyProfilesActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_androidemu_nes/com_androidemu_nes_StateSlotsActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 400
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 8[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_CheatsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_DeviceListActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_EmulatorActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_EmulatorSettings$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_FileChooser$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_KeyProfilesActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_StateSlotsActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 8[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_CheatsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_DeviceListActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_EmulatorActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_EmulatorSettings$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_FileChooser$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_KeyProfilesActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_androidemu_nes/com_androidemu_nes_StateSlotsActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 400
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 30775 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 932
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 388 ms. 
+
+=====================================

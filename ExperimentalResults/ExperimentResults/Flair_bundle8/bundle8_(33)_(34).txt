@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_33/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 2164176 2789465
+primary variables: 287740
+
+....................................................................................................................................................................................................
+Total Sol.s: 196
+Analysis Time: 86693 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_34/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 75
+original ub: 1122
+Adjusted ub: 108
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1122
+Adjusted ub: 33
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 35
+original ub: 1122
+Adjusted ub: 68
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 128
+original ub: 4624
+Adjusted ub: 528
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 50
+original ub: 7344
+Adjusted ub: 994
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 4[[com_invano_ambientweather/com_invano_ambientweather_AmbientWeatherExtension$0, at_bitfire_cadroid/appDeclaration/READ_EXTENSION_DATA$0], [com_miqote_angelplayerwp/com_miqote_angelplayerwp_LiveWallpaperService$0, at_bitfire_cadroid/appDeclaration/BIND_WALLPAPER$0], [io_github_benoitduffez_cupsprint/io_github_benoitduffez_cupsprint_printservice_CupsService$0, at_bitfire_cadroid/appDeclaration/BIND_PRINT_SERVICE$0], [org_xapek_andiodine/org_xapek_andiodine_IodineVpnService$0, at_bitfire_cadroid/appDeclaration/BIND_VPN_SERVICE$0]]
+original ub: 4488
+Adjusted ub: 268
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 105
+original ub: 13736
+Adjusted ub: 913
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 101
+original ub: 3939
+Adjusted ub: 101
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 101
+original ub: 3939
+Adjusted ub: 101
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 62
+original ub: 1944
+Adjusted ub: 306
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 50
+original ub: 162
+Adjusted ub: 112
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 52
+original ub: 108
+Adjusted ub: 60
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 58
+original ub: 216
+Adjusted ub: 74
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 38
+original ub: 84048
+Adjusted ub: 79222
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 32
+original ub: 84048
+Adjusted ub: 79216
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 38
+original ub: 22248
+Adjusted ub: 20994
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 38
+original ub: 1854
+Adjusted ub: 1816
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 38
+original ub: 1236
+Adjusted ub: 1198
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 38
+original ub: 2472
+Adjusted ub: 2358
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 1[[intent488__qgbjlgsku1dtljmnckvf4m791k$0, io_github_phora_androptpb/detailedPath_io_github_phora_androptpb_9$0]]
+original ub: 62418
+Adjusted ub: 58581
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 8[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_EventDetailsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SearchResultActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleEventActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_services_AlarmIntentService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_receivers_AlarmReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 8[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_EventDetailsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SearchResultActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleEventActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_services_AlarmIntentService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_receivers_AlarmReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 8[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_EventDetailsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SearchResultActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleEventActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_services_AlarmIntentService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, be_digitalia_fosdem/be_digitalia_fosdem_receivers_AlarmReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 618
+Adjusted ub: 580
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 618
+Adjusted ub: 580
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 8[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_EventDetailsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SearchResultActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleEventActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_services_AlarmIntentService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_receivers_AlarmReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 8[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_EventDetailsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SearchResultActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleEventActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_services_AlarmIntentService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_digitalia_fosdem/be_digitalia_fosdem_receivers_AlarmReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 618
+Adjusted ub: 580
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 8[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_EventDetailsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SearchResultActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleEventActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_services_AlarmIntentService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_receivers_AlarmReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 8[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_EventDetailsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SearchResultActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_activities_TrackScheduleEventActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_services_AlarmIntentService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_digitalia_fosdem/be_digitalia_fosdem_receivers_AlarmReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 618
+Adjusted ub: 580
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 65742 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1118
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 548 ms. 
+
+=====================================

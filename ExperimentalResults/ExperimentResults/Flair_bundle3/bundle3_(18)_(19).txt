@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_18/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1310352 1854492
+primary variables: 169787
+
+........
+Total Sol.s: 8
+Analysis Time: 12431 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_19/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 63
+original ub: 646
+Adjusted ub: 115
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 646
+Adjusted ub: 52
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 23
+original ub: 646
+Adjusted ub: 75
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 117
+original ub: 2261
+Adjusted ub: 272
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 55
+original ub: 5593
+Adjusted ub: 383
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 3[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 4046
+Adjusted ub: 188
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 161
+original ub: 7021
+Adjusted ub: 279
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 59
+original ub: 2301
+Adjusted ub: 59
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 59
+original ub: 2301
+Adjusted ub: 59
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 61
+original ub: 1739
+Adjusted ub: 225
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 50
+original ub: 564
+Adjusted ub: 74
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 47
+original ub: 94
+Adjusted ub: 51
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 52
+original ub: 329
+Adjusted ub: 66
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 342
+original ub: 47957
+Adjusted ub: 8285
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 250
+original ub: 47957
+Adjusted ub: 8193
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 342
+original ub: 14911
+Adjusted ub: 3283
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 342
+original ub: 4836
+Adjusted ub: 1074
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 342
+original ub: 806
+Adjusted ub: 464
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 342
+original ub: 2821
+Adjusted ub: 769
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 160
+original ub: 23777
+Adjusted ub: 3759
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_tjm_stripepaper/com_tjm_stripepaper_SetWallpaperActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_tjm_stripepaper/com_tjm_stripepaper_SetWallpaperActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_tjm_stripepaper/com_tjm_stripepaper_SetWallpaperActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 403
+Adjusted ub: 61
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 403
+Adjusted ub: 61
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tjm_stripepaper/com_tjm_stripepaper_SetWallpaperActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tjm_stripepaper/com_tjm_stripepaper_SetWallpaperActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 403
+Adjusted ub: 61
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tjm_stripepaper/com_tjm_stripepaper_SetWallpaperActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tjm_stripepaper/com_tjm_stripepaper_SetWallpaperActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 403
+Adjusted ub: 61
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 5165 ms. 
+
+
+---STATS---
+p cnf 92375 227523
+primary variables: 25788
+
+........
+Total Kodkod Rels: 836
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 8
+Analysis Time: 2027 ms. 
+
+=====================================

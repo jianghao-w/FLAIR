@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_38/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 2701022 5379915
+primary variables: 349971
+
+................................
+Total Sol.s: 32
+Analysis Time: 42982 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_39/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 140
+original ub: 2418
+Adjusted ub: 202
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2418
+Adjusted ub: 62
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 49
+original ub: 2418
+Adjusted ub: 111
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 186
+original ub: 7449
+Adjusted ub: 567
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 112
+original ub: 15662
+Adjusted ub: 894
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 24
+original ub: 11842
+Adjusted ub: 334
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 155
+original ub: 24448
+Adjusted ub: 1539
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 124
+original ub: 4992
+Adjusted ub: 280
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 124
+original ub: 4992
+Adjusted ub: 280
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 129
+original ub: 7380
+Adjusted ub: 789
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 80
+original ub: 410
+Adjusted ub: 170
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 81
+original ub: 164
+Adjusted ub: 85
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 87
+original ub: 328
+Adjusted ub: 95
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 436
+original ub: 87860
+Adjusted ub: 7200
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 316
+original ub: 87860
+Adjusted ub: 7080
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 436
+original ub: 41400
+Adjusted ub: 5212
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 436
+original ub: 2300
+Adjusted ub: 992
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 436
+original ub: 920
+Adjusted ub: 484
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 436
+original ub: 1840
+Adjusted ub: 532
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 228
+original ub: 58880
+Adjusted ub: 5044
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 191
+Adjusted ub: 5[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_ClipButtons$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_IntentRadio$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_Prefs$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_IntentPlayer$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_Intents$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 191
+Adjusted ub: 5[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_ClipButtons$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_IntentRadio$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_Prefs$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_IntentPlayer$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_Intents$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 191
+Adjusted ub: 5[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_ClipButtons$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_IntentRadio$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_Prefs$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_IntentPlayer$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/org_smblott_intentradio_Intents$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 460
+Adjusted ub: 24
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 460
+Adjusted ub: 24
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 191
+Adjusted ub: 5[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/org_smblott_intentradio_ClipButtons$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/org_smblott_intentradio_IntentRadio$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/org_smblott_intentradio_Prefs$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/org_smblott_intentradio_IntentPlayer$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/org_smblott_intentradio_Intents$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 191
+Adjusted ub: 5[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/org_smblott_intentradio_ClipButtons$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/org_smblott_intentradio_IntentRadio$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/org_smblott_intentradio_Prefs$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/org_smblott_intentradio_IntentPlayer$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/org_smblott_intentradio_Intents$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 460
+Adjusted ub: 24
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 191
+Adjusted ub: 5[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/org_smblott_intentradio_ClipButtons$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/org_smblott_intentradio_IntentRadio$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/org_smblott_intentradio_Prefs$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/org_smblott_intentradio_IntentPlayer$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/org_smblott_intentradio_Intents$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 191
+Adjusted ub: 5[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/org_smblott_intentradio_ClipButtons$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/org_smblott_intentradio_IntentRadio$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/org_smblott_intentradio_Prefs$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/org_smblott_intentradio_IntentPlayer$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/org_smblott_intentradio_Intents$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 460
+Adjusted ub: 24
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_smblott_intentradio/detailedPath_org_smblott_intentradio_4$0]]
+--------------------------
+Adjustment Time: 7097 ms. 
+
+
+---STATS---
+p cnf 99522 303849
+primary variables: 29000
+
+................................
+Total Kodkod Rels: 1160
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 32
+Analysis Time: 4415 ms. 
+
+=====================================

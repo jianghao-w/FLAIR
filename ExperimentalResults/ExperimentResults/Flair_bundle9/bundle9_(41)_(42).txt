@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_41/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 2265739 4401462
+primary variables: 288765
+
+................................................................
+Total Sol.s: 64
+Analysis Time: 47543 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_42/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 128
+original ub: 2478
+Adjusted ub: 228
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2478
+Adjusted ub: 100
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 40
+original ub: 2478
+Adjusted ub: 140
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 157
+original ub: 7056
+Adjusted ub: 776
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 101
+original ub: 15792
+Adjusted ub: 2548
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[com_mathi_amorim_emmanuel_metrictime/com_mathi_amorim_emmanuel_metrictime_MetricTimeNotificationProvider$0, cat_mvmike_minimalcalendarwidget/appDeclaration/RECEIVE_BOOT_COMPLETED$0], [it_reyboz_screenlock/it_reyboz_screenslock_AdminManageReceiver$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_DEVICE_ADMIN$0], [net_zygotelabs_locker/net_zygotelabs_locker_DeviceAdmin$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_DEVICE_ADMIN$0], [com_powerje_nyan/com_powerje_nyan_NyanPaper$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_WALLPAPER$0], [net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSBackgroundService$0, cat_mvmike_minimalcalendarwidget/appDeclaration/SIGNATURE$0]]
+original ub: 9912
+Adjusted ub: 811
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 110
+original ub: 17304
+Adjusted ub: 2656
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 94
+original ub: 4017
+Adjusted ub: 445
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 94
+original ub: 4017
+Adjusted ub: 445
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 143
+original ub: 10246
+Adjusted ub: 2314
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 85
+original ub: 470
+Adjusted ub: 300
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 87
+original ub: 188
+Adjusted ub: 105
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 97
+original ub: 940
+Adjusted ub: 357
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 421
+original ub: 82824
+Adjusted ub: 17148
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 337
+original ub: 82824
+Adjusted ub: 17064
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 421
+original ub: 53737
+Adjusted ub: 14163
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 421
+original ub: 2465
+Adjusted ub: 1623
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 421
+original ub: 986
+Adjusted ub: 565
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 421
+original ub: 4930
+Adjusted ub: 1983
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 109
+original ub: 50779
+Adjusted ub: 11314
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 168
+Adjusted ub: 11[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/com_yalantis_ucrop_UCropActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_AboutActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_DonateActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_ExcludedAlbumsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_PlayerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SecurityActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SingleMediaActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SplashScreen$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/android_support_v4_content_FileProvider$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 168
+Adjusted ub: 11[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/com_yalantis_ucrop_UCropActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_AboutActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_DonateActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_ExcludedAlbumsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_PlayerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SecurityActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SingleMediaActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SplashScreen$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/android_support_v4_content_FileProvider$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 168
+Adjusted ub: 11[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/com_yalantis_ucrop_UCropActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_AboutActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_DonateActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_ExcludedAlbumsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_PlayerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SecurityActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SingleMediaActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SplashScreen$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/android_support_v4_content_FileProvider$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 493
+Adjusted ub: 72
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 493
+Adjusted ub: 72
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_8$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_9$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_8$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_9$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_8$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_9$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_8$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_9$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 168
+Adjusted ub: 11[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/com_yalantis_ucrop_UCropActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_AboutActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_DonateActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_ExcludedAlbumsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_PlayerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SecurityActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SingleMediaActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SplashScreen$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/android_support_v4_content_FileProvider$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 168
+Adjusted ub: 11[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/com_yalantis_ucrop_UCropActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_AboutActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_DonateActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_ExcludedAlbumsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_PlayerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SecurityActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SingleMediaActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SplashScreen$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/android_support_v4_content_FileProvider$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 493
+Adjusted ub: 72
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_8$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_9$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 168
+Adjusted ub: 11[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/com_yalantis_ucrop_UCropActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_AboutActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_DonateActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_ExcludedAlbumsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_PlayerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SecurityActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SingleMediaActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SplashScreen$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/android_support_v4_content_FileProvider$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 168
+Adjusted ub: 11[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/com_yalantis_ucrop_UCropActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_AboutActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_DonateActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_ExcludedAlbumsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_PlayerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SecurityActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SingleMediaActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/org_horaapps_leafpic_activities_SplashScreen$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/android_support_v4_content_FileProvider$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 493
+Adjusted ub: 72
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_8$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_9$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_8$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_horaapps_leafpic/detailedPath_org_horaapps_leafpic_9$0]]
+--------------------------
+Adjustment Time: 17749 ms. 
+
+
+---STATS---
+p cnf 247562 762721
+primary variables: 72709
+
+................................................................
+Total Kodkod Rels: 1182
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 64
+Analysis Time: 11519 ms. 
+
+=====================================

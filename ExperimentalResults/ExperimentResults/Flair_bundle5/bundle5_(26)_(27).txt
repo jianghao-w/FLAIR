@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_26/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 678086 864848
+primary variables: 87608
+
+............
+Total Sol.s: 12
+Analysis Time: 8310 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_27/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 63
+original ub: 884
+Adjusted ub: 122
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 884
+Adjusted ub: 59
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 24
+original ub: 884
+Adjusted ub: 83
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 74
+original ub: 1976
+Adjusted ub: 200
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 41
+original ub: 3268
+Adjusted ub: 275
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, be_ppareit_shutdown/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, be_ppareit_shutdown/appDeclaration/BIND_INPUT_METHOD$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, be_ppareit_shutdown/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0]]
+original ub: 2584
+Adjusted ub: 147
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 68
+original ub: 4636
+Adjusted ub: 190
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 61
+original ub: 2379
+Adjusted ub: 61
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 61
+original ub: 2379
+Adjusted ub: 61
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 54
+original ub: 1591
+Adjusted ub: 169
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 41
+original ub: 172
+Adjusted ub: 49
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 43
+original ub: 86
+Adjusted ub: 47
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 47
+original ub: 172
+Adjusted ub: 55
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 252
+original ub: 19152
+Adjusted ub: 756
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 156
+original ub: 19152
+Adjusted ub: 660
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 252
+original ub: 9324
+Adjusted ub: 504
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 252
+original ub: 1008
+Adjusted ub: 252
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 252
+original ub: 504
+Adjusted ub: 252
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 252
+original ub: 1008
+Adjusted ub: 252
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 84
+original ub: 15372
+Adjusted ub: 84
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 76
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_About$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_SMSReceiver$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 76
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_About$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_SMSReceiver$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 76
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_About$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_SMSReceiver$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 252
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 252
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 76
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_About$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_SMSReceiver$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 76
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_About$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_SMSReceiver$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 252
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 76
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_About$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_SMSReceiver$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 76
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_About$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_yxejamir_misbotheringsms/net_yxejamir_misbotheringsms_SMSReceiver$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 252
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 633 ms. 
+
+
+---STATS---
+p cnf 9970 33960
+primary variables: 2648
+
+............
+Total Kodkod Rels: 636
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 12
+Analysis Time: 1088 ms. 
+
+=====================================

@@ -1,0 +1,18 @@
+---- Flows with 0 intent(s) ---------------------------------
+[Flow(src=StaticField(field='<a.a.a.a.c: a.a.a.a.c a>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<a.a.a.a.c: a.a.a.a.c a>')),
+ Flow(src=StaticField(field='<com.github.timnew.smartremotecontrol.j: com.github.timnew.smartremotecontrol.j c>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<a.a.a.a.c: a.a.a.a.c a>')),
+ Flow(src=StaticField(field='<com.actionbarsherlock.ActionBarSherlock: java.util.HashMap IMPLEMENTATIONS>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<a.a.a.a.c: a.a.a.a.c a>')),
+ Flow(src=StaticField(field='<java.lang.Integer: java.lang.Class TYPE>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<com.actionbarsherlock.ActionBarSherlock: java.lang.Class[] CONSTRUCTOR_ARGS>')),
+ Flow(src=StaticField(field='<com.github.timnew.smartremotecontrol.j: com.github.timnew.smartremotecontrol.j c>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<com.github.timnew.smartremotecontrol.j: com.github.timnew.smartremotecontrol.j c>')),
+ Flow(src=StaticField(field='<com.actionbarsherlock.ActionBarSherlock: java.util.HashMap IMPLEMENTATIONS>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<com.github.timnew.smartremotecontrol.j: com.github.timnew.smartremotecontrol.j c>'))]
+---- Flows with 1 intent(s) ---------------------------------
+[]
+---- Flows with 2 intent(s) ---------------------------------
+[]
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------
+--------------------
+--------------------
+--------------------
+total running time 80 seconds

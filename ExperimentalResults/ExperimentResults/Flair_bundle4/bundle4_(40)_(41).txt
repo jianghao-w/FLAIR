@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b4_40/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1727233 2879034
+primary variables: 221035
+
+........................
+Total Sol.s: 24
+Analysis Time: 21929 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b4_41/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 116
+original ub: 1520
+Adjusted ub: 193
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1520
+Adjusted ub: 77
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 41
+original ub: 1520
+Adjusted ub: 118
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 128
+original ub: 5360
+Adjusted ub: 496
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 74
+original ub: 10184
+Adjusted ub: 786
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [me_writeily/me_writeily_widget_FilesWidgetService$0, app_varlorg_unote/appDeclaration/BIND_REMOTEVIEWS$0], [org_mariotaku_twidere_extension_twitlonger/org_mariotaku_twidere_extension_twitlonger_TwitLongerService2$0, app_varlorg_unote/appDeclaration/SHORTEN_STATUS$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0]]
+original ub: 5092
+Adjusted ub: 361
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 80
+original ub: 12060
+Adjusted ub: 1516
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 83
+original ub: 3510
+Adjusted ub: 356
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 83
+original ub: 3510
+Adjusted ub: 356
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 88
+original ub: 3572
+Adjusted ub: 256
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 82
+original ub: 912
+Adjusted ub: 106
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 76
+original ub: 152
+Adjusted ub: 80
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 81
+original ub: 380
+Adjusted ub: 91
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 53
+original ub: 59630
+Adjusted ub: 52899
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 40
+original ub: 59630
+Adjusted ub: 52886
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 53
+original ub: 20915
+Adjusted ub: 18530
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 53
+original ub: 5340
+Adjusted ub: 4757
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 53
+original ub: 890
+Adjusted ub: 837
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 53
+original ub: 2225
+Adjusted ub: 2013
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 8[[intent10__j396d2dpm0pd924k2c1lskmr8j$0, app_varlorg_unote/detailedPath_app_varlorg_unote_4$0], [intent13__uq67bdoate3ljf4d3tvda0pm48$0, app_varlorg_unote/detailedPath_app_varlorg_unote_4$0], [intent17__uvgboje1q0kfn1o3nhrjsipdhk$0, app_varlorg_unote/detailedPath_app_varlorg_unote_4$0], [intent18__m6onbu3gqf0du7kamfo1ivcmu8$0, app_varlorg_unote/detailedPath_app_varlorg_unote_4$0], [intent27__hav6n94a8joh4ug15996i1h8i0$0, biz_gyrus_yaab/detailedPath_biz_gyrus_yaab_3$0], [intent32__a3h5435s0ruhi35ogg0ku4l52i$0, biz_gyrus_yaab/detailedPath_biz_gyrus_yaab_3$0], [intent38__tt9e1tsp33t797so75ljujdr4p$0, biz_gyrus_yaab/detailedPath_biz_gyrus_yaab_3$0], [intent43__tdieabhr7bsdii1rh6bpmj9vge$0, biz_gyrus_yaab/detailedPath_biz_gyrus_yaab_3$0]]
+original ub: 40050
+Adjusted ub: 35659
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterForm$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageViewer$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_UI$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_SMSReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterForm$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageViewer$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_UI$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_SMSReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterForm$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageViewer$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_UI$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/bughunter2_smsfilter_SMSReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 445
+Adjusted ub: 392
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 445
+Adjusted ub: 392
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 90
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 90
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 90
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 90
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterForm$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageViewer$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_UI$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_SMSReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterForm$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageViewer$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_UI$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/bughunter2_smsfilter_SMSReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 445
+Adjusted ub: 392
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 90
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterForm$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageViewer$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_UI$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_SMSReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterForm$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_FilterList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_MessageViewer$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_UI$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/bughunter2_smsfilter_SMSReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 445
+Adjusted ub: 392
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 90
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 90
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bughunter2_smsfilter/detailedPath_bughunter2_smsfilter_7$0]]
+--------------------------
+Adjustment Time: 35138 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 986
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 424 ms. 
+
+=====================================

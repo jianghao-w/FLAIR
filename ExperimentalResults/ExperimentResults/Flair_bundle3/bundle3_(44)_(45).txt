@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_44/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 4234716 8502169
+primary variables: 544530
+
+................................................................
+Total Sol.s: 64
+Analysis Time: 97078 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_45/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 113
+original ub: 2068
+Adjusted ub: 461
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2068
+Adjusted ub: 348
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 47
+original ub: 2068
+Adjusted ub: 395
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 214
+original ub: 9504
+Adjusted ub: 516
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 107
+original ub: 21168
+Adjusted ub: 517
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 9[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_viper_simplert/com_viper_simplert_TetherService$0, app_varlorg_unote/appDeclaration/BIND_VPN_SERVICE$0], [de_markusfisch_android_shadereditor/de_markusfisch_android_shadereditor_service_ShaderWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [me_writeily/me_writeily_widget_FilesWidgetService$0, app_varlorg_unote/appDeclaration/BIND_REMOTEVIEWS$0], [org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0, app_varlorg_unote/appDeclaration/ACCESS_COARSE_LOCATION$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 10152
+Adjusted ub: 1601
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 228
+original ub: 24624
+Adjusted ub: 670
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 113
+original ub: 4446
+Adjusted ub: 152
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 113
+original ub: 4446
+Adjusted ub: 152
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 126
+original ub: 5684
+Adjusted ub: 184
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 111
+original ub: 2352
+Adjusted ub: 135
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 103
+original ub: 196
+Adjusted ub: 105
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 113
+original ub: 784
+Adjusted ub: 121
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 291
+original ub: 155304
+Adjusted ub: 93321
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 234
+original ub: 155304
+Adjusted ub: 93264
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 291
+original ub: 41702
+Adjusted ub: 25115
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 291
+original ub: 17256
+Adjusted ub: 10563
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 291
+original ub: 1438
+Adjusted ub: 1147
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 291
+original ub: 5752
+Adjusted ub: 3715
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 171
+original ub: 81966
+Adjusted ub: 49254
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 216
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_ApplicationPreferencesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_BackupActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 216
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_ApplicationPreferencesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_BackupActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 216
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_ApplicationPreferencesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_BackupActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 719
+Adjusted ub: 428
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 719
+Adjusted ub: 428
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, de_shandschuh_slightbackup/detailedPath_de_shandschuh_slightbackup_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, de_shandschuh_slightbackup/detailedPath_de_shandschuh_slightbackup_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, de_shandschuh_slightbackup/detailedPath_de_shandschuh_slightbackup_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, de_shandschuh_slightbackup/detailedPath_de_shandschuh_slightbackup_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 216
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_ApplicationPreferencesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_BackupActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 216
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_ApplicationPreferencesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_BackupActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 719
+Adjusted ub: 428
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, de_shandschuh_slightbackup/detailedPath_de_shandschuh_slightbackup_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 216
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_ApplicationPreferencesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_BackupActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 216
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_ApplicationPreferencesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, de_shandschuh_slightbackup/de_shandschuh_slightbackup_BackupActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 719
+Adjusted ub: 428
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, de_shandschuh_slightbackup/detailedPath_de_shandschuh_slightbackup_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, de_shandschuh_slightbackup/detailedPath_de_shandschuh_slightbackup_1$0]]
+--------------------------
+Adjustment Time: 86706 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1427
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 824 ms. 
+
+=====================================

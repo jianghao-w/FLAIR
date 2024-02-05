@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_37/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1128633 1644393
+primary variables: 145496
+
+............
+Total Sol.s: 12
+Analysis Time: 11584 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_38/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 84
+original ub: 1332
+Adjusted ub: 120
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 1[[org_logicallycreative_movingpolygons/org_logicallycreative_movingpolygons$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0]]
+original ub: 1332
+Adjusted ub: 37
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 36
+original ub: 1332
+Adjusted ub: 72
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 98
+original ub: 3848
+Adjusted ub: 418
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 59
+original ub: 6240
+Adjusted ub: 517
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 6[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, am_zoom_mlauncher/appDeclaration/BIND_INPUT_METHOD$0], [org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0, am_zoom_mlauncher/appDeclaration/ACCESS_COARSE_LOCATION$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, am_zoom_mlauncher/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0]]
+original ub: 3744
+Adjusted ub: 222
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 90
+original ub: 8840
+Adjusted ub: 600
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 85
+original ub: 3315
+Adjusted ub: 85
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 85
+original ub: 3315
+Adjusted ub: 85
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 80
+original ub: 2820
+Adjusted ub: 127
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 61
+original ub: 420
+Adjusted ub: 68
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 61
+original ub: 120
+Adjusted ub: 63
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 72
+original ub: 540
+Adjusted ub: 81
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 88
+original ub: 36712
+Adjusted ub: 28176
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 47
+original ub: 36712
+Adjusted ub: 28135
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 88
+original ub: 16591
+Adjusted ub: 12543
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 88
+original ub: 2471
+Adjusted ub: 1943
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 88
+original ub: 706
+Adjusted ub: 618
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 88
+original ub: 3177
+Adjusted ub: 2473
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 50
+original ub: 30005
+Adjusted ub: 22575
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 104
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneReadActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneWriteNFCActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_SettingsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_UltralightHEXEDIT$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_WriteNFCActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 104
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneReadActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneWriteNFCActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_SettingsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_UltralightHEXEDIT$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_WriteNFCActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 104
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneReadActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneWriteNFCActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_SettingsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_UltralightHEXEDIT$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_WriteNFCActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 353
+Adjusted ub: 265
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 353
+Adjusted ub: 265
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 104
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneReadActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneWriteNFCActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_SettingsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_UltralightHEXEDIT$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_WriteNFCActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 104
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneReadActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneWriteNFCActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_SettingsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_UltralightHEXEDIT$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_WriteNFCActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 353
+Adjusted ub: 265
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 104
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneReadActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneWriteNFCActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_SettingsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_UltralightHEXEDIT$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_WriteNFCActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 104
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneReadActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_CloneWriteNFCActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_SettingsActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_UltralightHEXEDIT$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCTagmaker/pl_net_szafraniec_NFCTagmaker_WriteNFCActivity$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 353
+Adjusted ub: 265
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 16913 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 837
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 297 ms. 
+
+=====================================

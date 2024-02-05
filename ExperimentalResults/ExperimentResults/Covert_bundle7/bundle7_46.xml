@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<analysisReport>
+    <name>bundle7</name>
+    <apps/>
+    <vulnerabilities>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.umang.dashnotifier puts data (retrieved from an Explicit Intent (Component = ClickIntentActivity)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (com.umang.dashnotifier.ClickIntentActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.umang.dashnotifier</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.umang.dashnotifier.ClickIntentActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = ClickIntentActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.umang.dashnotifier.ClickIntentActivity: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App de.quaddyservices.dynamicnightlight puts data (retrieved from an Explicit Intent (Component = FullscreenActivity)) on an unsafe sink (LOG) in one of its components (de.quaddyservices.dynamicnightlight.FullscreenActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>de.quaddyservices.dynamicnightlight</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>de.quaddyservices.dynamicnightlight.FullscreenActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = FullscreenActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>de.quaddyservices.dynamicnightlight.FullscreenActivity: void onActivityResult(int,int,android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App net.lardcave.keepassnfc puts data (retrieved from an Explicit Intent (Component = WriteNFCActivity)) on an unsafe sink (NFC) in one of its components (net.lardcave.keepassnfc.WriteNFCActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>net.lardcave.keepassnfc</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>net.lardcave.keepassnfc.WriteNFCActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = WriteNFCActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>net.lardcave.keepassnfc.WriteNFCActivity: void nfc_enable()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>NFC</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app  Data Leakage</type>
+            <description>App org.balau.fakedawn retrieves sensitive data (CALENDAR_INFORMATION) in one of its components (org.balau.fakedawn.Dawn), passes data to another component (org.balau.fakedawn.DawnSound) via Explicit Intent (Component = DawnSound), and puts this data on an unsafe sink (LOG)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.balau.fakedawn</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.Dawn</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.AlarmReceiver: java.util.Calendar getAlarmStart(android.content.SharedPreferences)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>CALENDAR_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = DawnSound)</description>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_i</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.balau.fakedawn.DawnSound</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.balau.fakedawn.DawnSound: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive1_d2</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive1_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+    </vulnerabilities>
+</analysisReport>
+It took 451 seconds for DIFF_Specification 
+It took 1076 seconds for DIFF_Solvemodel 
+It took 17 seconds for DIFF_Generatemodel 
+It took 2075 seconds for DIEF_Total 

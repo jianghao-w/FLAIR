@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_45/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 3297096 7098440
+primary variables: 425977
+
+................................
+Total Sol.s: 32
+Analysis Time: 58371 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_46/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 158
+original ub: 3266
+Adjusted ub: 589
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 3266
+Adjusted ub: 431
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 58
+original ub: 3266
+Adjusted ub: 489
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 206
+original ub: 10304
+Adjusted ub: 1240
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 124
+original ub: 22176
+Adjusted ub: 3348
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 24
+original ub: 15904
+Adjusted ub: 2950
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 166
+original ub: 34944
+Adjusted ub: 6270
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 140
+original ub: 6084
+Adjusted ub: 764
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 140
+original ub: 6084
+Adjusted ub: 764
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 147
+original ub: 9603
+Adjusted ub: 1470
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 92
+original ub: 495
+Adjusted ub: 127
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 93
+original ub: 198
+Adjusted ub: 107
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 102
+original ub: 495
+Adjusted ub: 137
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 127456
+Adjusted ub: 127456
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 127456
+Adjusted ub: 127456
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 55193
+Adjusted ub: 55193
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2845
+Adjusted ub: 2845
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1138
+Adjusted ub: 1138
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2845
+Adjusted ub: 2845
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 88764
+Adjusted ub: 88764
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 224
+Adjusted ub: 18[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_cert4android_TrustCertificateActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AppSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateAddressBookActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateCalendarActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_setup_LoginActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_cert4android_CustomCertService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_DavService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_AccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_CalendarsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_ContactsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_TasksSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountSettings$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountsChangedReceiver$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_App$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 224
+Adjusted ub: 18[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_cert4android_TrustCertificateActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AppSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateAddressBookActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateCalendarActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_setup_LoginActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_cert4android_CustomCertService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_DavService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_AccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_CalendarsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_ContactsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_TasksSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountSettings$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountsChangedReceiver$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_App$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 224
+Adjusted ub: 18[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_cert4android_TrustCertificateActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AppSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateAddressBookActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateCalendarActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_setup_LoginActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_cert4android_CustomCertService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_DavService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_AccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_CalendarsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_ContactsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_TasksSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountSettings$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountsChangedReceiver$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/at_bitfire_davdroid_App$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 569
+Adjusted ub: 569
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 569
+Adjusted ub: 569
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 16[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_6$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_7$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_8$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_9$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_10$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_11$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_12$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_13$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_14$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_15$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_16$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 16[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_6$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_7$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_8$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_9$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_10$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_11$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_12$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_13$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_14$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_15$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_16$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 16[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_6$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_7$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_8$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_9$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_10$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_11$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_12$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_13$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_14$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_15$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_16$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 16[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_6$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_7$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_8$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_9$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_10$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_11$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_12$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_13$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_14$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_15$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_16$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 224
+Adjusted ub: 18[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_cert4android_TrustCertificateActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AppSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateAddressBookActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateCalendarActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_setup_LoginActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_cert4android_CustomCertService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_DavService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_AccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_CalendarsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_ContactsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_TasksSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountSettings$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountsChangedReceiver$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_App$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 224
+Adjusted ub: 18[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_cert4android_TrustCertificateActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AppSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateAddressBookActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateCalendarActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_setup_LoginActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_cert4android_CustomCertService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_DavService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_AccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_CalendarsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_ContactsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_TasksSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountSettings$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountsChangedReceiver$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/at_bitfire_davdroid_App$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 569
+Adjusted ub: 569
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 16[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_6$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_7$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_8$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_9$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_10$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_11$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_12$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_13$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_14$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_15$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_16$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 224
+Adjusted ub: 18[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_cert4android_TrustCertificateActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AppSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateAddressBookActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateCalendarActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_setup_LoginActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_cert4android_CustomCertService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_DavService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_AccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_CalendarsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_ContactsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_TasksSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountSettings$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountsChangedReceiver$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_App$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 224
+Adjusted ub: 18[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_cert4android_TrustCertificateActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AccountsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_AppSettingsActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateAddressBookActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_CreateCalendarActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_ui_setup_LoginActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_cert4android_CustomCertService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_DavService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_AccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_CalendarsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_ContactsSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_syncadapter_TasksSyncAdapterService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountSettings$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_AccountsChangedReceiver$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/at_bitfire_davdroid_App$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 569
+Adjusted ub: 569
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 16[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_6$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_7$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_8$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_9$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_10$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_11$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_12$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_13$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_14$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_15$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_16$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 16[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_6$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_7$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_8$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_9$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_10$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_11$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_12$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_13$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_14$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_15$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_bitfire_davdroid/detailedPath_at_bitfire_davdroid_16$0]]
+--------------------------
+Adjustment Time: 116851 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1371
+Adjusted Kodkod Rels: 30 
+
+Total Sol.s: 0
+Analysis Time: 726 ms. 
+
+=====================================

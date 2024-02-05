@@ -1,0 +1,2583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<analysisReport>
+    <name>bundle3</name>
+    <apps/>
+    <vulnerabilities>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.akop.bach puts data (retrieved from an Explicit Intent (Component = AccountSettings)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (com.akop.bach.activity.playstation.AccountSettings). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.playstation.AccountSettings</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = AccountSettings)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.AccountSettings: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.akop.bach puts data (retrieved from an Explicit Intent (Component = AccountSettings)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (com.akop.bach.activity.xboxlive.AccountSettings). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.AccountSettings</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = AccountSettings)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.AccountSettings: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.akop.bach puts data (retrieved from an Explicit Intent (Component = FriendSummary)) on an unsafe sink (LOG) in one of its components (com.akop.bach.activity.xboxlive.FriendSummary). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = FriendSummary)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.brentpanther.bitcoinwidget puts data (retrieved from an Explicit Intent (Component = SettingsActivity)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (com.brentpanther.bitcoinwidget.SettingsActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.brentpanther.bitcoinwidget</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.brentpanther.bitcoinwidget.SettingsActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = SettingsActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.brentpanther.bitcoinwidget.SettingsActivity: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App fr.xgouchet.texteditor puts data (retrieved from an Explicit Intent (Component = TedActivity)) on an unsafe sink (LOG) in one of its components (fr.xgouchet.texteditor.TedActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedSettingsActivity: void onActivityResult(int,int,android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.doomy.torch puts data (retrieved from an Explicit Intent (Component = WidgetActivity)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (com.doomy.torch.WidgetActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.doomy.torch</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.doomy.torch.WidgetActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = WidgetActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.doomy.torch.WidgetActivity: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App fr.xgouchet.texteditor puts data (retrieved from an Explicit Intent (Component = TedWidgetConfigActivity)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (fr.xgouchet.texteditor.TedWidgetConfigActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedWidgetConfigActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedWidgetConfigActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedWidgetConfigActivity: void onResume()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.viper.simplert puts data (retrieved from an Explicit Intent (Component = TetherService)) on an unsafe sink (LOG) in one of its components (com.viper.simplert.TetherService). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.viper.simplert</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.viper.simplert.TetherService</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TetherService)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.viper.simplert.TetherService: int onStartCommand(android.content.Intent,int,int)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive2)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive2_d3</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive2_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive3)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive3_d4</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive3_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intra-app Data Leakage (Transitive4)</type>
+            <description>App null retrieves sensitive data (null) in one of its components (null), passes data to another component (null) via transitive intent sending, and finally puts this data on an unsafe sink (null)</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.akop.bach</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.PSN$Friends: long getAccountId(android.content.Context,long)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d1</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+                </element>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.akop.bach.activity.xboxlive.FriendSummary</description>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.akop.bach.activity.playstation.CompareGames: boolean initializeParameters()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                        </element>
+                        <alloyLabel>$InfoLeaksIntraAppTransitive4_d5</alloyLabel>
+                    </element>
+                    <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp2</alloyLabel>
+                </element>
+                <alloyLabel>$InfoLeaksIntraAppTransitive4_cmp1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+    </vulnerabilities>
+</analysisReport>
+It took 647 seconds for DIFF_Specification 
+It took 1816 seconds for DIFF_Solvemodel 
+It took 62 seconds for DIFF_Generatemodel 
+It took 3129 seconds for DIEF_Total 

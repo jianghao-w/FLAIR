@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_26/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1438730 1764128
+primary variables: 189787
+
+........................................................................................................................................
+Total Sol.s: 136
+Analysis Time: 44251 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_27/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 55
+original ub: 783
+Adjusted ub: 136
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 783
+Adjusted ub: 81
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 23
+original ub: 783
+Adjusted ub: 104
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 105
+original ub: 2970
+Adjusted ub: 345
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 40
+original ub: 4620
+Adjusted ub: 460
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 3[[com_invano_ambientweather/com_invano_ambientweather_AmbientWeatherExtension$0, at_bitfire_cadroid/appDeclaration/READ_EXTENSION_DATA$0], [com_miqote_angelplayerwp/com_miqote_angelplayerwp_LiveWallpaperService$0, at_bitfire_cadroid/appDeclaration/BIND_WALLPAPER$0], [org_xapek_andiodine/org_xapek_andiodine_IodineVpnService$0, at_bitfire_cadroid/appDeclaration/BIND_VPN_SERVICE$0]]
+original ub: 3190
+Adjusted ub: 358
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 80
+original ub: 9020
+Adjusted ub: 1225
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 75
+original ub: 3198
+Adjusted ub: 348
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 75
+original ub: 3198
+Adjusted ub: 348
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 48
+original ub: 1302
+Adjusted ub: 150
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 40
+original ub: 42
+Adjusted ub: 42
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 41
+original ub: 84
+Adjusted ub: 45
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 45
+original ub: 168
+Adjusted ub: 53
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 405
+original ub: 56100
+Adjusted ub: 13980
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 293
+original ub: 56100
+Adjusted ub: 13868
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 405
+original ub: 15810
+Adjusted ub: 4065
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 405
+original ub: 510
+Adjusted ub: 510
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 405
+original ub: 1020
+Adjusted ub: 615
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 405
+original ub: 2040
+Adjusted ub: 825
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 69
+original ub: 41820
+Adjusted ub: 11514
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityTerminal$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActvitySettings$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIServiceMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_BluetoothBroadcastReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityTerminal$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActvitySettings$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIServiceMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_BluetoothBroadcastReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityTerminal$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActvitySettings$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIServiceMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_BluetoothBroadcastReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 510
+Adjusted ub: 105
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 510
+Adjusted ub: 105
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 82
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 82
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 82
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 82
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityTerminal$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActvitySettings$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIServiceMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_BluetoothBroadcastReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityTerminal$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActvitySettings$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIServiceMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_BluetoothBroadcastReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 510
+Adjusted ub: 105
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 82
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityTerminal$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActvitySettings$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIServiceMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_BluetoothBroadcastReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActivityTerminal$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIActvitySettings$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_CBIServiceMain$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/com_theksmith_android_car_bus_interface_BluetoothBroadcastReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 510
+Adjusted ub: 105
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 82
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 82
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_theksmith_android_car_bus_interface/detailedPath_com_theksmith_android_car_bus_interface_7$0]]
+--------------------------
+Adjustment Time: 11304 ms. 
+
+
+---STATS---
+p cnf 148469 328251
+primary variables: 47318
+
+........................................................................................................................................
+Total Kodkod Rels: 935
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 136
+Analysis Time: 11597 ms. 
+
+=====================================

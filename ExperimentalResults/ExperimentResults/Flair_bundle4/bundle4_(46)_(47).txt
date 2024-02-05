@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b4_46/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 2651537 4706675
+primary variables: 343201
+
+....................................................................................................
+Total Sol.s: 100
+Analysis Time: 70456 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b4_47/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 137
+original ub: 2116
+Adjusted ub: 183
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2116
+Adjusted ub: 46
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 46
+original ub: 2116
+Adjusted ub: 92
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 159
+original ub: 7544
+Adjusted ub: 548
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 87
+original ub: 14268
+Adjusted ub: 681
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [me_writeily/me_writeily_widget_FilesWidgetService$0, app_varlorg_unote/appDeclaration/BIND_REMOTEVIEWS$0], [org_mariotaku_twidere_extension_twitlonger/org_mariotaku_twidere_extension_twitlonger_TwitLongerService2$0, app_varlorg_unote/appDeclaration/SHORTEN_STATUS$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0]]
+original ub: 7544
+Adjusted ub: 235
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 113
+original ub: 18368
+Adjusted ub: 991
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 110
+original ub: 4368
+Adjusted ub: 188
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 110
+original ub: 4368
+Adjusted ub: 188
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 101
+original ub: 4263
+Adjusted ub: 150
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 94
+original ub: 1131
+Adjusted ub: 107
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 88
+original ub: 174
+Adjusted ub: 90
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 94
+original ub: 435
+Adjusted ub: 99
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 140
+original ub: 93644
+Adjusted ub: 71524
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 108
+original ub: 93644
+Adjusted ub: 71492
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 140
+original ub: 27979
+Adjusted ub: 21259
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 140
+original ub: 7423
+Adjusted ub: 5743
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 140
+original ub: 1142
+Adjusted ub: 1002
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 140
+original ub: 2855
+Adjusted ub: 2295
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 53
+original ub: 63952
+Adjusted ub: 48605
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 164
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_GlyphActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_Main$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_RulesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_ScribePreferences$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 164
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_GlyphActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_Main$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_RulesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_ScribePreferences$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 164
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_GlyphActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_Main$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_RulesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_ScribePreferences$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 571
+Adjusted ub: 431
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 571
+Adjusted ub: 431
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_2$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_2$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_2$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_2$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 164
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_GlyphActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_Main$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_RulesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_ScribePreferences$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 164
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_GlyphActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_Main$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_RulesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_ScribePreferences$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 571
+Adjusted ub: 431
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_2$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 164
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_GlyphActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_Main$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_RulesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_ScribePreferences$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 164
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_GlyphActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_Main$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_RulesActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_ScribePreferences$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/eu_veldsoft_scribe4_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 571
+Adjusted ub: 431
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_2$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_veldsoft_scribe4/detailedPath_eu_veldsoft_scribe4_2$0]]
+--------------------------
+Adjustment Time: 57310 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1192
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 559 ms. 
+
+=====================================

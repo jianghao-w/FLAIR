@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_34/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 2324912 3139343
+primary variables: 307247
+
+....................................................................................................................................................................................................
+Total Sol.s: 196
+Analysis Time: 88256 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_35/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 80
+original ub: 1155
+Adjusted ub: 113
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1155
+Adjusted ub: 33
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 37
+original ub: 1155
+Adjusted ub: 70
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 136
+original ub: 4935
+Adjusted ub: 447
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 54
+original ub: 7896
+Adjusted ub: 606
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 4[[com_invano_ambientweather/com_invano_ambientweather_AmbientWeatherExtension$0, at_bitfire_cadroid/appDeclaration/READ_EXTENSION_DATA$0], [com_miqote_angelplayerwp/com_miqote_angelplayerwp_LiveWallpaperService$0, at_bitfire_cadroid/appDeclaration/BIND_WALLPAPER$0], [io_github_benoitduffez_cupsprint/io_github_benoitduffez_cupsprint_printservice_CupsService$0, at_bitfire_cadroid/appDeclaration/BIND_PRINT_SERVICE$0], [org_xapek_andiodine/org_xapek_andiodine_IodineVpnService$0, at_bitfire_cadroid/appDeclaration/BIND_VPN_SERVICE$0]]
+original ub: 4653
+Adjusted ub: 169
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 105
+original ub: 14241
+Adjusted ub: 610
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 101
+original ub: 3939
+Adjusted ub: 101
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 101
+original ub: 3939
+Adjusted ub: 101
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 67
+original ub: 2016
+Adjusted ub: 139
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 54
+original ub: 168
+Adjusted ub: 60
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 56
+original ub: 112
+Adjusted ub: 60
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 62
+original ub: 224
+Adjusted ub: 70
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 529
+original ub: 90099
+Adjusted ub: 18684
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 393
+original ub: 90099
+Adjusted ub: 18548
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 529
+original ub: 23004
+Adjusted ub: 4489
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 529
+original ub: 1917
+Adjusted ub: 859
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 529
+original ub: 1278
+Adjusted ub: 749
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 529
+original ub: 2556
+Adjusted ub: 969
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 117
+original ub: 64539
+Adjusted ub: 11227
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_DirectoryPicker$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_Download$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_AlarmReceiver$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_DirectoryPicker$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_Download$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_AlarmReceiver$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_DirectoryPicker$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_Download$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_AlarmReceiver$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, org_afhdownloader/org_afhdownloader_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 639
+Adjusted ub: 110
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 639
+Adjusted ub: 110
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_afhdownloader/org_afhdownloader_DirectoryPicker$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_afhdownloader/org_afhdownloader_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_afhdownloader/org_afhdownloader_Download$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_afhdownloader/org_afhdownloader_AlarmReceiver$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_afhdownloader/org_afhdownloader_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_afhdownloader/org_afhdownloader_DirectoryPicker$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_afhdownloader/org_afhdownloader_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_afhdownloader/org_afhdownloader_Download$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_afhdownloader/org_afhdownloader_AlarmReceiver$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_afhdownloader/org_afhdownloader_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 639
+Adjusted ub: 110
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_afhdownloader/org_afhdownloader_DirectoryPicker$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_afhdownloader/org_afhdownloader_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_afhdownloader/org_afhdownloader_Download$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_afhdownloader/org_afhdownloader_AlarmReceiver$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_afhdownloader/org_afhdownloader_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 5[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_afhdownloader/org_afhdownloader_DirectoryPicker$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_afhdownloader/org_afhdownloader_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_afhdownloader/org_afhdownloader_Download$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_afhdownloader/org_afhdownloader_AlarmReceiver$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_afhdownloader/org_afhdownloader_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 639
+Adjusted ub: 110
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 16235 ms. 
+
+
+---STATS---
+p cnf 182472 426202
+primary variables: 55521
+
+....................................................................................................................................................................................................
+Total Kodkod Rels: 1147
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 196
+Analysis Time: 21073 ms. 
+
+=====================================

@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_43/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 3445487 6598365
+primary variables: 445276
+
+............................................................................................
+Total Sol.s: 92
+Analysis Time: 91963 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_44/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 121
+original ub: 2024
+Adjusted ub: 210
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2024
+Adjusted ub: 89
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 35
+original ub: 2024
+Adjusted ub: 124
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 196
+original ub: 8668
+Adjusted ub: 436
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 98
+original ub: 17139
+Adjusted ub: 381
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 10[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_LatticeService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_SundancerService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_TunnelService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, app_varlorg_unote/appDeclaration/BIND_INPUT_METHOD$0], [org_mariotaku_twidere_extension_twitlonger/org_mariotaku_twidere_extension_twitlonger_TwitLongerService2$0, app_varlorg_unote/appDeclaration/SHORTEN_STATUS$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 9062
+Adjusted ub: 252
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 223
+original ub: 24428
+Adjusted ub: 1719
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 117
+original ub: 4836
+Adjusted ub: 390
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 117
+original ub: 4836
+Adjusted ub: 390
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 110
+original ub: 4785
+Adjusted ub: 251
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 91
+original ub: 1044
+Adjusted ub: 103
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 89
+original ub: 174
+Adjusted ub: 91
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 96
+original ub: 783
+Adjusted ub: 105
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 488
+original ub: 122928
+Adjusted ub: 27768
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 383
+original ub: 122928
+Adjusted ub: 27663
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 488
+original ub: 34320
+Adjusted ub: 8456
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 488
+original ub: 7488
+Adjusted ub: 2120
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 488
+original ub: 1248
+Adjusted ub: 760
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 488
+original ub: 5616
+Adjusted ub: 1712
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 179
+original ub: 77376
+Adjusted ub: 20459
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 197
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/eu_siebeck_sipswitch_SipSwitchActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 197
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/eu_siebeck_sipswitch_SipSwitchActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 197
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/eu_siebeck_sipswitch_SipSwitchActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 624
+Adjusted ub: 136
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 624
+Adjusted ub: 136
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 124
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 124
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 124
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 124
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 197
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_siebeck_sipswitch/eu_siebeck_sipswitch_SipSwitchActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 197
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_siebeck_sipswitch/eu_siebeck_sipswitch_SipSwitchActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 624
+Adjusted ub: 136
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 124
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 197
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/eu_siebeck_sipswitch_SipSwitchActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 197
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/eu_siebeck_sipswitch_SipSwitchActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 624
+Adjusted ub: 136
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 124
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 124
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_siebeck_sipswitch/detailedPath_eu_siebeck_sipswitch_7$0]]
+--------------------------
+Adjustment Time: 26017 ms. 
+
+
+---STATS---
+p cnf 299728 679434
+primary variables: 90838
+
+............................................................................................
+Total Kodkod Rels: 1297
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 92
+Analysis Time: 18618 ms. 
+
+=====================================

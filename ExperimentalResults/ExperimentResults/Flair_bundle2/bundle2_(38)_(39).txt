@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b2_38/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1236721 2156854
+primary variables: 155929
+
+....................
+Total Sol.s: 20
+Analysis Time: 16565 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b2_39/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 91
+original ub: 1287
+Adjusted ub: 124
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1287
+Adjusted ub: 33
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 25
+original ub: 1287
+Adjusted ub: 58
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 118
+original ub: 4758
+Adjusted ub: 392
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 71
+original ub: 8906
+Adjusted ub: 835
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 7[[com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_LatticeService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_SundancerService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_TunnelService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, app_varlorg_unote/appDeclaration/BIND_INPUT_METHOD$0], [me_writeily/me_writeily_widget_FilesWidgetService$0, app_varlorg_unote/appDeclaration/BIND_REMOTEVIEWS$0], [org_mariotaku_twidere_extension_twitlonger/org_mariotaku_twidere_extension_twitlonger_TwitLongerService2$0, app_varlorg_unote/appDeclaration/SHORTEN_STATUS$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0]]
+original ub: 4026
+Adjusted ub: 139
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 111
+original ub: 10492
+Adjusted ub: 573
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 85
+original ub: 3354
+Adjusted ub: 124
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 85
+original ub: 3354
+Adjusted ub: 124
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 85
+original ub: 3285
+Adjusted ub: 265
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 81
+original ub: 1168
+Adjusted ub: 145
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 72
+original ub: 146
+Adjusted ub: 80
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 76
+original ub: 657
+Adjusted ub: 250
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 106
+original ub: 35624
+Adjusted ub: 23222
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 64
+original ub: 35624
+Adjusted ub: 23180
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 106
+original ub: 13140
+Adjusted ub: 8476
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 106
+original ub: 4672
+Adjusted ub: 3082
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 106
+original ub: 584
+Adjusted ub: 478
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 106
+original ub: 2628
+Adjusted ub: 1992
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 36
+original ub: 25112
+Adjusted ub: 16138
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 122
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_CreditsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_GameActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_LevelActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 122
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_CreditsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_GameActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_LevelActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 122
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_CreditsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_GameActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_LevelActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 292
+Adjusted ub: 186
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 292
+Adjusted ub: 186
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 86
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/detailedPath_org_androidsoft_games_slowit_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 86
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/detailedPath_org_androidsoft_games_slowit_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 86
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/detailedPath_org_androidsoft_games_slowit_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 86
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_androidsoft_games_slowit/detailedPath_org_androidsoft_games_slowit_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 122
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_CreditsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_GameActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_LevelActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 122
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_CreditsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_GameActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_LevelActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 292
+Adjusted ub: 186
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 86
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_androidsoft_games_slowit/detailedPath_org_androidsoft_games_slowit_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 122
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_CreditsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_GameActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_LevelActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 122
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_CreditsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_GameActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_LevelActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_androidsoft_games_slowit/org_androidsoft_games_slowit_SplashActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 292
+Adjusted ub: 186
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 86
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_androidsoft_games_slowit/detailedPath_org_androidsoft_games_slowit_1$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 86
+Adjusted ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_androidsoft_games_slowit/detailedPath_org_androidsoft_games_slowit_1$0]]
+--------------------------
+Adjustment Time: 12165 ms. 
+
+
+---STATS---
+p cnf 268456 609105
+primary variables: 79521
+
+....................
+Total Kodkod Rels: 814
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 20
+Analysis Time: 4344 ms. 
+
+=====================================

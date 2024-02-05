@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_50/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 4451776 10225624
+primary variables: 578659
+
+................................
+Total Sol.s: 32
+Analysis Time: 86716 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_45/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 158
+original ub: 2835
+Adjusted ub: 158
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2835
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 58
+original ub: 2835
+Adjusted ub: 58
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 206
+original ub: 9270
+Adjusted ub: 206
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 124
+original ub: 18952
+Adjusted ub: 124
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 24
+original ub: 12978
+Adjusted ub: 24
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 166
+original ub: 28840
+Adjusted ub: 166
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 140
+original ub: 5460
+Adjusted ub: 140
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 140
+original ub: 5460
+Adjusted ub: 140
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 147
+original ub: 8280
+Adjusted ub: 147
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 92
+original ub: 460
+Adjusted ub: 92
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 93
+original ub: 184
+Adjusted ub: 93
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 102
+original ub: 460
+Adjusted ub: 102
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101352
+Adjusted ub: 101352
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 101352
+Adjusted ub: 101352
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 44280
+Adjusted ub: 44280
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2460
+Adjusted ub: 2460
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 984
+Adjusted ub: 984
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2460
+Adjusted ub: 2460
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 68880
+Adjusted ub: 68880
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 206
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 206
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 206
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 492
+Adjusted ub: 492
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 492
+Adjusted ub: 492
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 206
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 206
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 492
+Adjusted ub: 492
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 206
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 206
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 492
+Adjusted ub: 492
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 80003 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1237
+Adjusted Kodkod Rels: 30 
+
+Total Sol.s: 0
+Analysis Time: 802 ms. 
+
+=====================================

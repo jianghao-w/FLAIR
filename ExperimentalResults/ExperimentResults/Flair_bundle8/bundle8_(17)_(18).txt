@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_17/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 796641 883220
+primary variables: 104713
+
+................................................................
+Total Sol.s: 64
+Analysis Time: 16226 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_18/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 46
+original ub: 396
+Adjusted ub: 68
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 396
+Adjusted ub: 22
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 19[[at_bitfire_cadroid/at_bitfire_cadroid$0, at_bitfire_cadroid/appDeclaration/INTERNET$0], [at_zweng_bankomatinfos2/at_zweng_bankomatinfos2$0, at_bitfire_cadroid/appDeclaration/NFC$0], [cat_jordihernandez_cinecat/cat_jordihernandez_cinecat$0, at_bitfire_cadroid/appDeclaration/INTERNET$0], [com_banasiak_coinflip/com_banasiak_coinflip$0, at_bitfire_cadroid/appDeclaration/VIBRATE$0], [com_botbrew_basil/com_botbrew_basil$0, at_bitfire_cadroid/appDeclaration/INTERNET$0], [com_botbrew_basil/com_botbrew_basil$0, at_bitfire_cadroid/appDeclaration/ACCESS_NETWORK_STATE$0], [com_glanznig_beepme/com_glanznig_beepme$0, at_bitfire_cadroid/appDeclaration/READ_PHONE_STATE$0], [com_glanznig_beepme/com_glanznig_beepme$0, at_bitfire_cadroid/appDeclaration/WAKE_LOCK$0], [com_glanznig_beepme/com_glanznig_beepme$0, at_bitfire_cadroid/appDeclaration/VIBRATE$0], [com_greenaddress_abcore/com_greenaddress_abcore$0, at_bitfire_cadroid/appDeclaration/INTERNET$0], [com_greenaddress_abcore/com_greenaddress_abcore$0, at_bitfire_cadroid/appDeclaration/ACCESS_NETWORK_STATE$0], [com_iamtrk_androidexplorer/com_iamtrk_androidexplorer$0, at_bitfire_cadroid/appDeclaration/READ_PHONE_STATE$0], [com_iamtrk_androidexplorer/com_iamtrk_androidexplorer$0, at_bitfire_cadroid/appDeclaration/ACCESS_WIFI_STATE$0], [to_doc_android_ipv6config/to_doc_android_ipv6config$0, at_bitfire_cadroid/appDeclaration/INTERNET$0], [to_doc_android_ipv6config/to_doc_android_ipv6config$0, at_bitfire_cadroid/appDeclaration/ACCESS_NETWORK_STATE$0], [uk_co_danieljarvis_android_flashback/uk_co_danieljarvis_android_flashback$0, at_bitfire_cadroid/appDeclaration/DISABLE_KEYGUARD$0], [uk_co_danieljarvis_android_flashback/uk_co_danieljarvis_android_flashback$0, at_bitfire_cadroid/appDeclaration/READ_PHONE_STATE$0], [uk_co_danieljarvis_android_flashback/uk_co_danieljarvis_android_flashback$0, at_bitfire_cadroid/appDeclaration/GET_TASKS$0], [us_achromaticmetaphor_imcktg/us_achromaticmetaphor_imcktg$0, at_bitfire_cadroid/appDeclaration/WRITE_SETTINGS$0]]
+original ub: 396
+Adjusted ub: 41
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 76
+original ub: 1422
+Adjusted ub: 206
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 26
+original ub: 2212
+Adjusted ub: 262
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 2[[com_invano_ambientweather/com_invano_ambientweather_AmbientWeatherExtension$0, at_bitfire_cadroid/appDeclaration/READ_EXTENSION_DATA$0], [org_xapek_andiodine/org_xapek_andiodine_IodineVpnService$0, at_bitfire_cadroid/appDeclaration/BIND_VPN_SERVICE$0]]
+original ub: 1738
+Adjusted ub: 68
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 58
+original ub: 3950
+Adjusted ub: 208
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 50
+original ub: 1950
+Adjusted ub: 50
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 50
+original ub: 1950
+Adjusted ub: 50
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 32
+original ub: 672
+Adjusted ub: 106
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 26
+original ub: 28
+Adjusted ub: 28
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 27
+original ub: 56
+Adjusted ub: 31
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 29
+original ub: 112
+Adjusted ub: 37
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 309
+original ub: 30020
+Adjusted ub: 6845
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 219
+original ub: 30020
+Adjusted ub: 6755
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 309
+original ub: 9120
+Adjusted ub: 2322
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 309
+original ub: 380
+Adjusted ub: 380
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 309
+original ub: 760
+Adjusted ub: 451
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 309
+original ub: 1520
+Adjusted ub: 593
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 29
+original ub: 19000
+Adjusted ub: 3579
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 79
+Adjusted ub: 3[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_juet_attendance/com_juet_attendance_About$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_juet_attendance/com_juet_attendance_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_juet_attendance/com_juet_attendance_SettingsView$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 79
+Adjusted ub: 3[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_juet_attendance/com_juet_attendance_About$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_juet_attendance/com_juet_attendance_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_juet_attendance/com_juet_attendance_SettingsView$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 79
+Adjusted ub: 3[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_juet_attendance/com_juet_attendance_About$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_juet_attendance/com_juet_attendance_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_juet_attendance/com_juet_attendance_SettingsView$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 380
+Adjusted ub: 71
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 380
+Adjusted ub: 71
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 50
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 50
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 50
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 50
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 79
+Adjusted ub: 3[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_juet_attendance/com_juet_attendance_About$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_juet_attendance/com_juet_attendance_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_juet_attendance/com_juet_attendance_SettingsView$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 79
+Adjusted ub: 3[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_juet_attendance/com_juet_attendance_About$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_juet_attendance/com_juet_attendance_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_juet_attendance/com_juet_attendance_SettingsView$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 380
+Adjusted ub: 71
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 50
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 79
+Adjusted ub: 3[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_juet_attendance/com_juet_attendance_About$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_juet_attendance/com_juet_attendance_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_juet_attendance/com_juet_attendance_SettingsView$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 79
+Adjusted ub: 3[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_juet_attendance/com_juet_attendance_About$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_juet_attendance/com_juet_attendance_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_juet_attendance/com_juet_attendance_SettingsView$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 380
+Adjusted ub: 71
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 50
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 50
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 4761 ms. 
+
+
+---STATS---
+p cnf 70829 159975
+primary variables: 20733
+
+................................................................
+Total Kodkod Rels: 705
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 64
+Analysis Time: 3831 ms. 
+
+=====================================

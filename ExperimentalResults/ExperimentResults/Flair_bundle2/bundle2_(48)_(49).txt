@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b2_48/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1991922 3851000
+primary variables: 252652
+
+....................
+Total Sol.s: 20
+Analysis Time: 28874 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b2_49/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 105
+original ub: 1960
+Adjusted ub: 145
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1960
+Adjusted ub: 40
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 26
+original ub: 1960
+Adjusted ub: 66
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 149
+original ub: 7644
+Adjusted ub: 641
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 88
+original ub: 13884
+Adjusted ub: 1158
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 7[[com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_LatticeService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_SundancerService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_TunnelService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, app_varlorg_unote/appDeclaration/BIND_INPUT_METHOD$0], [me_writeily/me_writeily_widget_FilesWidgetService$0, app_varlorg_unote/appDeclaration/BIND_REMOTEVIEWS$0], [org_mariotaku_twidere_extension_twitlonger/org_mariotaku_twidere_extension_twitlonger_TwitLongerService2$0, app_varlorg_unote/appDeclaration/SHORTEN_STATUS$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0]]
+original ub: 6240
+Adjusted ub: 287
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 128
+original ub: 17004
+Adjusted ub: 1785
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 103
+original ub: 4251
+Adjusted ub: 337
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 103
+original ub: 4251
+Adjusted ub: 337
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 105
+original ub: 5073
+Adjusted ub: 964
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 98
+original ub: 1424
+Adjusted ub: 146
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 89
+original ub: 178
+Adjusted ub: 95
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 93
+original ub: 801
+Adjusted ub: 120
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 157
+original ub: 68172
+Adjusted ub: 44936
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 116
+original ub: 68172
+Adjusted ub: 44895
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 157
+original ub: 24909
+Adjusted ub: 17373
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 157
+original ub: 6992
+Adjusted ub: 4637
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 157
+original ub: 874
+Adjusted ub: 717
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 157
+original ub: 3933
+Adjusted ub: 2677
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 38
+original ub: 47633
+Adjusted ub: 31500
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_AboutActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_BroadcastActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_HelpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_LookupActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_PathActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_ShortcutActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_AboutActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_BroadcastActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_HelpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_LookupActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_PathActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_ShortcutActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_AboutActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_BroadcastActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_HelpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_LookupActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_PathActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/org_billthefarmer_shorty_ShortcutActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 437
+Adjusted ub: 280
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 437
+Adjusted ub: 280
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_6$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_6$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_6$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_6$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_AboutActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_BroadcastActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_HelpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_LookupActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_PathActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_ShortcutActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_AboutActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_BroadcastActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_HelpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_LookupActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_PathActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/org_billthefarmer_shorty_ShortcutActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 437
+Adjusted ub: 280
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_6$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_AboutActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_BroadcastActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_HelpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_LookupActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_PathActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_ShortcutActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_AboutActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_BroadcastActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_HelpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_LookupActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_PathActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/org_billthefarmer_shorty_ShortcutActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 437
+Adjusted ub: 280
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_6$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_billthefarmer_shorty/detailedPath_org_billthefarmer_shorty_6$0]]
+--------------------------
+Adjustment Time: 32653 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1061
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 502 ms. 
+
+=====================================

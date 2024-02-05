@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_27/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1889094 2966982
+primary variables: 244957
+
+....................
+Total Sol.s: 20
+Analysis Time: 21798 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_28/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 85
+original ub: 1008
+Adjusted ub: 121
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1008
+Adjusted ub: 36
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 27
+original ub: 1008
+Adjusted ub: 63
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 143
+original ub: 4396
+Adjusted ub: 678
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 68
+original ub: 9577
+Adjusted ub: 1351
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 4[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 5652
+Adjusted ub: 508
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 185
+original ub: 14444
+Adjusted ub: 2760
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 83
+original ub: 3588
+Adjusted ub: 434
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 83
+original ub: 3588
+Adjusted ub: 434
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 74
+original ub: 2257
+Adjusted ub: 185
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 59
+original ub: 549
+Adjusted ub: 86
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 60
+original ub: 122
+Adjusted ub: 66
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 63
+original ub: 488
+Adjusted ub: 87
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 371
+original ub: 87292
+Adjusted ub: 34610
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 275
+original ub: 87292
+Adjusted ub: 34514
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 371
+original ub: 20572
+Adjusted ub: 7216
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 371
+original ub: 5004
+Adjusted ub: 2036
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 371
+original ub: 1112
+Adjusted ub: 741
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 371
+original ub: 4448
+Adjusted ub: 1851
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 175
+original ub: 51152
+Adjusted ub: 20534
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 157
+Adjusted ub: 14[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_dropbox_client2_android_AuthActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_AddEditAccount$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_AppEntryActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_ChangeMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_CreateNewDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_DownloadRemoteDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_EnterMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_FullAccountList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_Prefs$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SearchResults$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SelectDatabaseFromDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaHttpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_ViewAccountDetails$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 157
+Adjusted ub: 14[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_dropbox_client2_android_AuthActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_AddEditAccount$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_AppEntryActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_ChangeMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_CreateNewDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_DownloadRemoteDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_EnterMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_FullAccountList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_Prefs$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SearchResults$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SelectDatabaseFromDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaHttpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_ViewAccountDetails$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 157
+Adjusted ub: 14[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_dropbox_client2_android_AuthActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_AddEditAccount$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_AppEntryActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_ChangeMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_CreateNewDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_DownloadRemoteDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_EnterMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_FullAccountList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_Prefs$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SearchResults$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SelectDatabaseFromDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaHttpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/com_u17od_upm_ViewAccountDetails$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 556
+Adjusted ub: 185
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 556
+Adjusted ub: 185
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 92
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 92
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 92
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 92
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_u17od_upm/detailedPath_com_u17od_upm_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 157
+Adjusted ub: 14[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_dropbox_client2_android_AuthActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_AddEditAccount$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_AppEntryActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_ChangeMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_CreateNewDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_DownloadRemoteDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_EnterMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_FullAccountList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_Prefs$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_SearchResults$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_SelectDatabaseFromDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaHttpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_ViewAccountDetails$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 157
+Adjusted ub: 14[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_dropbox_client2_android_AuthActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_AddEditAccount$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_AppEntryActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_ChangeMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_CreateNewDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_DownloadRemoteDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_EnterMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_FullAccountList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_Prefs$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_SearchResults$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_SelectDatabaseFromDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaHttpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/com_u17od_upm_ViewAccountDetails$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 556
+Adjusted ub: 185
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 92
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/detailedPath_com_u17od_upm_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/detailedPath_com_u17od_upm_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/detailedPath_com_u17od_upm_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/detailedPath_com_u17od_upm_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/detailedPath_com_u17od_upm_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/detailedPath_com_u17od_upm_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/detailedPath_com_u17od_upm_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/detailedPath_com_u17od_upm_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_u17od_upm/detailedPath_com_u17od_upm_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 157
+Adjusted ub: 14[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_dropbox_client2_android_AuthActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_AddEditAccount$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_AppEntryActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_ChangeMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_CreateNewDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_DownloadRemoteDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_EnterMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_FullAccountList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_Prefs$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_SearchResults$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_SelectDatabaseFromDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaHttpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_ViewAccountDetails$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 157
+Adjusted ub: 14[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_dropbox_client2_android_AuthActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_AddEditAccount$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_AppEntryActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_ChangeMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_CreateNewDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_DownloadRemoteDatabase$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_EnterMasterPassword$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_FullAccountList$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_Prefs$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_SearchResults$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_SelectDatabaseFromDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaDropboxActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_SyncDatabaseViaHttpActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/com_u17od_upm_ViewAccountDetails$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 556
+Adjusted ub: 185
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 92
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 92
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_u17od_upm/detailedPath_com_u17od_upm_9$0]]
+--------------------------
+Adjustment Time: 24376 ms. 
+
+
+---STATS---
+p cnf 346519 788115
+primary variables: 106879
+
+....................................................
+Total Kodkod Rels: 1083
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 52
+Analysis Time: 13503 ms. 
+
+=====================================

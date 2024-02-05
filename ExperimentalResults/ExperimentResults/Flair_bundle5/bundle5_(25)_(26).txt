@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_25/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 641012 811119
+primary variables: 82839
+
+............
+Total Sol.s: 12
+Analysis Time: 7052 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_26/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 60
+original ub: 825
+Adjusted ub: 93
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 825
+Adjusted ub: 33
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 23
+original ub: 825
+Adjusted ub: 56
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 72
+original ub: 1850
+Adjusted ub: 194
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 40
+original ub: 3034
+Adjusted ub: 194
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, be_ppareit_shutdown/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, be_ppareit_shutdown/appDeclaration/BIND_INPUT_METHOD$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, be_ppareit_shutdown/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0]]
+original ub: 2442
+Adjusted ub: 71
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 66
+original ub: 4514
+Adjusted ub: 332
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 59
+original ub: 2379
+Adjusted ub: 137
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 59
+original ub: 2379
+Adjusted ub: 137
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 53
+original ub: 1476
+Adjusted ub: 129
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 40
+original ub: 164
+Adjusted ub: 44
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 42
+original ub: 82
+Adjusted ub: 44
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 46
+original ub: 164
+Adjusted ub: 50
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 244
+original ub: 18648
+Adjusted ub: 1324
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 152
+original ub: 18648
+Adjusted ub: 1232
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 244
+original ub: 9072
+Adjusted ub: 776
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 244
+original ub: 1008
+Adjusted ub: 276
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 244
+original ub: 504
+Adjusted ub: 260
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 244
+original ub: 1008
+Adjusted ub: 276
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 84
+original ub: 15372
+Adjusted ub: 1060
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_activity_MuzeiMiyazakiSettings$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_service_MuzeiMiyazakiService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_activity_MuzeiMiyazakiSettings$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_service_MuzeiMiyazakiService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_activity_MuzeiMiyazakiSettings$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_service_MuzeiMiyazakiService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 252
+Adjusted ub: 8[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent245__o96p1g6p85shjso5a2je1urh0$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent246__tg3mphes7snj9ijeahto7hfj5a$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent247__pgls2sl5uc5aq2hqmd1fiuv8gr$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent248__6ulhia6f6bkujlt1mr75kiak15$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent249__3328g1640ntriot27fr527hoqh$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent250__unsoo6o73i6ondi9ilcf1t4t0g$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent251__71p48f5oc7pq3njrgg8pdlk3ag$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent252__ub6f2aosm0oa4fgdf0i2f6kfca$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 252
+Adjusted ub: 8[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent245__o96p1g6p85shjso5a2je1urh0$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent246__tg3mphes7snj9ijeahto7hfj5a$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent247__pgls2sl5uc5aq2hqmd1fiuv8gr$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent248__6ulhia6f6bkujlt1mr75kiak15$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent249__3328g1640ntriot27fr527hoqh$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent250__unsoo6o73i6ondi9ilcf1t4t0g$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent251__71p48f5oc7pq3njrgg8pdlk3ag$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent252__ub6f2aosm0oa4fgdf0i2f6kfca$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_activity_MuzeiMiyazakiSettings$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_service_MuzeiMiyazakiService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_activity_MuzeiMiyazakiSettings$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_service_MuzeiMiyazakiService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 252
+Adjusted ub: 8[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent245__o96p1g6p85shjso5a2je1urh0$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent246__tg3mphes7snj9ijeahto7hfj5a$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent247__pgls2sl5uc5aq2hqmd1fiuv8gr$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent248__6ulhia6f6bkujlt1mr75kiak15$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent249__3328g1640ntriot27fr527hoqh$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent250__unsoo6o73i6ondi9ilcf1t4t0g$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent251__71p48f5oc7pq3njrgg8pdlk3ag$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent252__ub6f2aosm0oa4fgdf0i2f6kfca$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_activity_MuzeiMiyazakiSettings$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_service_MuzeiMiyazakiService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 74
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_activity_MuzeiMiyazakiSettings$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_ebt_muzei_miyazaki/net_ebt_muzei_miyazaki_service_MuzeiMiyazakiService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 252
+Adjusted ub: 8[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent245__o96p1g6p85shjso5a2je1urh0$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent246__tg3mphes7snj9ijeahto7hfj5a$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent247__pgls2sl5uc5aq2hqmd1fiuv8gr$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent248__6ulhia6f6bkujlt1mr75kiak15$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent249__3328g1640ntriot27fr527hoqh$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent250__unsoo6o73i6ondi9ilcf1t4t0g$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent251__71p48f5oc7pq3njrgg8pdlk3ag$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent252__ub6f2aosm0oa4fgdf0i2f6kfca$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 61
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_ebt_muzei_miyazaki/detailedPath_net_ebt_muzei_miyazaki_2$0]]
+--------------------------
+Adjustment Time: 981 ms. 
+
+
+---STATS---
+p cnf 17928 46692
+primary variables: 5190
+
+............
+Total Kodkod Rels: 629
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 12
+Analysis Time: 1275 ms. 
+
+=====================================

@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_26/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1757764 2715555
+primary variables: 227670
+
+....................
+Total Sol.s: 20
+Analysis Time: 20906 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_27/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 82
+original ub: 972
+Adjusted ub: 118
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 972
+Adjusted ub: 36
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 25
+original ub: 972
+Adjusted ub: 61
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 137
+original ub: 3861
+Adjusted ub: 436
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 66
+original ub: 8294
+Adjusted ub: 688
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 4[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 5148
+Adjusted ub: 220
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 175
+original ub: 11869
+Adjusted ub: 1632
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 76
+original ub: 3237
+Adjusted ub: 349
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 76
+original ub: 3237
+Adjusted ub: 349
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 72
+original ub: 2146
+Adjusted ub: 146
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 57
+original ub: 522
+Adjusted ub: 75
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 58
+original ub: 116
+Adjusted ub: 62
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 61
+original ub: 464
+Adjusted ub: 77
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 363
+original ub: 66924
+Adjusted ub: 17556
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 267
+original ub: 66924
+Adjusted ub: 17460
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 363
+original ub: 17316
+Adjusted ub: 4248
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 363
+original ub: 4212
+Adjusted ub: 1308
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 363
+original ub: 936
+Adjusted ub: 573
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 363
+original ub: 3744
+Adjusted ub: 1203
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 172
+original ub: 38844
+Adjusted ub: 11428
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 468
+Adjusted ub: 105
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 468
+Adjusted ub: 105
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 468
+Adjusted ub: 105
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 6[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 468
+Adjusted ub: 105
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 7[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjustment Time: 13999 ms. 
+
+
+---STATS---
+p cnf 184011 427379
+primary variables: 56183
+
+....................
+Total Kodkod Rels: 968
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 20
+Analysis Time: 5582 ms. 
+
+=====================================

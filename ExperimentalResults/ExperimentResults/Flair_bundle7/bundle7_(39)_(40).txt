@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_39/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 2865275 5769374
+primary variables: 370961
+
+................................
+Total Sol.s: 32
+Analysis Time: 44720 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_40/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 145
+original ub: 2480
+Adjusted ub: 207
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2480
+Adjusted ub: 62
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 52
+original ub: 2480
+Adjusted ub: 114
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 191
+original ub: 7680
+Adjusted ub: 422
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 114
+original ub: 15936
+Adjusted ub: 388
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 24
+original ub: 11904
+Adjusted ub: 86
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 159
+original ub: 24768
+Adjusted ub: 479
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 128
+original ub: 5031
+Adjusted ub: 167
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 128
+original ub: 5031
+Adjusted ub: 167
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 137
+original ub: 7470
+Adjusted ub: 227
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 82
+original ub: 415
+Adjusted ub: 87
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 83
+original ub: 166
+Adjusted ub: 85
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 91
+original ub: 332
+Adjusted ub: 95
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 448
+original ub: 89088
+Adjusted ub: 3968
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 328
+original ub: 89088
+Adjusted ub: 3848
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 448
+original ub: 41760
+Adjusted ub: 1888
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 448
+original ub: 2320
+Adjusted ub: 528
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 448
+original ub: 928
+Adjusted ub: 480
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 448
+original ub: 1856
+Adjusted ub: 512
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 244
+original ub: 59856
+Adjusted ub: 2756
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 192
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_valos_isolmoa/org_valos_isolmoa_IsolmoaActivity$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 192
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_valos_isolmoa/org_valos_isolmoa_IsolmoaActivity$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 192
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_valos_isolmoa/org_valos_isolmoa_IsolmoaActivity$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 464
+Adjusted ub: 16[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent449__94e3vnmkod74alp6aq5tbplki6$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent450__3hmiroag5p95gfs2n0aklckdbs$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent451__n7l2j5gj18rjcbf1t948mgth87$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent452__4fupu77ve3d805m3i482pv9hsl$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent453__irk3fr19qdfoevgs7g9qvpmrji$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent454__2d91p38adsr4v0thrf4qhrusnu$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent455__963pat58unt737dkprpkc561a$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent456__roo1sv82qocf74mroeed9s3db6$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent457__9h6v79mv7nrofsqj2a7orujc46$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent458__2ko2f81p6r3o0o7a9cq6n61p8d$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent459__dhabrphd1k1ki7tfp6jrak37p3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent460__go88qkag5knkcb209ajn1kmp52$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent461__1sfokhhatvkd8i62g3bs64f740$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent462__fdraov6dquntota1ls777epoae$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent463__bj94ss17q3ig65mhllr679ju68$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent464__r549286l1adps5psli1oa08ce4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 464
+Adjusted ub: 16[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent449__94e3vnmkod74alp6aq5tbplki6$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent450__3hmiroag5p95gfs2n0aklckdbs$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent451__n7l2j5gj18rjcbf1t948mgth87$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent452__4fupu77ve3d805m3i482pv9hsl$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent453__irk3fr19qdfoevgs7g9qvpmrji$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent454__2d91p38adsr4v0thrf4qhrusnu$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent455__963pat58unt737dkprpkc561a$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent456__roo1sv82qocf74mroeed9s3db6$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent457__9h6v79mv7nrofsqj2a7orujc46$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent458__2ko2f81p6r3o0o7a9cq6n61p8d$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent459__dhabrphd1k1ki7tfp6jrak37p3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent460__go88qkag5knkcb209ajn1kmp52$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent461__1sfokhhatvkd8i62g3bs64f740$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent462__fdraov6dquntota1ls777epoae$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent463__bj94ss17q3ig65mhllr679ju68$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, intent464__r549286l1adps5psli1oa08ce4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 129
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_valos_isolmoa/detailedPath_org_valos_isolmoa_1$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 129
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_valos_isolmoa/detailedPath_org_valos_isolmoa_1$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 129
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_valos_isolmoa/detailedPath_org_valos_isolmoa_1$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 129
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, org_valos_isolmoa/detailedPath_org_valos_isolmoa_1$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 192
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_valos_isolmoa/org_valos_isolmoa_IsolmoaActivity$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 192
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_valos_isolmoa/org_valos_isolmoa_IsolmoaActivity$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 464
+Adjusted ub: 16[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent449__94e3vnmkod74alp6aq5tbplki6$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent450__3hmiroag5p95gfs2n0aklckdbs$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent451__n7l2j5gj18rjcbf1t948mgth87$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent452__4fupu77ve3d805m3i482pv9hsl$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent453__irk3fr19qdfoevgs7g9qvpmrji$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent454__2d91p38adsr4v0thrf4qhrusnu$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent455__963pat58unt737dkprpkc561a$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent456__roo1sv82qocf74mroeed9s3db6$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent457__9h6v79mv7nrofsqj2a7orujc46$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent458__2ko2f81p6r3o0o7a9cq6n61p8d$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent459__dhabrphd1k1ki7tfp6jrak37p3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent460__go88qkag5knkcb209ajn1kmp52$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent461__1sfokhhatvkd8i62g3bs64f740$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent462__fdraov6dquntota1ls777epoae$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent463__bj94ss17q3ig65mhllr679ju68$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent464__r549286l1adps5psli1oa08ce4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 129
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_valos_isolmoa/detailedPath_org_valos_isolmoa_1$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 192
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_valos_isolmoa/org_valos_isolmoa_IsolmoaActivity$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 192
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_valos_isolmoa/org_valos_isolmoa_IsolmoaActivity$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 464
+Adjusted ub: 16[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent449__94e3vnmkod74alp6aq5tbplki6$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent450__3hmiroag5p95gfs2n0aklckdbs$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent451__n7l2j5gj18rjcbf1t948mgth87$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent452__4fupu77ve3d805m3i482pv9hsl$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent453__irk3fr19qdfoevgs7g9qvpmrji$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent454__2d91p38adsr4v0thrf4qhrusnu$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent455__963pat58unt737dkprpkc561a$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent456__roo1sv82qocf74mroeed9s3db6$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent457__9h6v79mv7nrofsqj2a7orujc46$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent458__2ko2f81p6r3o0o7a9cq6n61p8d$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent459__dhabrphd1k1ki7tfp6jrak37p3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent460__go88qkag5knkcb209ajn1kmp52$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent461__1sfokhhatvkd8i62g3bs64f740$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent462__fdraov6dquntota1ls777epoae$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent463__bj94ss17q3ig65mhllr679ju68$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent464__r549286l1adps5psli1oa08ce4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 129
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_valos_isolmoa/detailedPath_org_valos_isolmoa_1$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 129
+Adjusted ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_valos_isolmoa/detailedPath_org_valos_isolmoa_1$0]]
+--------------------------
+Adjustment Time: 3764 ms. 
+
+
+---STATS---
+p cnf 47931 175191
+primary variables: 13408
+
+................................
+Total Kodkod Rels: 1168
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 32
+Analysis Time: 3591 ms. 
+
+=====================================

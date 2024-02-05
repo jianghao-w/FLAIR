@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_48/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1905509 3059789
+primary variables: 245709
+
+............
+Total Sol.s: 12
+Analysis Time: 20906 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_49/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 101
+original ub: 1824
+Adjusted ub: 186
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 1[[org_logicallycreative_movingpolygons/org_logicallycreative_movingpolygons$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0]]
+original ub: 1824
+Adjusted ub: 86
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 46
+original ub: 1824
+Adjusted ub: 131
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 128
+original ub: 6336
+Adjusted ub: 448
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 77
+original ub: 10164
+Adjusted ub: 641
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 6[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, am_zoom_mlauncher/appDeclaration/BIND_INPUT_METHOD$0], [org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0, am_zoom_mlauncher/appDeclaration/ACCESS_COARSE_LOCATION$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, am_zoom_mlauncher/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0]]
+original ub: 5016
+Adjusted ub: 286
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 99
+original ub: 13068
+Adjusted ub: 1007
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 95
+original ub: 3861
+Adjusted ub: 251
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 95
+original ub: 3861
+Adjusted ub: 251
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 99
+original ub: 4235
+Adjusted ub: 359
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 78
+original ub: 693
+Adjusted ub: 96
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 78
+original ub: 154
+Adjusted ub: 82
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 90
+original ub: 847
+Adjusted ub: 112
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 265
+original ub: 60192
+Adjusted ub: 26537
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 137
+original ub: 60192
+Adjusted ub: 26409
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 265
+original ub: 25080
+Adjusted ub: 11300
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 265
+original ub: 4104
+Adjusted ub: 1984
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 265
+original ub: 912
+Adjusted ub: 647
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 265
+original ub: 5016
+Adjusted ub: 2366
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 58
+original ub: 45144
+Adjusted ub: 20027
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 132
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_AppDetail$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_DrawerActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_IgnoredApps$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_NotificationListener$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 132
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_AppDetail$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_DrawerActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_IgnoredApps$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_NotificationListener$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 132
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_AppDetail$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_DrawerActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_IgnoredApps$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_NotificationListener$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 456
+Adjusted ub: 191
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 456
+Adjusted ub: 191
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 99
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 99
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 99
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 99
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 132
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_AppDetail$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_DrawerActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_IgnoredApps$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_NotificationListener$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 132
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_AppDetail$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_DrawerActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_IgnoredApps$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_NotificationListener$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 456
+Adjusted ub: 191
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 99
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 132
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_AppDetail$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_DrawerActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_IgnoredApps$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_NotificationListener$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 132
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_AppDetail$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_DrawerActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_ui_IgnoredApps$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/com_tierep_notificationanalyser_NotificationListener$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 456
+Adjusted ub: 191
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 99
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 99
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_tierep_notificationanalyser/detailedPath_com_tierep_notificationanalyser_4$0]]
+--------------------------
+Adjustment Time: 20066 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1024
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 423 ms. 
+
+=====================================

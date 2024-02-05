@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_37/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 2996384 5271703
+primary variables: 387504
+
+....................................................................
+Total Sol.s: 68
+Analysis Time: 61185 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_38/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 99
+original ub: 1406
+Adjusted ub: 136
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1406
+Adjusted ub: 37
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 30
+original ub: 1406
+Adjusted ub: 67
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 181
+original ub: 6992
+Adjusted ub: 476
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 86
+original ub: 13800
+Adjusted ub: 492
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 9[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_LatticeService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_SundancerService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_TunnelService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, app_varlorg_unote/appDeclaration/BIND_INPUT_METHOD$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 6808
+Adjusted ub: 120
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 216
+original ub: 20056
+Adjusted ub: 1267
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 105
+original ub: 4251
+Adjusted ub: 261
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 105
+original ub: 4251
+Adjusted ub: 261
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 94
+original ub: 3225
+Adjusted ub: 137
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 79
+original ub: 900
+Adjusted ub: 91
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 77
+original ub: 150
+Adjusted ub: 79
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 82
+original ub: 600
+Adjusted ub: 90
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 553
+original ub: 111872
+Adjusted ub: 12332
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 432
+original ub: 111872
+Adjusted ub: 12211
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 553
+original ub: 26144
+Adjusted ub: 2918
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 553
+original ub: 7296
+Adjusted ub: 1213
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 553
+original ub: 1216
+Adjusted ub: 663
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 553
+original ub: 4864
+Adjusted ub: 993
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 203
+original ub: 66272
+Adjusted ub: 8410
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 184
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityHighscore$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityMain$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityQuizScreen$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 184
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityHighscore$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityMain$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityQuizScreen$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 184
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityHighscore$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityMain$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityQuizScreen$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 608
+Adjusted ub: 55
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 608
+Adjusted ub: 55
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 184
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityHighscore$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityMain$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityQuizScreen$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 184
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityHighscore$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityMain$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityQuizScreen$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 608
+Adjusted ub: 55
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 184
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityHighscore$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityMain$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityQuizScreen$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 184
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityHighscore$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityMain$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/mazechazer_android_wottankquiz_ActivityQuizScreen$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 608
+Adjusted ub: 55
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_4$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 109
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, mazechazer_android_wottankquiz/detailedPath_mazechazer_android_wottankquiz_4$0]]
+--------------------------
+Adjustment Time: 11248 ms. 
+
+
+---STATS---
+p cnf 128805 325035
+primary variables: 38973
+
+....................................................................
+Total Kodkod Rels: 1213
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 68
+Analysis Time: 8131 ms. 
+
+=====================================

@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_11/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 274547 273760
+primary variables: 35611
+
+....................................
+Total Sol.s: 36
+Analysis Time: 4927 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_12/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 24
+original ub: 204
+Adjusted ub: 52
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 204
+Adjusted ub: 28
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 12[[at_bitfire_cadroid/at_bitfire_cadroid$0, at_bitfire_cadroid/appDeclaration/INTERNET$0], [at_zweng_bankomatinfos2/at_zweng_bankomatinfos2$0, at_bitfire_cadroid/appDeclaration/NFC$0], [cat_jordihernandez_cinecat/cat_jordihernandez_cinecat$0, at_bitfire_cadroid/appDeclaration/INTERNET$0], [com_banasiak_coinflip/com_banasiak_coinflip$0, at_bitfire_cadroid/appDeclaration/VIBRATE$0], [com_botbrew_basil/com_botbrew_basil$0, at_bitfire_cadroid/appDeclaration/INTERNET$0], [com_botbrew_basil/com_botbrew_basil$0, at_bitfire_cadroid/appDeclaration/ACCESS_NETWORK_STATE$0], [to_doc_android_ipv6config/to_doc_android_ipv6config$0, at_bitfire_cadroid/appDeclaration/INTERNET$0], [to_doc_android_ipv6config/to_doc_android_ipv6config$0, at_bitfire_cadroid/appDeclaration/ACCESS_NETWORK_STATE$0], [uk_co_danieljarvis_android_flashback/uk_co_danieljarvis_android_flashback$0, at_bitfire_cadroid/appDeclaration/DISABLE_KEYGUARD$0], [uk_co_danieljarvis_android_flashback/uk_co_danieljarvis_android_flashback$0, at_bitfire_cadroid/appDeclaration/READ_PHONE_STATE$0], [uk_co_danieljarvis_android_flashback/uk_co_danieljarvis_android_flashback$0, at_bitfire_cadroid/appDeclaration/GET_TASKS$0], [us_achromaticmetaphor_imcktg/us_achromaticmetaphor_imcktg$0, at_bitfire_cadroid/appDeclaration/WRITE_SETTINGS$0]]
+original ub: 204
+Adjusted ub: 40
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 45
+original ub: 552
+Adjusted ub: 102
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 16[[at_bitfire_cadroid/at_bitfire_cadroid_MainActivity$0, at_bitfire_cadroid/IntentFilter1$0], [at_zweng_bankomatinfos2/at_zweng_bankomatinfos_ui_MainActivity$0, at_zweng_bankomatinfos2/IntentFilter1$0], [byrne_utilities_converter/byrne_utilities_converter_ConverterActivity$0, byrne_utilities_converter/IntentFilter1$0], [cat_jordihernandez_cinecat/cat_jordihernandez_cinecat_MainActivity$0, cat_jordihernandez_cinecat/IntentFilter1$0], [cat_jordihernandez_cinecat/cat_jordihernandez_cinecat_SplashCinemaCat$0, cat_jordihernandez_cinecat/IntentFilter2$0], [com_banasiak_coinflip/com_banasiak_coinflip_CoinFlip$0, com_banasiak_coinflip/IntentFilter1$0], [com_botbrew_basil/com_botbrew_basil_Main$0, com_botbrew_basil/IntentFilter2$0], [org_xapek_andiodine/org_xapek_andiodine_IodineMain$0, org_xapek_andiodine/IntentFilter1$0], [raele_concurseiro/raele_concurseiro_ui_activity_RecordStudyActivity$0, raele_concurseiro/IntentFilter1$0], [to_doc_android_ipv6config/to_doc_android_ipv6config_IPv6Config$0, to_doc_android_ipv6config/IntentFilter1$0], [uk_co_danieljarvis_android_flashback/uk_co_danieljarvis_android_flashback_MainActivity$0, uk_co_danieljarvis_android_flashback/IntentFilter2$0], [us_achromaticmetaphor_imcktg/us_achromaticmetaphor_imcktg_GaAT$0, us_achromaticmetaphor_imcktg/IntentFilter1$0], [org_xapek_andiodine/org_xapek_andiodine_IodineVpnService$0, org_xapek_andiodine/IntentFilter2$0], [com_botbrew_basil/com_botbrew_basil_BootBroadcastReceiver$0, com_botbrew_basil/IntentFilter1$0], [to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootServiceReceiver$0, to_doc_android_ipv6config/IntentFilter2$0], [uk_co_danieljarvis_android_flashback/uk_co_danieljarvis_android_flashback_CustomPhoneStateListener$0, uk_co_danieljarvis_android_flashback/IntentFilter1$0]]
+original ub: 782
+Adjusted ub: 78
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 1[[org_xapek_andiodine/org_xapek_andiodine_IodineVpnService$0, at_bitfire_cadroid/appDeclaration/BIND_VPN_SERVICE$0]]
+original ub: 782
+Adjusted ub: 63
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 42
+original ub: 1564
+Adjusted ub: 76
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 34
+original ub: 1326
+Adjusted ub: 34
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 34
+original ub: 1326
+Adjusted ub: 34
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 18[[at_bitfire_cadroid/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [at_zweng_bankomatinfos2/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [byrne_utilities_converter/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [cat_jordihernandez_cinecat/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoAction$0], [cat_jordihernandez_cinecat/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [com_banasiak_coinflip/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [com_botbrew_basil/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/android_intent_action_BOOT_COMPLETED_A$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/android_intent_action_VIEW_A$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/android_intent_action_SEARCH_A$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [org_xapek_andiodine/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [org_xapek_andiodine/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/android_net_VpnService_A$0], [raele_concurseiro/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [to_doc_android_ipv6config/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [to_doc_android_ipv6config/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/android_intent_action_BOOT_COMPLETED_A$0], [uk_co_danieljarvis_android_flashback/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/android_intent_action_PHONE_STATE_A$0], [uk_co_danieljarvis_android_flashback/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [us_achromaticmetaphor_imcktg/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0]]
+original ub: 170
+Adjusted ub: 28
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 16[[at_bitfire_cadroid/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [at_zweng_bankomatinfos2/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [byrne_utilities_converter/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [cat_jordihernandez_cinecat/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [cat_jordihernandez_cinecat/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [com_banasiak_coinflip/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [com_botbrew_basil/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [org_xapek_andiodine/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [org_xapek_andiodine/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [raele_concurseiro/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [to_doc_android_ipv6config/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [to_doc_android_ipv6config/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [uk_co_danieljarvis_android_flashback/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [uk_co_danieljarvis_android_flashback/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [us_achromaticmetaphor_imcktg/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0]]
+original ub: 17[[at_bitfire_cadroid/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [at_zweng_bankomatinfos2/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [byrne_utilities_converter/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [cat_jordihernandez_cinecat/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [cat_jordihernandez_cinecat/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [com_banasiak_coinflip/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [com_botbrew_basil/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [com_github_marmalade_aRevelation/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [org_xapek_andiodine/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [org_xapek_andiodine/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [raele_concurseiro/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [to_doc_android_ipv6config/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [to_doc_android_ipv6config/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [uk_co_danieljarvis_android_flashback/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [uk_co_danieljarvis_android_flashback/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [us_achromaticmetaphor_imcktg/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0]]
+Adjusted ub: 17[[at_bitfire_cadroid/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [at_zweng_bankomatinfos2/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [byrne_utilities_converter/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [cat_jordihernandez_cinecat/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [cat_jordihernandez_cinecat/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [com_banasiak_coinflip/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [com_botbrew_basil/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [com_github_marmalade_aRevelation/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [org_xapek_andiodine/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [org_xapek_andiodine/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [raele_concurseiro/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [to_doc_android_ipv6config/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [to_doc_android_ipv6config/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [uk_co_danieljarvis_android_flashback/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [uk_co_danieljarvis_android_flashback/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0], [us_achromaticmetaphor_imcktg/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoMIMEType$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 17[[at_bitfire_cadroid/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [at_zweng_bankomatinfos2/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [byrne_utilities_converter/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [cat_jordihernandez_cinecat/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [cat_jordihernandez_cinecat/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [com_banasiak_coinflip/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [com_botbrew_basil/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/YesScheme$0], [org_xapek_andiodine/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [org_xapek_andiodine/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [raele_concurseiro/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [to_doc_android_ipv6config/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [to_doc_android_ipv6config/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [uk_co_danieljarvis_android_flashback/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [uk_co_danieljarvis_android_flashback/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [us_achromaticmetaphor_imcktg/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0]]
+original ub: 34
+Adjusted ub: 19[[at_bitfire_cadroid/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [at_zweng_bankomatinfos2/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [byrne_utilities_converter/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [cat_jordihernandez_cinecat/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [cat_jordihernandez_cinecat/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [com_banasiak_coinflip/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [com_botbrew_basil/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/YesScheme$0], [com_github_marmalade_aRevelation/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [com_github_marmalade_aRevelation/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/YesScheme$0], [org_xapek_andiodine/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [org_xapek_andiodine/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [raele_concurseiro/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [to_doc_android_ipv6config/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [to_doc_android_ipv6config/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [uk_co_danieljarvis_android_flashback/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [uk_co_danieljarvis_android_flashback/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0], [us_achromaticmetaphor_imcktg/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/NoScheme$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 18[[at_bitfire_cadroid/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [at_zweng_bankomatinfos2/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [byrne_utilities_converter/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [cat_jordihernandez_cinecat/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/android_intent_category_HOME_C$0], [cat_jordihernandez_cinecat/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [com_banasiak_coinflip/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [com_botbrew_basil/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/android_intent_category_BROWSABLE_C$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [com_botbrew_basil/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [org_xapek_andiodine/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [org_xapek_andiodine/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [raele_concurseiro/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [to_doc_android_ipv6config/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [to_doc_android_ipv6config/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/android_intent_category_HOME_C$0], [uk_co_danieljarvis_android_flashback/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [uk_co_danieljarvis_android_flashback/IntentFilter2$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [us_achromaticmetaphor_imcktg/IntentFilter1$0, at_bitfire_cadroid/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0]]
+original ub: 68
+Adjusted ub: 22
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 125
+original ub: 8832
+Adjusted ub: 3332
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 108
+original ub: 8832
+Adjusted ub: 3315
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 125
+original ub: 1920
+Adjusted ub: 795
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 125
+original ub: 192
+Adjusted ub: 192
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 125
+original ub: 384
+Adjusted ub: 259
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 125
+original ub: 768
+Adjusted ub: 393
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 4[[intent124__mhcg7fofo4tnql0c65692qll8s$0, org_xapek_andiodine/detailedPath_org_xapek_andiodine_3$0], [intent158__8k0ndgqv3l2fr0aa0gb0cc7nt9$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_4$0], [intent172__pmecu3im1l3dsoh1andj5g2jme$0, uk_co_danieljarvis_android_flashback/detailedPath_uk_co_danieljarvis_android_flashback_5$0], [intent172__pmecu3im1l3dsoh1andj5g2jme$0, uk_co_danieljarvis_android_flashback/detailedPath_uk_co_danieljarvis_android_flashback_6$0]]
+original ub: 6528
+Adjusted ub: 2282
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 46
+Adjusted ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_github_marmalade_aRevelation/com_github_marmalade_aRevelation_MainActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 46
+Adjusted ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_github_marmalade_aRevelation/com_github_marmalade_aRevelation_MainActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 46
+Adjusted ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_github_marmalade_aRevelation/com_github_marmalade_aRevelation_MainActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 192
+Adjusted ub: 67
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 192
+Adjusted ub: 67
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 34
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 34
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 34
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 34
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 46
+Adjusted ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_github_marmalade_aRevelation/com_github_marmalade_aRevelation_MainActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 46
+Adjusted ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_github_marmalade_aRevelation/com_github_marmalade_aRevelation_MainActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 192
+Adjusted ub: 67
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 34
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 46
+Adjusted ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_github_marmalade_aRevelation/com_github_marmalade_aRevelation_MainActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 46
+Adjusted ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_github_marmalade_aRevelation/com_github_marmalade_aRevelation_MainActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 192
+Adjusted ub: 67
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 34
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 34
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 1389 ms. 
+
+
+---STATS---
+p cnf 35822 74151
+primary variables: 10723
+
+....................................
+Total Kodkod Rels: 432
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 36
+Analysis Time: 1205 ms. 
+
+=====================================

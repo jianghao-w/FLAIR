@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_49/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 4460625 9490911
+primary variables: 577422
+
+............................................................................................
+Total Sol.s: 92
+Analysis Time: 124526 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_50/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 145
+original ub: 2700
+Adjusted ub: 199
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2700
+Adjusted ub: 54
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 45
+original ub: 2700
+Adjusted ub: 99
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 221
+original ub: 11250
+Adjusted ub: 642
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 119
+original ub: 24750
+Adjusted ub: 1222
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 13[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_LatticeService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_SundancerService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_TunnelService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_zegoggles_smssync/compat_HeadlessSmsSendService$0, app_varlorg_unote/appDeclaration/SEND_RESPOND_VIA_MESSAGE$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, app_varlorg_unote/appDeclaration/BIND_INPUT_METHOD$0], [org_mariotaku_twidere_extension_twitlonger/org_mariotaku_twidere_extension_twitlonger_TwitLongerService2$0, app_varlorg_unote/appDeclaration/SHORTEN_STATUS$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [com_zegoggles_smssync/compat_MmsReceiver$0, app_varlorg_unote/appDeclaration/BROADCAST_WAP_PUSH$0], [com_zegoggles_smssync/compat_SmsReceiver$0, app_varlorg_unote/appDeclaration/BROADCAST_SMS$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 12150
+Adjusted ub: 229
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 240
+original ub: 32175
+Adjusted ub: 1917
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 138
+original ub: 5577
+Adjusted ub: 333
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 138
+original ub: 5577
+Adjusted ub: 333
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 138
+original ub: 7810
+Adjusted ub: 565
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 112
+original ub: 1430
+Adjusted ub: 151
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 110
+original ub: 220
+Adjusted ub: 116
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 120
+original ub: 1320
+Adjusted ub: 156
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 668
+original ub: 158400
+Adjusted ub: 11440
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 508
+original ub: 158400
+Adjusted ub: 11280
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 668
+original ub: 49984
+Adjusted ub: 4560
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 668
+original ub: 9152
+Adjusted ub: 1136
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 668
+original ub: 1408
+Adjusted ub: 740
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 668
+original ub: 8448
+Adjusted ub: 1100
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 223
+original ub: 100672
+Adjusted ub: 8711
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 225
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_SilentNightService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_BootBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_TimeBroadcastReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 225
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_SilentNightService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_BootBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_TimeBroadcastReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 225
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_SilentNightService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_BootBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/ru_neverdark_silentnight_TimeBroadcastReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 704
+Adjusted ub: 36
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 704
+Adjusted ub: 36
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 225
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/ru_neverdark_silentnight_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/ru_neverdark_silentnight_SilentNightService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/ru_neverdark_silentnight_BootBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/ru_neverdark_silentnight_TimeBroadcastReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 225
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/ru_neverdark_silentnight_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/ru_neverdark_silentnight_SilentNightService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/ru_neverdark_silentnight_BootBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/ru_neverdark_silentnight_TimeBroadcastReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 704
+Adjusted ub: 36
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 225
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/ru_neverdark_silentnight_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/ru_neverdark_silentnight_SilentNightService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/ru_neverdark_silentnight_BootBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/ru_neverdark_silentnight_TimeBroadcastReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 225
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/ru_neverdark_silentnight_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/ru_neverdark_silentnight_SilentNightService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/ru_neverdark_silentnight_BootBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/ru_neverdark_silentnight_TimeBroadcastReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 704
+Adjusted ub: 36
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 143
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ru_neverdark_silentnight/detailedPath_ru_neverdark_silentnight_5$0]]
+--------------------------
+Adjustment Time: 13338 ms. 
+
+
+---STATS---
+p cnf 133336 468220
+primary variables: 40788
+
+........................................................................................................
+Total Kodkod Rels: 1481
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 104
+Analysis Time: 13297 ms. 
+
+=====================================

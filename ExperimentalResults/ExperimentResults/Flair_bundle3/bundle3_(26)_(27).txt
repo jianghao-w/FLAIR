@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_26/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 2266298 3514368
+primary variables: 293802
+
+................................
+Total Sol.s: 32
+Analysis Time: 30843 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_27/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 76
+original ub: 945
+Adjusted ub: 137
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 945
+Adjusted ub: 61
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 29
+original ub: 945
+Adjusted ub: 90
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 152
+original ub: 4374
+Adjusted ub: 574
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 69
+original ub: 10206
+Adjusted ub: 1307
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 5670
+Adjusted ub: 507
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 194
+original ub: 13446
+Adjusted ub: 1024
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 83
+original ub: 3237
+Adjusted ub: 83
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 83
+original ub: 3237
+Adjusted ub: 83
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 78
+original ub: 2772
+Adjusted ub: 254
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 64
+original ub: 882
+Adjusted ub: 238
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 61
+original ub: 126
+Adjusted ub: 69
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 68
+original ub: 441
+Adjusted ub: 96
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 519
+original ub: 95094
+Adjusted ub: 16725
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 407
+original ub: 95094
+Adjusted ub: 16613
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 519
+original ub: 25828
+Adjusted ub: 3511
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 519
+original ub: 8218
+Adjusted ub: 2509
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 519
+original ub: 1174
+Adjusted ub: 655
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 519
+original ub: 4109
+Adjusted ub: 995
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 211
+original ub: 48721
+Adjusted ub: 5855
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_AlphanumericPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_NoteActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_PinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_PreviewActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_PromptPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_settings_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_widget_WidgetConfigure$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_widget_FilesWidgetService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_widget_WriteilyWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_AlphanumericPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_NoteActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_PinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_PreviewActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_PromptPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_settings_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_widget_WidgetConfigure$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_widget_FilesWidgetService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_widget_WriteilyWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_AlphanumericPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_NoteActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_PinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_PreviewActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_PromptPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_settings_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_widget_WidgetConfigure$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_widget_FilesWidgetService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, me_writeily/me_writeily_widget_WriteilyWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 587
+Adjusted ub: 68
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 587
+Adjusted ub: 68
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_AlphanumericPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_NoteActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_PinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_PreviewActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_PromptPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_settings_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_widget_WidgetConfigure$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_widget_FilesWidgetService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_widget_WriteilyWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_AlphanumericPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_NoteActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_PinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_PreviewActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_PromptPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_settings_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_widget_WidgetConfigure$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_widget_FilesWidgetService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, me_writeily/me_writeily_widget_WriteilyWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 587
+Adjusted ub: 68
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_AlphanumericPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_NoteActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_PinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_PreviewActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_PromptPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_settings_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_widget_WidgetConfigure$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_widget_FilesWidgetService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_widget_WriteilyWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_AlphanumericPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_NoteActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_PinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_PreviewActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_PromptPinActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_settings_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_widget_WidgetConfigure$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_widget_FilesWidgetService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, me_writeily/me_writeily_widget_WriteilyWidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 587
+Adjusted ub: 68
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 83
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 11308 ms. 
+
+
+---STATS---
+p cnf 161383 455025
+primary variables: 48499
+
+................................
+Total Kodkod Rels: 1121
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 32
+Analysis Time: 5721 ms. 
+
+=====================================

@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_15/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1187777 1623640
+primary variables: 154329
+
+........
+Total Sol.s: 8
+Analysis Time: 11632 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_16/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 56
+original ub: 528
+Adjusted ub: 89
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 528
+Adjusted ub: 33
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 19[[biz_gyrus_yaab/biz_gyrus_yaab$0, app_varlorg_unote/appDeclaration/WRITE_SETTINGS$0], [com_akop_bach/com_akop_bach$0, app_varlorg_unote/appDeclaration/WAKE_LOCK$0], [com_akop_bach/com_akop_bach$0, app_varlorg_unote/appDeclaration/INTERNET$0], [com_akop_bach/com_akop_bach$0, app_varlorg_unote/appDeclaration/VIBRATE$0], [com_doomy_torch/com_doomy_torch$0, app_varlorg_unote/appDeclaration/WAKE_LOCK$0], [com_doomy_torch/com_doomy_torch$0, app_varlorg_unote/appDeclaration/CAMERA$0], [com_doomy_torch/com_doomy_torch$0, app_varlorg_unote/appDeclaration/BROADCAST_STICKY$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, app_varlorg_unote/appDeclaration/WRITE_SETTINGS$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, app_varlorg_unote/appDeclaration/NFC$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, app_varlorg_unote/appDeclaration/ACCESS_NETWORK_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, app_varlorg_unote/appDeclaration/CHANGE_WIFI_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, app_varlorg_unote/appDeclaration/REORDER_TASKS$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, app_varlorg_unote/appDeclaration/CAMERA$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, app_varlorg_unote/appDeclaration/READ_PHONE_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, app_varlorg_unote/appDeclaration/VIBRATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, app_varlorg_unote/appDeclaration/ACCESS_WIFI_STATE$0], [org_zeitgeist_movement/org_zeitgeist_movement$0, app_varlorg_unote/appDeclaration/SET_WALLPAPER$0], [org_zeitgeist_movement/org_zeitgeist_movement$0, app_varlorg_unote/appDeclaration/ACCESS_NETWORK_STATE$0], [org_zeitgeist_movement/org_zeitgeist_movement$0, app_varlorg_unote/appDeclaration/INTERNET$0]]
+original ub: 528
+Adjusted ub: 52
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 110
+original ub: 1792
+Adjusted ub: 252
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 52
+original ub: 4816
+Adjusted ub: 248
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 3[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 3696
+Adjusted ub: 69
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 158
+original ub: 6608
+Adjusted ub: 606
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 56
+original ub: 2301
+Adjusted ub: 173
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 56
+original ub: 2301
+Adjusted ub: 173
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 58
+original ub: 1505
+Adjusted ub: 135
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 47
+original ub: 516
+Adjusted ub: 59
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 44
+original ub: 86
+Adjusted ub: 46
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 49
+original ub: 301
+Adjusted ub: 56
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 325
+original ub: 43344
+Adjusted ub: 7919
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 237
+original ub: 43344
+Adjusted ub: 7831
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 325
+original ub: 13545
+Adjusted ub: 2820
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 325
+original ub: 4644
+Adjusted ub: 1069
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 325
+original ub: 774
+Adjusted ub: 449
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 325
+original ub: 2709
+Adjusted ub: 759
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 161
+original ub: 22833
+Adjusted ub: 4794
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/com_poloure_simplerss_FeedsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/com_poloure_simplerss_ServiceUpdate$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/com_poloure_simplerss_FeedsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/com_poloure_simplerss_ServiceUpdate$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/com_poloure_simplerss_FeedsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/com_poloure_simplerss_ServiceUpdate$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 387
+Adjusted ub: 62
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 387
+Adjusted ub: 62
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_poloure_simplerss/com_poloure_simplerss_FeedsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_poloure_simplerss/com_poloure_simplerss_ServiceUpdate$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_poloure_simplerss/com_poloure_simplerss_FeedsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_poloure_simplerss/com_poloure_simplerss_ServiceUpdate$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 387
+Adjusted ub: 62
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_poloure_simplerss/com_poloure_simplerss_FeedsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_poloure_simplerss/com_poloure_simplerss_ServiceUpdate$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 112
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_poloure_simplerss/com_poloure_simplerss_FeedsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_poloure_simplerss/com_poloure_simplerss_ServiceUpdate$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 387
+Adjusted ub: 62
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_poloure_simplerss/detailedPath_com_poloure_simplerss_3$0]]
+--------------------------
+Adjustment Time: 4955 ms. 
+
+
+---STATS---
+p cnf 88637 201776
+primary variables: 25828
+
+........
+Total Kodkod Rels: 803
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 8
+Analysis Time: 1760 ms. 
+
+=====================================

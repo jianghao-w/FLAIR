@@ -1,0 +1,124 @@
+Changed: 10
+Changed: 0
+---- Flows with 0 intent(s) ---------------------------------
+[Flow(src=StaticField(field='<com.doomy.torch.FlashDevice: com.doomy.torch.FlashDevice mInstance>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.FlashDevice: com.doomy.torch.FlashDevice mInstance>')),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>')),
+ Flow(src=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>')),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider: com.doomy.torch.TorchWidgetProvider mInstance>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>')),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider: com.doomy.torch.TorchWidgetProvider mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.Utils: android.content.SharedPreferences mPreferences>'), app='com.doomy.torch', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>'), app='com.doomy.torch', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider: com.doomy.torch.TorchWidgetProvider mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Context)', app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.FlashDevice: com.doomy.torch.FlashDevice mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider: com.doomy.torch.TorchWidgetProvider mInstance>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.SettingsActivity: java.lang.Boolean mPrefBright>')),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider$widgetState: com.doomy.torch.TorchWidgetProvider$widgetState OFF>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.TorchWidgetProvider$widgetState: com.doomy.torch.TorchWidgetProvider$widgetState[] $VALUES>')),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider$widgetState: com.doomy.torch.TorchWidgetProvider$widgetState ON>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.TorchWidgetProvider$widgetState: com.doomy.torch.TorchWidgetProvider$widgetState[] $VALUES>')),
+ Flow(src=StaticField(field='<com.doomy.torch.Utils: android.content.SharedPreferences mPreferences>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.Utils: java.lang.Boolean mPrefDevice>')),
+ Flow(src='Src: <android.os.Bundle: int getInt(java.lang.String,int)>', app='com.doomy.torch', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Intent)', app='com.doomy.torch', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider: com.doomy.torch.TorchWidgetProvider mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Context)', app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.FlashDevice: com.doomy.torch.FlashDevice mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src='Src: Stmt($r2 := @parameter1: android.content.Intent)', app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>'), app='com.doomy.torch', sink='Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider: com.doomy.torch.TorchWidgetProvider mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Context)', app='com.doomy.torch', sink='Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.FlashDevice: com.doomy.torch.FlashDevice mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='com.doomy.torch', sink='Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>'),
+ Flow(src=StaticField(field='<a.a.a.a.c: a.a.a.a.c a>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<a.a.a.a.c: a.a.a.a.c a>')),
+ Flow(src=StaticField(field='<com.github.timnew.smartremotecontrol.j: com.github.timnew.smartremotecontrol.j c>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<a.a.a.a.c: a.a.a.a.c a>')),
+ Flow(src=StaticField(field='<com.actionbarsherlock.ActionBarSherlock: java.util.HashMap IMPLEMENTATIONS>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<a.a.a.a.c: a.a.a.a.c a>')),
+ Flow(src=StaticField(field='<java.lang.Integer: java.lang.Class TYPE>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<com.actionbarsherlock.ActionBarSherlock: java.lang.Class[] CONSTRUCTOR_ARGS>')),
+ Flow(src=StaticField(field='<com.github.timnew.smartremotecontrol.j: com.github.timnew.smartremotecontrol.j c>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<com.github.timnew.smartremotecontrol.j: com.github.timnew.smartremotecontrol.j c>')),
+ Flow(src=StaticField(field='<com.actionbarsherlock.ActionBarSherlock: java.util.HashMap IMPLEMENTATIONS>'), app='com.github.timnew.smartremotecontrol', sink=StaticField(field='<com.github.timnew.smartremotecontrol.j: com.github.timnew.smartremotecontrol.j c>')),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Context)', app='com.pikselbit.wrongpinshutdown', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.view.View)', app='de.freewarepoint.whohasmystuff', sink=StaticField(field='<de.freewarepoint.whohasmystuff.a.b: java.util.Map c>')),
+ Flow(src='Src: <android.os.Bundle: long getLong(java.lang.String)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.view.View)', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<de.freewarepoint.whohasmystuff.a.b: java.util.Map c>'), app='de.freewarepoint.whohasmystuff', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.database.Cursor: java.lang.String getString(int)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.os.Bundle: java.lang.String getString(java.lang.String)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.os.Bundle: long getLong(java.lang.String)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putInt(java.lang.String,int)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.view.View)', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putInt(java.lang.String,int)>'),
+ Flow(src=StaticField(field='<de.freewarepoint.whohasmystuff.a.b: java.util.Map c>'), app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putInt(java.lang.String,int)>'),
+ Flow(src='Src: <android.database.Cursor: java.lang.String getString(int)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putInt(java.lang.String,int)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putInt(java.lang.String,int)>'),
+ Flow(src='Src: <android.os.Bundle: java.lang.String getString(java.lang.String)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putInt(java.lang.String,int)>'),
+ Flow(src='Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putInt(java.lang.String,int)>'),
+ Flow(src='Src: <android.os.Bundle: long getLong(java.lang.String)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putLong(java.lang.String,long)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.view.View)', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putLong(java.lang.String,long)>'),
+ Flow(src=StaticField(field='<de.freewarepoint.whohasmystuff.a.b: java.util.Map c>'), app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putLong(java.lang.String,long)>'),
+ Flow(src='Src: <android.database.Cursor: java.lang.String getString(int)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putLong(java.lang.String,long)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putLong(java.lang.String,long)>'),
+ Flow(src='Src: <android.os.Bundle: java.lang.String getString(java.lang.String)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putLong(java.lang.String,long)>'),
+ Flow(src='Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putLong(java.lang.String,long)>'),
+ Flow(src='Src: <android.os.Bundle: long getLong(java.lang.String)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.view.View)', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putString(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<de.freewarepoint.whohasmystuff.a.b: java.util.Map c>'), app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.database.Cursor: java.lang.String getString(int)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.os.Bundle: java.lang.String getString(java.lang.String)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>', app='de.freewarepoint.whohasmystuff', sink='Sink: <android.os.Bundle: void putString(java.lang.String,java.lang.String)>')]
+---- Flows with 1 intent(s) ---------------------------------
+[]
+---- Flows with 2 intent(s) ---------------------------------
+[]
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------
+--------------------
+--------------------
+### 'Sink: <android.os.Bundle: void putInt(java.lang.String,int)>': ###
+['Src: <android.os.Bundle: long getLong(java.lang.String)>',
+ 'Src: Stmt($r1 := @parameter0: android.view.View)',
+ 'Src: <android.database.Cursor: java.lang.String getString(int)>',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>',
+ 'Src: <android.os.Bundle: java.lang.String getString(java.lang.String)>',
+ 'Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>']
+### 'Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>': ###
+['Src: <android.os.Bundle: int getInt(java.lang.String,int)>',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Context)',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>': ###
+['Src: <android.os.Bundle: long getLong(java.lang.String)>',
+ 'Src: Stmt($r1 := @parameter0: android.view.View)',
+ 'Src: <android.database.Cursor: java.lang.String getString(int)>',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>',
+ 'Src: <android.os.Bundle: java.lang.String getString(java.lang.String)>',
+ 'Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>']
+### 'Sink: <android.os.Bundle: void putString(java.lang.String,java.lang.String)>': ###
+['Src: <android.os.Bundle: long getLong(java.lang.String)>',
+ 'Src: Stmt($r1 := @parameter0: android.view.View)',
+ 'Src: <android.database.Cursor: java.lang.String getString(int)>',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>',
+ 'Src: <android.os.Bundle: java.lang.String getString(java.lang.String)>',
+ 'Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>']
+### 'Sink: <android.os.Bundle: void putLong(java.lang.String,long)>': ###
+['Src: <android.os.Bundle: long getLong(java.lang.String)>',
+ 'Src: Stmt($r1 := @parameter0: android.view.View)',
+ 'Src: <android.database.Cursor: java.lang.String getString(int)>',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>',
+ 'Src: <android.os.Bundle: java.lang.String getString(java.lang.String)>',
+ 'Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>']
+### 'Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Context)']
+### 'Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Intent)']
+### 'Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Context)',
+ 'Src: Stmt($r2 := @parameter1: android.content.Intent)',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Context)',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>']
+--------------------
+total running time 306 seconds

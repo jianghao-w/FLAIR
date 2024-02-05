@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_37/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 3677791 6736241
+primary variables: 475160
+
+........................................................
+Total Sol.s: 56
+Analysis Time: 76231 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_38/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 103
+original ub: 1443
+Adjusted ub: 142
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1443
+Adjusted ub: 39
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 44
+original ub: 1443
+Adjusted ub: 83
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 196
+original ub: 7363
+Adjusted ub: 503
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 94
+original ub: 16915
+Adjusted ub: 545
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 7[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [me_writeily/me_writeily_widget_FilesWidgetService$0, app_varlorg_unote/appDeclaration/BIND_REMOTEVIEWS$0], [org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0, app_varlorg_unote/appDeclaration/ACCESS_COARSE_LOCATION$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 7761
+Adjusted ub: 124
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 221
+original ub: 21094
+Adjusted ub: 1127
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 103
+original ub: 4134
+Adjusted ub: 220
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 103
+original ub: 4134
+Adjusted ub: 220
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 105
+original ub: 4420
+Adjusted ub: 157
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 97
+original ub: 1955
+Adjusted ub: 120
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 88
+original ub: 170
+Adjusted ub: 90
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 96
+original ub: 680
+Adjusted ub: 104
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 284
+original ub: 137509
+Adjusted ub: 82129
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 231
+original ub: 137509
+Adjusted ub: 82076
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 284
+original ub: 35932
+Adjusted ub: 21448
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 284
+original ub: 15893
+Adjusted ub: 9645
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 284
+original ub: 1382
+Adjusted ub: 1098
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 284
+original ub: 5528
+Adjusted ub: 3540
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 174
+original ub: 73246
+Adjusted ub: 44168
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 199
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_LightMeterPreferenceActivety$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_ResultActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 199
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_LightMeterPreferenceActivety$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_ResultActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 199
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_LightMeterPreferenceActivety$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_ResultActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 691
+Adjusted ub: 407
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 691
+Adjusted ub: 407
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 106
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 106
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 106
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 106
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 199
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_LightMeterPreferenceActivety$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_ResultActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 199
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_LightMeterPreferenceActivety$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_ResultActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 691
+Adjusted ub: 407
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 106
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 199
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_LightMeterPreferenceActivety$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_ResultActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 199
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_LightMeterPreferenceActivety$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/com_gmail_mugucupsoup_android_LightMeter_ResultActivity$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 691
+Adjusted ub: 407
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 106
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 106
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_gmail_mugcuposup_android/detailedPath_com_gmail_mugcuposup_android_3$0]]
+--------------------------
+Adjustment Time: 71257 ms. 
+
+
+---STATS---
+p cnf 853282 1801982
+primary variables: 247294
+
+........................................................
+Total Kodkod Rels: 1339
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 56
+Analysis Time: 33305 ms. 
+
+=====================================

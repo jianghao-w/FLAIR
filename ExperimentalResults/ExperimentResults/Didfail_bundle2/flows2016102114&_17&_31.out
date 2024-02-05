@@ -1,0 +1,54 @@
+Changed: 5
+Changed: 0
+---- Flows with 0 intent(s) ---------------------------------
+[Flow(src=StaticField(field='<com.doomy.torch.FlashDevice: com.doomy.torch.FlashDevice mInstance>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.FlashDevice: com.doomy.torch.FlashDevice mInstance>')),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>')),
+ Flow(src=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>')),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider: com.doomy.torch.TorchWidgetProvider mInstance>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>')),
+ Flow(src=StaticField(field='<com.doomy.torch.Utils: android.content.SharedPreferences mPreferences>'), app='com.doomy.torch', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>'), app='com.doomy.torch', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider: com.doomy.torch.TorchWidgetProvider mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Context)', app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.FlashDevice: com.doomy.torch.FlashDevice mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider$widgetState: com.doomy.torch.TorchWidgetProvider$widgetState OFF>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.TorchWidgetProvider$widgetState: com.doomy.torch.TorchWidgetProvider$widgetState[] $VALUES>')),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider$widgetState: com.doomy.torch.TorchWidgetProvider$widgetState ON>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.TorchWidgetProvider$widgetState: com.doomy.torch.TorchWidgetProvider$widgetState[] $VALUES>')),
+ Flow(src=StaticField(field='<com.doomy.torch.Utils: android.content.SharedPreferences mPreferences>'), app='com.doomy.torch', sink=StaticField(field='<com.doomy.torch.Utils: java.lang.Boolean mPrefDevice>')),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Intent)', app='com.doomy.torch', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider: com.doomy.torch.TorchWidgetProvider mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Context)', app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.FlashDevice: com.doomy.torch.FlashDevice mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src='Src: Stmt($r2 := @parameter1: android.content.Intent)', app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='com.doomy.torch', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.MainActivity: com.doomy.torch.MainActivity mActivity>'), app='com.doomy.torch', sink='Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.TorchWidgetProvider: com.doomy.torch.TorchWidgetProvider mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Context)', app='com.doomy.torch', sink='Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>'),
+ Flow(src=StaticField(field='<com.doomy.torch.FlashDevice: com.doomy.torch.FlashDevice mInstance>'), app='com.doomy.torch', sink='Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='com.doomy.torch', sink='Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>')]
+---- Flows with 1 intent(s) ---------------------------------
+[]
+---- Flows with 2 intent(s) ---------------------------------
+[]
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------
+--------------------
+--------------------
+### 'Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Context)',
+ 'Src: Stmt($r2 := @parameter1: android.content.Intent)',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>': ###
+['Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Intent)']
+### 'Sink: <android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Context)',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Sink: <android.content.Context: void sendBroadcast(android.content.Intent)>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Context)',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>']
+--------------------
+total running time 185 seconds

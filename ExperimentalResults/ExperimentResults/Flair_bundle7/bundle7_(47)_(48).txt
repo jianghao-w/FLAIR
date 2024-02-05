@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_47/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 4115619 9013600
+primary variables: 535860
+
+................................
+Total Sol.s: 32
+Analysis Time: 73971 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_48/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 178
+original ub: 3408
+Adjusted ub: 249
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 3408
+Adjusted ub: 71
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 68
+original ub: 3408
+Adjusted ub: 139
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 225
+original ub: 11136
+Adjusted ub: 786
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 134
+original ub: 24360
+Adjusted ub: 1994
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 24
+original ub: 16472
+Adjusted ub: 521
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 192
+original ub: 37584
+Adjusted ub: 2676
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 156
+original ub: 6318
+Adjusted ub: 390
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 156
+original ub: 6318
+Adjusted ub: 390
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 155
+original ub: 10500
+Adjusted ub: 955
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 100
+original ub: 1155
+Adjusted ub: 755
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 101
+original ub: 210
+Adjusted ub: 111
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 110
+original ub: 525
+Adjusted ub: 135
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 107
+original ub: 133864
+Adjusted ub: 109896
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 62
+original ub: 133864
+Adjusted ub: 109851
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 107
+original ub: 57700
+Adjusted ub: 47428
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 107
+original ub: 6347
+Adjusted ub: 5919
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 107
+original ub: 1154
+Adjusted ub: 1047
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 107
+original ub: 2885
+Adjusted ub: 2457
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 88
+original ub: 93474
+Adjusted ub: 76870
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 232
+Adjusted ub: 7[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/ContactsContract_EditContactActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Settings_SettingsView$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/at_dasz_KolabDroid_Main$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/org_acra_CrashReportDialog$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Account_KolabAccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Sync_KolabCalendarSyncService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Sync_KolabContactSyncService$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 232
+Adjusted ub: 7[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/ContactsContract_EditContactActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Settings_SettingsView$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/at_dasz_KolabDroid_Main$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/org_acra_CrashReportDialog$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Account_KolabAccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Sync_KolabCalendarSyncService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Sync_KolabContactSyncService$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 232
+Adjusted ub: 7[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/ContactsContract_EditContactActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Settings_SettingsView$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/at_dasz_KolabDroid_Main$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/org_acra_CrashReportDialog$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Account_KolabAccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Sync_KolabCalendarSyncService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/Sync_KolabContactSyncService$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 577
+Adjusted ub: 470
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 577
+Adjusted ub: 470
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 6[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_6$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 6[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_6$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 6[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_6$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 6[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_6$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 232
+Adjusted ub: 7[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/ContactsContract_EditContactActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/Settings_SettingsView$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/at_dasz_KolabDroid_Main$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/org_acra_CrashReportDialog$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/Account_KolabAccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/Sync_KolabCalendarSyncService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/Sync_KolabContactSyncService$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 232
+Adjusted ub: 7[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/ContactsContract_EditContactActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/Settings_SettingsView$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/at_dasz_KolabDroid_Main$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/org_acra_CrashReportDialog$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/Account_KolabAccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/Sync_KolabCalendarSyncService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/Sync_KolabContactSyncService$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 577
+Adjusted ub: 470
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 6[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_6$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 232
+Adjusted ub: 7[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/ContactsContract_EditContactActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/Settings_SettingsView$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/at_dasz_KolabDroid_Main$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/org_acra_CrashReportDialog$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/Account_KolabAccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/Sync_KolabCalendarSyncService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/Sync_KolabContactSyncService$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 232
+Adjusted ub: 7[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/ContactsContract_EditContactActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/Settings_SettingsView$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/at_dasz_KolabDroid_Main$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/org_acra_CrashReportDialog$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/Account_KolabAccountAuthenticatorService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/Sync_KolabCalendarSyncService$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/Sync_KolabContactSyncService$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 577
+Adjusted ub: 470
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 6[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_6$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 162
+Adjusted ub: 6[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_3$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_4$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_5$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, at_dasz_KolabDroid/detailedPath_at_dasz_KolabDroid_6$0]]
+--------------------------
+Adjustment Time: 99810 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1410
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 812 ms. 
+
+=====================================

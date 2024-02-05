@@ -1,0 +1,81 @@
+Changed: 6
+Changed: 0
+---- Flows with 0 intent(s) ---------------------------------
+[Flow(src=StaticField(field='<com.umang.dashnotifier.provider.NotificationProvider: android.net.Uri CONTENT_URI>'), app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>'),
+ Flow(src=StaticField(field='<com.umang.dashnotifier.provider.NotificationStore: java.lang.String[] allColumns>'), app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Context)', app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>'),
+ Flow(src=StaticField(field='<android.os.Build$VERSION: int SDK_INT>'), app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.service.notification.StatusBarNotification)', app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.view.accessibility.AccessibilityEvent)', app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>'),
+ Flow(src=StaticField(field='<android.os.Build$VERSION: int SDK_INT>'), app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.service.notification.StatusBarNotification)', app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.view.accessibility.AccessibilityEvent)', app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>'),
+ Flow(src=StaticField(field='<com.umang.dashnotifier.provider.NotificationStore: java.lang.String[] allColumns>'), app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>'),
+ Flow(src='Src: <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>', app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>'),
+ Flow(src=StaticField(field='<com.umang.dashnotifier.provider.NotificationProvider: android.net.Uri CONTENT_URI>'), app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>'),
+ Flow(src=StaticField(field='<android.os.Build$VERSION: int SDK_INT>'), app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.service.notification.StatusBarNotification)', app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.view.accessibility.AccessibilityEvent)', app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>'),
+ Flow(src=StaticField(field='<com.umang.dashnotifier.provider.NotificationStore: java.lang.String[] allColumns>'), app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>'),
+ Flow(src=StaticField(field='<com.umang.dashnotifier.provider.NotificationProvider: android.net.Uri CONTENT_URI>'), app='com.umang.dashnotifier', sink='Sink: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>'),
+ Flow(src=StaticField(field='<android.os.Build$VERSION: int SDK_INT>'), app='com.umang.dashnotifier', sink=StaticField(field='<com.umang.dashnotifier.Commons: int apiVersion>')),
+ Flow(src=StaticField(field='<android.os.Build$VERSION: int SDK_INT>'), app='com.umang.dashnotifier', sink=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Manager: de.keyboardsurfer.android.widget.crouton.Manager INSTANCE>')),
+ Flow(src=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Configuration: de.keyboardsurfer.android.widget.crouton.Configuration DEFAULT>'), app='com.umang.dashnotifier', sink=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Manager: de.keyboardsurfer.android.widget.crouton.Manager INSTANCE>')),
+ Flow(src=StaticField(field='<android.widget.ImageView$ScaleType: android.widget.ImageView$ScaleType FIT_XY>'), app='com.umang.dashnotifier', sink=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Manager: de.keyboardsurfer.android.widget.crouton.Manager INSTANCE>')),
+ Flow(src=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Style: de.keyboardsurfer.android.widget.crouton.Style ALERT>'), app='com.umang.dashnotifier', sink=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Manager: de.keyboardsurfer.android.widget.crouton.Manager INSTANCE>')),
+ Flow(src=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Configuration: de.keyboardsurfer.android.widget.crouton.Configuration DEFAULT>'), app='com.umang.dashnotifier', sink=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Style: de.keyboardsurfer.android.widget.crouton.Style ALERT>')),
+ Flow(src=StaticField(field='<android.widget.ImageView$ScaleType: android.widget.ImageView$ScaleType FIT_XY>'), app='com.umang.dashnotifier', sink=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Style: de.keyboardsurfer.android.widget.crouton.Style ALERT>')),
+ Flow(src=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Configuration: de.keyboardsurfer.android.widget.crouton.Configuration DEFAULT>'), app='com.umang.dashnotifier', sink=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Style: de.keyboardsurfer.android.widget.crouton.Style CONFIRM>')),
+ Flow(src=StaticField(field='<android.widget.ImageView$ScaleType: android.widget.ImageView$ScaleType FIT_XY>'), app='com.umang.dashnotifier', sink=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Style: de.keyboardsurfer.android.widget.crouton.Style CONFIRM>')),
+ Flow(src=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Configuration: de.keyboardsurfer.android.widget.crouton.Configuration DEFAULT>'), app='com.umang.dashnotifier', sink=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Style: de.keyboardsurfer.android.widget.crouton.Style INFO>')),
+ Flow(src=StaticField(field='<android.widget.ImageView$ScaleType: android.widget.ImageView$ScaleType FIT_XY>'), app='com.umang.dashnotifier', sink=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Style: de.keyboardsurfer.android.widget.crouton.Style INFO>')),
+ Flow(src=StaticField(field='<android.os.Build$VERSION: int SDK_INT>'), app='com.umang.dashnotifier', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.service.notification.StatusBarNotification)', app='com.umang.dashnotifier', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.view.accessibility.AccessibilityEvent)', app='com.umang.dashnotifier', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.umang.dashnotifier.provider.NotificationStore: java.lang.String[] allColumns>'), app='com.umang.dashnotifier', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.umang.dashnotifier.provider.NotificationProvider: android.net.Uri CONTENT_URI>'), app='com.umang.dashnotifier', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<android.os.Build$VERSION: int SDK_INT>'), app='com.umang.dashnotifier', sink='Sink: <android.util.Log: int v(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.service.notification.StatusBarNotification)', app='com.umang.dashnotifier', sink='Sink: <android.util.Log: int v(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.view.accessibility.AccessibilityEvent)', app='com.umang.dashnotifier', sink='Sink: <android.util.Log: int v(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.umang.dashnotifier.provider.NotificationStore: java.lang.String[] allColumns>'), app='com.umang.dashnotifier', sink='Sink: <android.util.Log: int v(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.umang.dashnotifier.provider.NotificationProvider: android.net.Uri CONTENT_URI>'), app='com.umang.dashnotifier', sink='Sink: <android.util.Log: int v(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<android.os.Build$VERSION: int SDK_INT>'), app='com.umang.dashnotifier', sink='Sink: <android.os.Handler: boolean sendMessage(android.os.Message)>'),
+ Flow(src=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Manager: de.keyboardsurfer.android.widget.crouton.Manager INSTANCE>'), app='com.umang.dashnotifier', sink='Sink: <android.os.Handler: boolean sendMessage(android.os.Message)>'),
+ Flow(src=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Configuration: de.keyboardsurfer.android.widget.crouton.Configuration DEFAULT>'), app='com.umang.dashnotifier', sink='Sink: <android.os.Handler: boolean sendMessage(android.os.Message)>'),
+ Flow(src=StaticField(field='<android.widget.ImageView$ScaleType: android.widget.ImageView$ScaleType FIT_XY>'), app='com.umang.dashnotifier', sink='Sink: <android.os.Handler: boolean sendMessage(android.os.Message)>'),
+ Flow(src=StaticField(field='<de.keyboardsurfer.android.widget.crouton.Style: de.keyboardsurfer.android.widget.crouton.Style ALERT>'), app='com.umang.dashnotifier', sink='Sink: <android.os.Handler: boolean sendMessage(android.os.Message)>'),
+ Flow(src='Src: <android.os.Handler: android.os.Message obtainMessage(int)>', app='com.umang.dashnotifier', sink='Sink: <android.os.Handler: boolean sendMessage(android.os.Message)>'),
+ Flow(src=StaticField(field='<android.os.Build$VERSION: int SDK_INT>'), app='com.umang.dashnotifier', sink='Sink: <java.io.OutputStream: void write(byte[],int,int)>')]
+---- Flows with 1 intent(s) ---------------------------------
+[Flow(src=Intent(tx=('com.umang.dashnotifier', None), rx=('com.umang.dashnotifier', None), intent_id='newField_12'), app=None, sink='Sink: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>'),
+ Flow(src=Intent(tx=('com.umang.dashnotifier', None), rx=('com.umang.dashnotifier', None), intent_id='newField_12'), app=None, sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>')]
+---- Flows with 2 intent(s) ---------------------------------
+[]
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------
+### 'Intent(tx=('com.umang.dashnotifier', None), rx=('com.umang.dashnotifier', None), intent_id='newField_12')': ###
+[]
+--------------------
+--------------------
+### 'Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>': ###
+['Src: Stmt($r1 := @parameter0: android.service.notification.StatusBarNotification)',
+ 'Src: Stmt($r1 := @parameter0: android.view.accessibility.AccessibilityEvent)']
+### 'Sink: <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>': ###
+['Src: Stmt($r1 := @parameter0: android.service.notification.StatusBarNotification)',
+ 'Src: Stmt($r1 := @parameter0: android.view.accessibility.AccessibilityEvent)',
+ 'Src: <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>']
+### 'Sink: <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Context)',
+ 'Src: Stmt($r1 := @parameter0: android.service.notification.StatusBarNotification)',
+ 'Src: Stmt($r1 := @parameter0: android.view.accessibility.AccessibilityEvent)']
+### 'Sink: <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>': ###
+['Src: Stmt($r1 := @parameter0: android.service.notification.StatusBarNotification)',
+ 'Src: Stmt($r1 := @parameter0: android.view.accessibility.AccessibilityEvent)']
+### 'Sink: <android.os.Handler: boolean sendMessage(android.os.Message)>': ###
+['Src: <android.os.Handler: android.os.Message obtainMessage(int)>']
+### 'Sink: <android.util.Log: int v(java.lang.String,java.lang.String)>': ###
+['Src: Stmt($r1 := @parameter0: android.service.notification.StatusBarNotification)',
+ 'Src: Stmt($r1 := @parameter0: android.view.accessibility.AccessibilityEvent)']
+--------------------
+total running time 73 seconds

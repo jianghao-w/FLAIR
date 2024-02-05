@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<analysisReport>
+    <name>bundle5</name>
+    <apps/>
+    <vulnerabilities>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App bander.notepad puts data (retrieved from an Explicit Intent (Component = TitleEdit)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (bander.notepad.TitleEdit). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.TitleEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TitleEdit)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.TitleEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App fr.xgouchet.texteditor puts data (retrieved from an Explicit Intent (Component = TedWidgetConfigActivity)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (fr.xgouchet.texteditor.TedWidgetConfigActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedWidgetConfigActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedWidgetConfigActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedWidgetConfigActivity: void onResume()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.doomy.torch puts data (retrieved from an Explicit Intent (Component = WidgetActivity)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (com.doomy.torch.WidgetActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.doomy.torch</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.doomy.torch.WidgetActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = WidgetActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.doomy.torch.WidgetActivity: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App fr.xgouchet.texteditor puts data (retrieved from an Explicit Intent (Component = TedActivity)) on an unsafe sink (LOG) in one of its components (fr.xgouchet.texteditor.TedActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedSettingsActivity: void onActivityResult(int,int,android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = WidgetActivity) to app com.doomy.torch that puts this data on an unsafe output (DATABASE_INFORMATION) in one of its components (com.doomy.torch.WidgetActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.doomy.torch</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.doomy.torch.WidgetActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = WidgetActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.doomy.torch.WidgetActivity: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = TedActivity) to app fr.xgouchet.texteditor that puts this data on an unsafe output (LOG) in one of its components (fr.xgouchet.texteditor.TedActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedSettingsActivity: void onActivityResult(int,int,android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = TedActivity) to app fr.xgouchet.texteditor that puts this data on an unsafe output (LOG) in one of its components (fr.xgouchet.texteditor.TedActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedSettingsActivity: void onActivityResult(int,int,android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = TedActivity) to app fr.xgouchet.texteditor that puts this data on an unsafe output (LOG) in one of its components (fr.xgouchet.texteditor.TedActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedSettingsActivity: void onActivityResult(int,int,android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = TedActivity) to app fr.xgouchet.texteditor that puts this data on an unsafe output (LOG) in one of its components (fr.xgouchet.texteditor.TedActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedSettingsActivity: void onActivityResult(int,int,android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = TedWidgetConfigActivity) to app fr.xgouchet.texteditor that puts this data on an unsafe output (DATABASE_INFORMATION) in one of its components (fr.xgouchet.texteditor.TedWidgetConfigActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedWidgetConfigActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedWidgetConfigActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedWidgetConfigActivity: void onResume()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = TedWidgetConfigActivity) to app fr.xgouchet.texteditor that puts this data on an unsafe output (DATABASE_INFORMATION) in one of its components (fr.xgouchet.texteditor.TedWidgetConfigActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedWidgetConfigActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedWidgetConfigActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedWidgetConfigActivity: void onResume()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = TedWidgetConfigActivity) to app fr.xgouchet.texteditor that puts this data on an unsafe output (DATABASE_INFORMATION) in one of its components (fr.xgouchet.texteditor.TedWidgetConfigActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedWidgetConfigActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedWidgetConfigActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedWidgetConfigActivity: void onResume()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = TedWidgetConfigActivity) to app fr.xgouchet.texteditor that puts this data on an unsafe output (DATABASE_INFORMATION) in one of its components (fr.xgouchet.texteditor.TedWidgetConfigActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedWidgetConfigActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedWidgetConfigActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedWidgetConfigActivity: void onResume()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = WidgetActivity) to app com.doomy.torch that puts this data on an unsafe output (DATABASE_INFORMATION) in one of its components (com.doomy.torch.WidgetActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.doomy.torch</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.doomy.torch.WidgetActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = WidgetActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.doomy.torch.WidgetActivity: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = WidgetActivity) to app com.doomy.torch that puts this data on an unsafe output (DATABASE_INFORMATION) in one of its components (com.doomy.torch.WidgetActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.doomy.torch</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.doomy.torch.WidgetActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = WidgetActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.doomy.torch.WidgetActivity: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Inter-app Data Leakage</type>
+            <description>App bander.notepad sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent, and send its data via an Explicit Intent (Component = WidgetActivity) to app com.doomy.torch that puts this data on an unsafe output (DATABASE_INFORMATION) in one of its components (com.doomy.torch.WidgetActivity).</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.doomy.torch</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.doomy.torch.WidgetActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = WidgetActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.doomy.torch.WidgetActivity: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Hijack</type>
+            <description>App bander.notepad publicly sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Hijack</type>
+            <description>App bander.notepad publicly sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Hijack</type>
+            <description>App bander.notepad publicly sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Hijack</type>
+            <description>App bander.notepad publicly sends an Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (DATABASE_INFORMATION) in one of its components (bander.notepad.NoteEdit). A malicious app can receive the Intent.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>bander.notepad</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>bander.notepad.NoteEdit</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = hasValue, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>bander.notepad.NoteEdit: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+    </vulnerabilities>
+</analysisReport>
+It took 540 seconds for DIFF_Specification 
+It took 421 seconds for DIFF_Solvemodel 
+It took 15 seconds for DIFF_Generatemodel 
+It took 1482 seconds for DIEF_Total 

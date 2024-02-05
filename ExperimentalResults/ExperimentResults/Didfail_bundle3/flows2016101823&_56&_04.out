@@ -1,0 +1,168 @@
+Changed: 14
+Changed: 0
+---- Flows with 0 intent(s) ---------------------------------
+[Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus AutoNight>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus ForceNight>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus Off>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus Auto>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Error>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Stopped>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Running>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.hardware.SensorEvent)', app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src='Src: <android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)>', app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src='Src: Stmt($z0 := @parameter1: boolean)', app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src='Src: Stmt($r2 := @parameter1: java.lang.Object)', app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src='Src: Stmt($i0 := @parameter1: int)', app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.widget.SeekBar)', app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus Auto>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus AutoNight>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus ForceNight>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Error>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Running>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Stopped>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus Off>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>')),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='biz.gyrus.yaab', sink='Sink: <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus Auto>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus[] $VALUES>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus AutoNight>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus[] $VALUES>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus ForceNight>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus[] $VALUES>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus Off>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus[] $VALUES>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Error>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus[] $VALUES>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Running>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus[] $VALUES>')),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Stopped>'), app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus[] $VALUES>')),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.hardware.SensorEvent)', app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>')),
+ Flow(src='Src: <android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)>', app='biz.gyrus.yaab', sink=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>')),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Context)', app='biz.gyrus.yaab', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.hardware.SensorEvent)', app='biz.gyrus.yaab', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>'),
+ Flow(src='Src: <android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)>', app='biz.gyrus.yaab', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='biz.gyrus.yaab', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>'),
+ Flow(src='Src: Stmt($r2 := @parameter1: java.lang.Object)', app='biz.gyrus.yaab', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='biz.gyrus.yaab', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>'),
+ Flow(src='Src: Stmt($z0 := @parameter1: boolean)', app='biz.gyrus.yaab', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.Globals: int MIN_NM_BRIGHTNESS>'), app='biz.gyrus.yaab', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.Globals: int MIN_NM_THRESHOLD>'), app='biz.gyrus.yaab', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.hardware.SensorEvent)', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)>', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($r2 := @parameter1: java.lang.Object)', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($i0 := @parameter1: int)', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus Auto>'), app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus AutoNight>'), app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus ForceNight>'), app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Error>'), app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Running>'), app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$ServiceStatus: biz.gyrus.yaab.BrightnessController$ServiceStatus Stopped>'), app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController: biz.gyrus.yaab.BrightnessController _instance>'), app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.LightMonitorService: biz.gyrus.yaab.LightMonitorService _instance>'), app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<biz.gyrus.yaab.BrightnessController$BrightnessStatus: biz.gyrus.yaab.BrightnessController$BrightnessStatus Off>'), app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.os.Bundle: java.lang.Object get(java.lang.String)>', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.os.Bundle: java.lang.Object get(java.lang.String)>', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($z0 := @parameter1: boolean)', app='biz.gyrus.yaab', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.hardware.SensorEvent)', app='biz.gyrus.yaab', sink='Sink: <android.content.ContextWrapper: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src='Src: <android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)>', app='biz.gyrus.yaab', sink='Sink: <android.content.ContextWrapper: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.content.Context)', app='biz.gyrus.yaab', sink='Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='biz.gyrus.yaab', sink='Sink: <android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>'),
+ Flow(src='Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>', app='biz.gyrus.yaab', sink='Sink: <android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>'),
+ Flow(src='Src: <java.util.Locale: java.lang.String getCountry()>', app='org.zeitgeist.movement', sink=StaticField(field='<org.zeitgeist.movement.App: android.content.Context mContext>')),
+ Flow(src='Src: <java.util.Locale: java.lang.String getCountry()>', app='org.zeitgeist.movement', sink=StaticField(field='<org.zeitgeist.movement.App: android.content.res.Resources mResources>')),
+ Flow(src='Src: <android.os.Bundle: long getLong(java.lang.String,long)>', app='org.zeitgeist.movement', sink=StaticField(field='<org.zeitgeist.movement.BaseActivity: long mBkgTimeStamp>')),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.os.Bundle)', app='org.zeitgeist.movement', sink=StaticField(field='<org.zeitgeist.movement.BaseActivity: long mBkgTimeStamp>')),
+ Flow(src=StaticField(field='<org.zeitgeist.movement.FinalGalleryImageView: int mIndex>'), app='org.zeitgeist.movement', sink=StaticField(field='<org.zeitgeist.movement.FinalGalleryImageView: int mIndex>')),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='org.zeitgeist.movement', sink=StaticField(field='<org.zeitgeist.movement.FinalGalleryImageView: int mIndex>')),
+ Flow(src=StaticField(field='<org.zeitgeist.movement.FinalGalleryImageView: int mIndex>'), app='org.zeitgeist.movement', sink='Sink: <java.net.URL: void <init>(java.lang.String)>'),
+ Flow(src=StaticField(field='<org.zeitgeist.movement.App: java.lang.String mVersionNameOfApp>'), app='org.zeitgeist.movement', sink='Sink: <java.net.URL: void <init>(java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='org.zeitgeist.movement', sink='Sink: <java.net.URL: void <init>(java.lang.String)>'),
+ Flow(src=StaticField(field='<org.zeitgeist.movement.FinalGalleryView1: android.graphics.BitmapFactory$Options mBmpOptions>'), app='org.zeitgeist.movement', sink='Sink: <java.net.URL: void <init>(java.lang.String)>'),
+ Flow(src='Src: Stmt($i0 := @parameter1: int)', app='org.zeitgeist.movement', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($i1 := @parameter2: int)', app='org.zeitgeist.movement', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<org.zeitgeist.movement.FinalGalleryImageView: int mIndex>'), app='org.zeitgeist.movement', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<org.zeitgeist.movement.App: java.lang.String mVersionNameOfApp>'), app='org.zeitgeist.movement', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='org.zeitgeist.movement', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<org.zeitgeist.movement.FinalGalleryView1: android.graphics.BitmapFactory$Options mBmpOptions>'), app='org.zeitgeist.movement', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <java.net.URL: java.net.URLConnection openConnection()>', app='org.zeitgeist.movement', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='org.zeitgeist.movement', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<org.zeitgeist.movement.App: int mVersionCodeOfApp>'), app='org.zeitgeist.movement', sink='Sink: <android.util.Log: int w(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<org.zeitgeist.movement.BaseActivity: long mBkgTimeStamp>'), app='org.zeitgeist.movement', sink='Sink: <android.os.Bundle: void putLong(java.lang.String,long)>'),
+ Flow(src='Src: <android.os.Bundle: long getLong(java.lang.String,long)>', app='org.zeitgeist.movement', sink='Sink: <android.os.Bundle: void putLong(java.lang.String,long)>'),
+ Flow(src='Src: Stmt($r1 := @parameter0: android.os.Bundle)', app='org.zeitgeist.movement', sink='Sink: <android.os.Bundle: void putLong(java.lang.String,long)>')]
+---- Flows with 1 intent(s) ---------------------------------
+[Flow(src=IntentResult(i=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_6')), app=None, sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=IntentResult(i=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_11')), app=None, sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=IntentResult(i=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_10')), app=None, sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=IntentResult(i=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_6')), app=None, sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src=IntentResult(i=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_11')), app=None, sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src=IntentResult(i=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_10')), app=None, sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app=None, sink=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_10')),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app=None, sink=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_11')),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app=None, sink=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_6'))]
+---- Flows with 2 intent(s) ---------------------------------
+[]
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------
+### 'Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_11')': ###
+['Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_6')': ###
+['Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_10')': ###
+['Src: <android.app.Activity: android.view.View findViewById(int)>']
+--------------------
+### 'IntentResult(i=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_11'))': ###
+[]
+### 'IntentResult(i=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_6'))': ###
+[]
+### 'IntentResult(i=Intent(tx=('biz.gyrus.yaab', None), rx=('biz.gyrus.yaab', None), intent_id='newField_10'))': ###
+[]
+--------------------
+### 'Sink: <android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>': ###
+['Src: <android.app.Activity: android.view.View findViewById(int)>',
+ 'Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>']
+### 'Sink: <android.os.Bundle: void putLong(java.lang.String,long)>': ###
+['Src: <android.os.Bundle: long getLong(java.lang.String,long)>',
+ 'Src: Stmt($r1 := @parameter0: android.os.Bundle)']
+### 'Sink: <java.net.URL: void <init>(java.lang.String)>': ###
+['Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Sink: <android.content.ContextWrapper: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>': ###
+['Src: Stmt($r1 := @parameter0: android.hardware.SensorEvent)',
+ 'Src: <android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)>']
+### 'Sink: <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>': ###
+['Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Sink: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Context)']
+### 'Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>': ###
+['Src: <android.app.Activity: android.view.View findViewById(int)>',
+ 'Src: Stmt($z0 := @parameter1: boolean)']
+### 'Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>': ###
+['Src: Stmt($r2 := @parameter1: java.lang.Object)',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>',
+ 'Src: Stmt($z0 := @parameter1: boolean)']
+### 'Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>': ###
+['Src: Stmt($r1 := @parameter0: android.content.Context)',
+ 'Src: Stmt($r1 := @parameter0: android.hardware.SensorEvent)',
+ 'Src: <android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)>',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>': ###
+['Src: <android.os.Bundle: java.lang.Object get(java.lang.String)>',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>',
+ 'Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>',
+ 'Src: Stmt($i0 := @parameter1: int)',
+ 'Src: Stmt($i1 := @parameter2: int)',
+ 'Src: <java.net.URL: java.net.URLConnection openConnection()>']
+### 'Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>': ###
+['Src: Stmt($r1 := @parameter0: android.hardware.SensorEvent)',
+ 'Src: <android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)>',
+ 'Src: Stmt($r2 := @parameter1: java.lang.Object)',
+ 'Src: Stmt($i0 := @parameter1: int)',
+ 'Src: <android.os.Bundle: java.lang.Object get(java.lang.String)>',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>',
+ 'Src: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>',
+ 'Src: Stmt($z0 := @parameter1: boolean)',
+ 'Src: Stmt($r1 := @parameter0: android.widget.SeekBar)']
+--------------------
+total running time 163 seconds

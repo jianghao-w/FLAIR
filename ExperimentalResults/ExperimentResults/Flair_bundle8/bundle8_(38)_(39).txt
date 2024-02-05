@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_38/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 2606813 3624188
+primary variables: 344252
+
+....................................................................................................................................................................................................
+Total Sol.s: 196
+Analysis Time: 102133 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_39/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 86
+original ub: 1254
+Adjusted ub: 119
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1254
+Adjusted ub: 33
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 40
+original ub: 1254
+Adjusted ub: 73
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 145
+original ub: 5738
+Adjusted ub: 518
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 58
+original ub: 9211
+Adjusted ub: 859
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 4[[com_invano_ambientweather/com_invano_ambientweather_AmbientWeatherExtension$0, at_bitfire_cadroid/appDeclaration/READ_EXTENSION_DATA$0], [com_miqote_angelplayerwp/com_miqote_angelplayerwp_LiveWallpaperService$0, at_bitfire_cadroid/appDeclaration/BIND_WALLPAPER$0], [io_github_benoitduffez_cupsprint/io_github_benoitduffez_cupsprint_printservice_CupsService$0, at_bitfire_cadroid/appDeclaration/BIND_PRINT_SERVICE$0], [org_xapek_andiodine/org_xapek_andiodine_IodineVpnService$0, at_bitfire_cadroid/appDeclaration/BIND_VPN_SERVICE$0]]
+original ub: 4983
+Adjusted ub: 202
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 111
+original ub: 17063
+Adjusted ub: 1369
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 109
+original ub: 4407
+Adjusted ub: 265
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 109
+original ub: 4407
+Adjusted ub: 265
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 71
+original ub: 2379
+Adjusted ub: 304
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 58
+original ub: 183
+Adjusted ub: 67
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 60
+original ub: 122
+Adjusted ub: 66
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 66
+original ub: 244
+Adjusted ub: 78
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 74
+original ub: 98905
+Adjusted ub: 88249
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 61
+original ub: 98905
+Adjusted ub: 88236
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 74
+original ub: 25545
+Adjusted ub: 22881
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 74
+original ub: 1965
+Adjusted ub: 1817
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 74
+original ub: 1310
+Adjusted ub: 1236
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 74
+original ub: 2620
+Adjusted ub: 2398
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 31
+original ub: 74015
+Adjusted ub: 65980
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 151
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_FRCAboutActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_prefs_FRCPreferenceActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frcwidget_FRCPopupActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetMinimalist$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetNarrow$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetWide$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 151
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_FRCAboutActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_prefs_FRCPreferenceActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frcwidget_FRCPopupActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetMinimalist$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetNarrow$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetWide$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 151
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_FRCAboutActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_prefs_FRCPreferenceActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frcwidget_FRCPopupActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetMinimalist$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetNarrow$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetWide$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 655
+Adjusted ub: 581
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 655
+Adjusted ub: 581
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 113
+Adjusted ub: 4[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_4$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 113
+Adjusted ub: 4[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_4$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 113
+Adjusted ub: 4[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_4$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 113
+Adjusted ub: 4[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_4$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 151
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_FRCAboutActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_prefs_FRCPreferenceActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frcwidget_FRCPopupActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetMinimalist$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetNarrow$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetWide$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 151
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_FRCAboutActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_prefs_FRCPreferenceActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frcwidget_FRCPopupActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetMinimalist$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetNarrow$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetWide$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 655
+Adjusted ub: 581
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 113
+Adjusted ub: 4[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_4$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 151
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_FRCAboutActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_prefs_FRCPreferenceActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frcwidget_FRCPopupActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetMinimalist$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetNarrow$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetWide$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 151
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_FRCAboutActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frccommon_prefs_FRCPreferenceActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frcwidget_FRCPopupActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetMinimalist$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetNarrow$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/ca_rmen_android_frenchcalendar_FrenchCalendarAppWidgetWide$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 655
+Adjusted ub: 581
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 113
+Adjusted ub: 4[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_4$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 113
+Adjusted ub: 4[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, ca_rmen_android_frenchcalendar/detailedPath_ca_rmen_android_frenchcalendar_4$0]]
+--------------------------
+Adjustment Time: 78023 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1196
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 609 ms. 
+
+=====================================

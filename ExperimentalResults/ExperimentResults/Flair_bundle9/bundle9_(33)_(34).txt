@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_33/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1517655 2771613
+primary variables: 192545
+
+................................................
+Total Sol.s: 48
+Analysis Time: 28416 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_34/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 119
+original ub: 1972
+Adjusted ub: 210
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1972
+Adjusted ub: 91
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 36
+original ub: 1972
+Adjusted ub: 127
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 132
+original ub: 4760
+Adjusted ub: 536
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 84
+original ub: 10640
+Adjusted ub: 1748
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 3[[com_mathi_amorim_emmanuel_metrictime/com_mathi_amorim_emmanuel_metrictime_MetricTimeNotificationProvider$0, cat_mvmike_minimalcalendarwidget/appDeclaration/RECEIVE_BOOT_COMPLETED$0], [it_reyboz_screenlock/it_reyboz_screenslock_AdminManageReceiver$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_DEVICE_ADMIN$0], [com_powerje_nyan/com_powerje_nyan_NyanPaper$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_WALLPAPER$0]]
+original ub: 8120
+Adjusted ub: 599
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 72
+original ub: 9520
+Adjusted ub: 1672
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 60
+original ub: 2652
+Adjusted ub: 372
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 60
+original ub: 2652
+Adjusted ub: 372
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 124
+original ub: 7144
+Adjusted ub: 1284
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 68
+original ub: 228
+Adjusted ub: 92
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 70
+original ub: 152
+Adjusted ub: 86
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 79
+original ub: 608
+Adjusted ub: 143
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 337
+original ub: 53340
+Adjusted ub: 9193
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 289
+original ub: 53340
+Adjusted ub: 9145
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 337
+original ub: 35814
+Adjusted ub: 6495
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 337
+original ub: 1143
+Adjusted ub: 469
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 337
+original ub: 762
+Adjusted ub: 425
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 337
+original ub: 3048
+Adjusted ub: 689
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 61
+original ub: 25908
+Adjusted ub: 5749
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_BootReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSWidgetProvider$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_AlertDetailActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DebugActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DemoActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSBackgroundService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_BootReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSWidgetProvider$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_AlertDetailActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DebugActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DemoActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSBackgroundService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_BootReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSWidgetProvider$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_AlertDetailActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DebugActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DemoActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSBackgroundService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 381
+Adjusted ub: 44
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 381
+Adjusted ub: 44
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 68
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_8$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 68
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_8$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 68
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_8$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 68
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_8$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_BootReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSWidgetProvider$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_AlertDetailActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DebugActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DemoActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSBackgroundService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_BootReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSWidgetProvider$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_AlertDetailActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DebugActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DemoActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSBackgroundService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 381
+Adjusted ub: 44
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 68
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_8$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_BootReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSWidgetProvider$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_AlertDetailActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DebugActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DemoActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSBackgroundService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 140
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_BootReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSWidgetProvider$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_AlertDetailActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DebugActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_DemoActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_SettingsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSBackgroundService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 381
+Adjusted ub: 44
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 68
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_8$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 68
+Adjusted ub: 8[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_7$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, net_justdave_nwsweatheralertswidget/detailedPath_net_justdave_nwsweatheralertswidget_8$0]]
+--------------------------
+Adjustment Time: 7155 ms. 
+
+
+---STATS---
+p cnf 129950 439672
+primary variables: 37562
+
+................................................
+Total Kodkod Rels: 961
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 48
+Analysis Time: 5109 ms. 
+
+=====================================

@@ -1,0 +1,30 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b2_12/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 336671 370940
+primary variables: 43175
+
+
+Total Sol.s: 0
+Analysis Time: 3180 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b2_13/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjustment Time: 0 ms. 
+
+
+---STATS---
+p cnf 342610 383674
+primary variables: 43841
+
+
+Total Kodkod Rels: 460
+Adjusted Kodkod Rels: 0 
+
+Total Sol.s: 0
+Analysis Time: 1379 ms. 
+
+=====================================

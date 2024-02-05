@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_19/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 324735 388930
+primary variables: 41680
+
+............
+Total Sol.s: 12
+Analysis Time: 4382 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_20/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 50
+original ub: 640
+Adjusted ub: 101
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 640
+Adjusted ub: 51
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 16[[com_danielkim_soundrecorder/com_danielkim_soundrecorder$0, be_ppareit_shutdown/appDeclaration/RECORD_AUDIO$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/WRITE_SETTINGS$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/NFC$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/ACCESS_NETWORK_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/CHANGE_WIFI_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/REORDER_TASKS$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/CAMERA$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/READ_PHONE_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/VIBRATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/ACCESS_WIFI_STATE$0], [com_rubenroy_minimaltodo/com_rubenroy_minimaltodo$0, be_ppareit_shutdown/appDeclaration/VIBRATE$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, be_ppareit_shutdown/appDeclaration/ACCESS_NETWORK_STATE$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, be_ppareit_shutdown/appDeclaration/CHANGE_WIFI_STATE$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, be_ppareit_shutdown/appDeclaration/ACCESS_COARSE_LOCATION$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, be_ppareit_shutdown/appDeclaration/READ_PHONE_STATE$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, be_ppareit_shutdown/appDeclaration/ACCESS_WIFI_STATE$0]]
+original ub: 640
+Adjusted ub: 67
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 51
+original ub: 1080
+Adjusted ub: 162
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 30
+original ub: 1728
+Adjusted ub: 228
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 4[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, be_ppareit_shutdown/appDeclaration/BIND_WALLPAPER$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, be_ppareit_shutdown/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0]]
+original ub: 1728
+Adjusted ub: 151
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 37
+original ub: 1944
+Adjusted ub: 247
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 34
+original ub: 1404
+Adjusted ub: 112
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 34
+original ub: 1404
+Adjusted ub: 112
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 39
+original ub: 800
+Adjusted ub: 119
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 30
+original ub: 96
+Adjusted ub: 36
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 32
+original ub: 64
+Adjusted ub: 36
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 35
+original ub: 96
+Adjusted ub: 41
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 140
+original ub: 9936
+Adjusted ub: 2936
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 80
+original ub: 9936
+Adjusted ub: 2876
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 140
+original ub: 4600
+Adjusted ub: 1380
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 140
+original ub: 552
+Adjusted ub: 272
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 140
+original ub: 368
+Adjusted ub: 228
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 140
+original ub: 552
+Adjusted ub: 272
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 12[[intent1__c8477gc000ebiptaq3m4t830ji$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent1__c8477gc000ebiptaq3m4t830ji$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent1__c8477gc000ebiptaq3m4t830ji$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0], [intent3__ddjhnv6jg0e9u1fg9brmc7lvfh$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent3__ddjhnv6jg0e9u1fg9brmc7lvfh$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent3__ddjhnv6jg0e9u1fg9brmc7lvfh$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0], [intent6__mr2cuijc9v8vum26gbj2v1iti2$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent6__mr2cuijc9v8vum26gbj2v1iti2$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent6__mr2cuijc9v8vum26gbj2v1iti2$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0], [intent7__ukkb6cgc3dr19ijsvtp5tbfp5q$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent7__ukkb6cgc3dr19ijsvtp5tbfp5q$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent7__ukkb6cgc3dr19ijsvtp5tbfp5q$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0]]
+original ub: 6624
+Adjusted ub: 1876
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 54
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/fr_magistry_taigime_CommunityActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/fr_magistry_taigime_OptionsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 54
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/fr_magistry_taigime_CommunityActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/fr_magistry_taigime_OptionsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 54
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/fr_magistry_taigime_CommunityActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/fr_magistry_taigime_OptionsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 184
+Adjusted ub: 44
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 184
+Adjusted ub: 44
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 36
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 36
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 36
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 36
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 54
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_magistry_taigime/fr_magistry_taigime_CommunityActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_magistry_taigime/fr_magistry_taigime_OptionsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 54
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_magistry_taigime/fr_magistry_taigime_CommunityActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_magistry_taigime/fr_magistry_taigime_OptionsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 184
+Adjusted ub: 44
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 36
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 54
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_magistry_taigime/fr_magistry_taigime_CommunityActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_magistry_taigime/fr_magistry_taigime_OptionsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 54
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_magistry_taigime/fr_magistry_taigime_CommunityActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_magistry_taigime/fr_magistry_taigime_OptionsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 184
+Adjusted ub: 44
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 36
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 36
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_2$0]]
+--------------------------
+Adjustment Time: 1234 ms. 
+
+
+---STATS---
+p cnf 36982 81049
+primary variables: 10654
+
+............
+Total Kodkod Rels: 488
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 12
+Analysis Time: 942 ms. 
+
+=====================================

@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_31/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 815058 1107427
+primary variables: 105173
+
+............
+Total Sol.s: 12
+Analysis Time: 8503 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_32/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 70
+original ub: 1116
+Adjusted ub: 106
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 1[[org_logicallycreative_movingpolygons/org_logicallycreative_movingpolygons$0, be_ppareit_shutdown/appDeclaration/BIND_WALLPAPER$0]]
+original ub: 1116
+Adjusted ub: 37
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 28
+original ub: 1116
+Adjusted ub: 64
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 83
+original ub: 2635
+Adjusted ub: 228
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 48
+original ub: 4165
+Adjusted ub: 229
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, be_ppareit_shutdown/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, be_ppareit_shutdown/appDeclaration/BIND_INPUT_METHOD$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, be_ppareit_shutdown/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0]]
+original ub: 3060
+Adjusted ub: 77
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 75
+original ub: 5950
+Adjusted ub: 298
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 69
+original ub: 2730
+Adjusted ub: 108
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 69
+original ub: 2730
+Adjusted ub: 108
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 61
+original ub: 1911
+Adjusted ub: 148
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 48
+original ub: 196
+Adjusted ub: 52
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 50
+original ub: 98
+Adjusted ub: 52
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 54
+original ub: 245
+Adjusted ub: 59
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 269
+original ub: 22865
+Adjusted ub: 807
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 169
+original ub: 22865
+Adjusted ub: 707
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 269
+original ub: 10491
+Adjusted ub: 538
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 269
+original ub: 1076
+Adjusted ub: 269
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 269
+original ub: 538
+Adjusted ub: 269
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 269
+original ub: 1345
+Adjusted ub: 269
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 86
+original ub: 18830
+Adjusted ub: 355
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 269
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 269
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, org_openbmap_unifiedNlp/detailedPath_org_openbmap_unifiedNlp_1$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, org_openbmap_unifiedNlp/detailedPath_org_openbmap_unifiedNlp_1$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, org_openbmap_unifiedNlp/detailedPath_org_openbmap_unifiedNlp_1$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, org_openbmap_unifiedNlp/detailedPath_org_openbmap_unifiedNlp_1$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 269
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_openbmap_unifiedNlp/detailedPath_org_openbmap_unifiedNlp_1$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 269
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_openbmap_unifiedNlp/detailedPath_org_openbmap_unifiedNlp_1$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_openbmap_unifiedNlp/detailedPath_org_openbmap_unifiedNlp_1$0]]
+--------------------------
+Adjustment Time: 545 ms. 
+
+
+---STATS---
+p cnf 10863 31091
+primary variables: 3015
+
+............
+Total Kodkod Rels: 687
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 12
+Analysis Time: 914 ms. 
+
+=====================================

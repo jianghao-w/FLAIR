@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_27/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1569161 1942920
+primary variables: 207687
+
+........................................................................................................................................
+Total Sol.s: 136
+Analysis Time: 46043 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_28/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 60
+original ub: 812
+Adjusted ub: 89
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 812
+Adjusted ub: 29
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 26
+original ub: 812
+Adjusted ub: 55
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 110
+original ub: 3248
+Adjusted ub: 388
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 42
+original ub: 5104
+Adjusted ub: 526
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 3[[com_invano_ambientweather/com_invano_ambientweather_AmbientWeatherExtension$0, at_bitfire_cadroid/appDeclaration/READ_EXTENSION_DATA$0], [com_miqote_angelplayerwp/com_miqote_angelplayerwp_LiveWallpaperService$0, at_bitfire_cadroid/appDeclaration/BIND_WALLPAPER$0], [org_xapek_andiodine/org_xapek_andiodine_IodineVpnService$0, at_bitfire_cadroid/appDeclaration/BIND_VPN_SERVICE$0]]
+original ub: 3364
+Adjusted ub: 177
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 85
+original ub: 10324
+Adjusted ub: 1389
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 82
+original ub: 3471
+Adjusted ub: 355
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 82
+original ub: 3471
+Adjusted ub: 355
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 50
+original ub: 1364
+Adjusted ub: 112
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 42
+original ub: 44
+Adjusted ub: 44
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 43
+original ub: 88
+Adjusted ub: 47
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 47
+original ub: 176
+Adjusted ub: 55
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 423
+original ub: 60552
+Adjusted ub: 14445
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 310
+original ub: 60552
+Adjusted ub: 14332
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 423
+original ub: 16182
+Adjusted ub: 3492
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 423
+original ub: 522
+Adjusted ub: 522
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 423
+original ub: 1044
+Adjusted ub: 621
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 423
+original ub: 2088
+Adjusted ub: 819
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 73
+original ub: 46458
+Adjusted ub: 11845
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 116
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 116
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 116
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 522
+Adjusted ub: 99
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 522
+Adjusted ub: 99
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 116
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 116
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 522
+Adjusted ub: 99
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 116
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 116
+Adjusted ub: 6[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleCommentsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleDetailActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_ArticleListActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_twobuntu_SettingsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_service_UpdateService$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/com_twobuntu_service_BootReceiver$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 522
+Adjusted ub: 99
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_1$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_2$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_3$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_4$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_5$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_6$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_twobuntu_twobuntu/detailedPath_com_twobuntu_twobuntu_7$0]]
+--------------------------
+Adjustment Time: 11488 ms. 
+
+
+---STATS---
+p cnf 148684 332709
+primary variables: 47797
+
+........................................................................................................................................
+Total Kodkod Rels: 963
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 136
+Analysis Time: 12562 ms. 
+
+=====================================

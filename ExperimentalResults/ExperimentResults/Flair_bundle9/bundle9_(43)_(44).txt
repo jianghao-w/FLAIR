@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_43/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 2863898 5639551
+primary variables: 366206
+
+................................................................
+Total Sol.s: 64
+Analysis Time: 64064 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_44/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 133
+original ub: 2596
+Adjusted ub: 192
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2596
+Adjusted ub: 59
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 40
+original ub: 2596
+Adjusted ub: 99
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 170
+original ub: 7612
+Adjusted ub: 472
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 111
+original ub: 16608
+Adjusted ub: 569
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[com_mathi_amorim_emmanuel_metrictime/com_mathi_amorim_emmanuel_metrictime_MetricTimeNotificationProvider$0, cat_mvmike_minimalcalendarwidget/appDeclaration/RECEIVE_BOOT_COMPLETED$0], [it_reyboz_screenlock/it_reyboz_screenslock_AdminManageReceiver$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_DEVICE_ADMIN$0], [net_zygotelabs_locker/net_zygotelabs_locker_DeviceAdmin$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_DEVICE_ADMIN$0], [com_powerje_nyan/com_powerje_nyan_NyanPaper$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_WALLPAPER$0], [net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSBackgroundService$0, cat_mvmike_minimalcalendarwidget/appDeclaration/SIGNATURE$0]]
+original ub: 10207
+Adjusted ub: 182
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 123
+original ub: 19030
+Adjusted ub: 1643
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 103
+original ub: 4290
+Adjusted ub: 376
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 103
+original ub: 4290
+Adjusted ub: 376
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 159
+original ub: 10560
+Adjusted ub: 364
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 97
+original ub: 480
+Adjusted ub: 102
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 98
+original ub: 192
+Adjusted ub: 100
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 110
+original ub: 960
+Adjusted ub: 120
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 97
+original ub: 88230
+Adjusted ub: 71837
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 81
+original ub: 88230
+Adjusted ub: 71821
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 97
+original ub: 56100
+Adjusted ub: 45624
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 97
+original ub: 2550
+Adjusted ub: 2162
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 97
+original ub: 1020
+Adjusted ub: 923
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 97
+original ub: 5100
+Adjusted ub: 4227
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 23
+original ub: 56100
+Adjusted ub: 46132
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 3[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_ChooseDeviceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_NXTRemoteControl$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_SettingsActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 3[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_ChooseDeviceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_NXTRemoteControl$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_SettingsActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 3[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_ChooseDeviceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_NXTRemoteControl$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_SettingsActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 510
+Adjusted ub: 413
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 510
+Adjusted ub: 413
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 3[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_ChooseDeviceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_NXTRemoteControl$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_SettingsActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 3[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_ChooseDeviceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_NXTRemoteControl$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_SettingsActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 510
+Adjusted ub: 413
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 3[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_ChooseDeviceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_NXTRemoteControl$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_SettingsActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 3[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_ChooseDeviceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_NXTRemoteControl$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/org_jfedor_nxtremotecontrol_SettingsActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 510
+Adjusted ub: 413
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 110
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, org_jfedor_nxtremotecontrol/detailedPath_org_jfedor_nxtremotecontrol_7$0]]
+--------------------------
+Adjustment Time: 59664 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1216
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 534 ms. 
+
+=====================================

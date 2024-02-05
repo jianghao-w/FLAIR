@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<analysisReport>
+    <name>bundle5</name>
+    <apps/>
+    <vulnerabilities>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App fr.xgouchet.texteditor puts data (retrieved from an Explicit Intent (Component = TedActivity)) on an unsafe sink (LOG) in one of its components (fr.xgouchet.texteditor.TedActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedSettingsActivity: void onActivityResult(int,int,android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App fr.xgouchet.texteditor puts data (retrieved from an Explicit Intent (Component = TedWidgetConfigActivity)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (fr.xgouchet.texteditor.TedWidgetConfigActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>fr.xgouchet.texteditor</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>fr.xgouchet.texteditor.TedWidgetConfigActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TedWidgetConfigActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>fr.xgouchet.texteditor.TedWidgetConfigActivity: void onResume()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+    </vulnerabilities>
+</analysisReport>
+It took 104 seconds for DIFF_Specification 
+It took 20 seconds for DIFF_Solvemodel 
+It took 6 seconds for DIFF_Generatemodel 
+It took 230 seconds for DIEF_Total 

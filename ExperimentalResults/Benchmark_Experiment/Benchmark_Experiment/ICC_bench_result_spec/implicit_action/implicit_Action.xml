@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<analysisReport>
+    <name>implici_Action</name>
+    <apps/>
+    <vulnerabilities>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App org.arguslab.icc.implicit.action puts data (retrieved from an Explicit Intent (Component = FooActivity)) on an unsafe sink (LOG) in one of its components (org.arguslab.icc.implicit.action.FooActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.arguslab.icc.implicit.action</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.arguslab.icc.implicit.action.FooActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = FooActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.arguslab.icc_implicit_action.FooActivity: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Hijack</type>
+            <description>App org.arguslab.icc.implicit.action publicly sends an Implicit Intent (Action = amandroid_impliciticctest_action_testaction, Category = android_intent_category_DEFAULT, Data=) containing sensitive data (UNIQUE_IDENTIFIER) in one of its components (org.arguslab.icc.implicit.action.MainActivity). A malicious app can receive the Intent.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.arguslab.icc.implicit.action</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.arguslab.icc.implicit.action.MainActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Implicit Intent (Action = amandroid_impliciticctest_action_testaction, Category = android_intent_category_DEFAULT, Data=)</description>
+                        <alloyLabel>i1</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>org.arguslab.icc_implicit_action.MainActivity: void leakImei()</description>
+                        <element>
+                            <type>SOURCE_TYPE</type>
+                            <description>UNIQUE_IDENTIFIER</description>
+                            <alloyLabel>dIntent</alloyLabel>
+                        </element>
+                        <alloyLabel>dIntent</alloyLabel>
+                    </element>
+                    <alloyLabel>c1</alloyLabel>
+                </element>
+                <alloyLabel>c1</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+    </vulnerabilities>
+</analysisReport>

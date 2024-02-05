@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_13/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 174058 225678
+primary variables: 20991
+
+........................
+Total Sol.s: 24
+Analysis Time: 3343 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_14/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 19[[cat_mvmike_minimalcalendarwidget/cat_mvmike_minimalcalendarwidget$0, cat_mvmike_minimalcalendarwidget/appDeclaration/READ_CALENDAR$0], [com_dgmltn_morphclock_app/com_dgmltn_morphclock_app$0, cat_mvmike_minimalcalendarwidget/appDeclaration/ACCESS_COARSE_LOCATION$0], [com_example_muzei_muzeiapod/com_example_muzei_muzeiapod$0, cat_mvmike_minimalcalendarwidget/appDeclaration/INTERNET$0], [com_example_muzei_muzeiapod/com_example_muzei_muzeiapod$0, cat_mvmike_minimalcalendarwidget/appDeclaration/ACCESS_NETWORK_STATE$0], [com_example_muzei_muzeiapod/com_example_muzei_muzeiapod$0, cat_mvmike_minimalcalendarwidget/appDeclaration/WAKE_LOCK$0], [com_mathi_amorim_emmanuel_metrictime/com_mathi_amorim_emmanuel_metrictime$0, cat_mvmike_minimalcalendarwidget/appDeclaration/RECEIVE_BOOT_COMPLETED$0], [com_mattallen_loaned/com_mattallen_loaned$0, cat_mvmike_minimalcalendarwidget/appDeclaration/READ_CONTACTS$0], [com_morlunk_mountie/com_morlunk_mountie$0, cat_mvmike_minimalcalendarwidget/appDeclaration/WRITE_EXTERNAL_STORAGE$0], [com_morlunk_mountie/com_morlunk_mountie$0, cat_mvmike_minimalcalendarwidget/appDeclaration/RECEIVE_BOOT_COMPLETED$0], [com_morlunk_mountie/com_morlunk_mountie$0, cat_mvmike_minimalcalendarwidget/appDeclaration/ACCESS_SUPERUSER$0], [com_mridang_throttle/com_mridang_throttle$0, cat_mvmike_minimalcalendarwidget/appDeclaration/INTERNET$0], [com_mridang_throttle/com_mridang_throttle$0, cat_mvmike_minimalcalendarwidget/appDeclaration/RECEIVE_BOOT_COMPLETED$0], [com_numix_icons_circle/com_numix_icons_circle$0, cat_mvmike_minimalcalendarwidget/appDeclaration/SET_WALLPAPER$0], [com_numix_icons_circle/com_numix_icons_circle$0, cat_mvmike_minimalcalendarwidget/appDeclaration/SET_WALLPAPER_HINTS$0], [com_nutomic_zertman/com_nutomic_zertman$0, cat_mvmike_minimalcalendarwidget/appDeclaration/ACCESS_SUPERUSER$0], [com_powerpoint45_lucidbrowser/com_powerpoint45_lucidbrowser$0, cat_mvmike_minimalcalendarwidget/appDeclaration/WRITE_EXTERNAL_STORAGE$0], [com_powerpoint45_lucidbrowser/com_powerpoint45_lucidbrowser$0, cat_mvmike_minimalcalendarwidget/appDeclaration/INTERNET$0], [com_powerpoint45_lucidbrowser/com_powerpoint45_lucidbrowser$0, cat_mvmike_minimalcalendarwidget/appDeclaration/ACCESS_NETWORK_STATE$0], [com_rubenroy_minimaltodo/com_rubenroy_minimaltodo$0, cat_mvmike_minimalcalendarwidget/appDeclaration/VIBRATE$0]]
+original ub: 210
+Adjusted ub: 60
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 210
+Adjusted ub: 41
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 5[[com_dgmltn_morphclock_app/com_dgmltn_morphclock_app$0, cat_mvmike_minimalcalendarwidget/appDeclaration/ACCESS_COARSE_LOCATION$0], [com_numix_icons_circle/com_numix_icons_circle$0, cat_mvmike_minimalcalendarwidget/appDeclaration/SET_WALLPAPER$0], [com_powerpoint45_lucidbrowser/com_powerpoint45_lucidbrowser$0, cat_mvmike_minimalcalendarwidget/appDeclaration/WRITE_EXTERNAL_STORAGE$0], [com_powerpoint45_lucidbrowser/com_powerpoint45_lucidbrowser$0, cat_mvmike_minimalcalendarwidget/appDeclaration/INTERNET$0], [com_rubenroy_minimaltodo/com_rubenroy_minimaltodo$0, cat_mvmike_minimalcalendarwidget/appDeclaration/VIBRATE$0]]
+original ub: 210
+Adjusted ub: 46
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 39
+original ub: 672
+Adjusted ub: 204
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 27
+original ub: 1392
+Adjusted ub: 366
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 2[[com_mathi_amorim_emmanuel_metrictime/com_mathi_amorim_emmanuel_metrictime_MetricTimeNotificationProvider$0, cat_mvmike_minimalcalendarwidget/appDeclaration/RECEIVE_BOOT_COMPLETED$0], [com_powerje_nyan/com_powerje_nyan_NyanPaper$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_WALLPAPER$0]]
+original ub: 720
+Adjusted ub: 215
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 8[[com_mattallen_loaned/com_mattallen_loaned_addloan_AddLoanActivity$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0], [com_mattallen_loaned/com_mattallen_loaned_addloan_AddLoanActivity$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0], [com_mattallen_loaned/com_mattallen_loaned_history_LoanHistoryActivity$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0], [com_mattallen_loaned/com_mattallen_loaned_history_LoanHistoryActivity$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0], [com_numix_icons_circle/com_numix_icons_circle_activity_MainActivity$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0], [com_numix_icons_circle/com_numix_icons_circle_activity_Wallpaper$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0], [com_powerpoint45_lucidbrowser/com_powerpoint45_lucidbrowser_BookmarksActivity$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0], [com_powerpoint45_lucidbrowser/com_powerpoint45_lucidbrowser_MainActivity$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0]]
+original ub: 816
+Adjusted ub: 434
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 10[[com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/BUNDLE$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/UNDEFINED$0], [com_mridang_throttle/detailedPath_com_mridang_throttle_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/UNDEFINED$0], [com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_numix_icons_circle/detailedPath_com_numix_icons_circle_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0]]
+original ub: 663
+Adjusted ub: 283
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 10[[com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/UNDEFINED$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/LOG$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/LOG$0], [com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_mridang_throttle/detailedPath_com_mridang_throttle_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_numix_icons_circle/detailedPath_com_numix_icons_circle_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DATABASE_INFORMATION$0], [com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NETWORK$0]]
+original ub: 663
+Adjusted ub: 283
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 47
+original ub: 1073
+Adjusted ub: 202
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 27
+original ub: 58
+Adjusted ub: 31
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 28
+original ub: 58
+Adjusted ub: 32
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 34
+original ub: 232
+Adjusted ub: 50
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 112
+original ub: 7488
+Adjusted ub: 3232
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 100
+original ub: 7488
+Adjusted ub: 3220
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 112
+original ub: 5772
+Adjusted ub: 2076
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 112
+original ub: 312
+Adjusted ub: 200
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 112
+original ub: 312
+Adjusted ub: 200
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 112
+original ub: 1248
+Adjusted ub: 464
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 20[[intent30__r6ub2dfkg0h5l5eqa7c9ij5fu6$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [intent31__flninmji2af9i4a9qo3jdhirb8$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [intent35__l7vt6u43q6hfv6eo2uej1b4a82$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [intent37__9fm6la5ulqpj33uihs2pk61khf$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [intent38__ijaeaf0o5f7pnp9rg92l9reudi$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [intent42__np5e0tuv79ovd804v28kflqk09$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [intent43__u9ohv128g601nl2ltr9i94ok02$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [intent44__t91buq8f7np45ss68e3alcl9o2$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [intent47__rnud7psvg10rle2m9difmboi3o$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [intent51__3set3pitbuu84nj8icmchicojd$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [intent52__f8br3uh6av29qq5dp1h07liu8c$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [intent53__urp98bhha6hu8tb0reho54oj5h$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [intent54__kt4tv54f3pcr7i5bi3k7k0vove$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [intent55__3bkpetfbuhf34qbvvermdsf4dm$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [intent56__boa42588hahr73euplahhqi584$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [intent58__26j2rvbe4g8ki28an5e7hqu9ct$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [intent59__45hcko944shipif96akce06saq$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [intent61__fvt9spt1uhfkfrto25qcnln40k$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [intent62__7getga2rpjt1bcmkclaost9nsv$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [intent63__nc5eiutbggs30pgh78pccko6m1$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0]]
+original ub: 2652
+Adjusted ub: 1552
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 48
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MusicReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_DownloadService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_FetchLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_LyricsService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceTrigger$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_ShowLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_UpdateService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 48
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MusicReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_DownloadService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_FetchLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_LyricsService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceTrigger$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_ShowLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_UpdateService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 48
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MusicReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_DownloadService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_FetchLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_LyricsService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceTrigger$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_ShowLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/com_shkmishra_lyrically_UpdateService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 44
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 44
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 17[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 17[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 17[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 17[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 48
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MusicReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_DownloadService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_FetchLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_LyricsService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceTrigger$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_ShowLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_UpdateService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 48
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MusicReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_DownloadService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_FetchLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_LyricsService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceTrigger$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_ShowLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/com_shkmishra_lyrically_UpdateService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 44
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 17[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 48
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MusicReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_DownloadService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_FetchLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_LyricsService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceTrigger$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_ShowLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_UpdateService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 48
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MusicReceiver$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_DownloadService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_FetchLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_LyricsService$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceTrigger$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_ShowLyrics$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/com_shkmishra_lyrically_UpdateService$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 156
+Adjusted ub: 44
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 17[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 17[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_mridang_throttle/detailedPath_com_mridang_throttle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+Adjusted ub: 7[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0]]
+--------------------------
+Adjustment Time: 1248 ms. 
+
+
+---STATS---
+p cnf 42944 90870
+primary variables: 12810
+
+....................................
+Total Kodkod Rels: 425
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 36
+Analysis Time: 1450 ms. 
+
+=====================================

@@ -1,0 +1,32 @@
+Changed: 3
+Changed: 0
+---- Flows with 0 intent(s) ---------------------------------
+[Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='cs4295.memecreator', sink='Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>'),
+ Flow(src='Src: <android.os.Bundle: android.os.Parcelable getParcelable(java.lang.String)>', app='cs4295.memecreator', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.database.Cursor: java.lang.String getString(int)>', app='cs4295.memecreator', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>', app='cs4295.memecreator', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.os.Bundle: android.os.Parcelable getParcelable(java.lang.String)>', app='cs4295.memecreator', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<java.io.File: java.lang.String separator>'), app='cs4295.memecreator', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: <android.app.Activity: android.view.View findViewById(int)>', app='cs4295.memecreator', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>'),
+ Flow(src='Src: Stmt($r2 := @parameter1: android.view.MotionEvent)', app='cs4295.memecreator', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>')]
+---- Flows with 1 intent(s) ---------------------------------
+[]
+---- Flows with 2 intent(s) ---------------------------------
+[]
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------
+--------------------
+--------------------
+### 'Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>': ###
+['Src: <android.database.Cursor: java.lang.String getString(int)>',
+ 'Src: <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>',
+ 'Src: <android.os.Bundle: android.os.Parcelable getParcelable(java.lang.String)>',
+ 'Src: <android.app.Activity: android.view.View findViewById(int)>',
+ 'Src: Stmt($r2 := @parameter1: android.view.MotionEvent)']
+### 'Sink: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>': ###
+['Src: <android.app.Activity: android.view.View findViewById(int)>']
+### 'Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>': ###
+['Src: <android.os.Bundle: android.os.Parcelable getParcelable(java.lang.String)>']
+--------------------
+total running time 78 seconds

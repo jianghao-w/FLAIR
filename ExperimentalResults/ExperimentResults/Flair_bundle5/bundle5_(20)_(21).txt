@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_20/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 361944 439841
+primary variables: 46525
+
+............
+Total Sol.s: 12
+Analysis Time: 4356 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_21/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 50
+original ub: 672
+Adjusted ub: 82
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 672
+Adjusted ub: 32
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 16[[com_danielkim_soundrecorder/com_danielkim_soundrecorder$0, be_ppareit_shutdown/appDeclaration/RECORD_AUDIO$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/WRITE_SETTINGS$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/NFC$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/ACCESS_NETWORK_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/CHANGE_WIFI_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/REORDER_TASKS$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/CAMERA$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/READ_PHONE_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/VIBRATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/ACCESS_WIFI_STATE$0], [com_rubenroy_minimaltodo/com_rubenroy_minimaltodo$0, be_ppareit_shutdown/appDeclaration/VIBRATE$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, be_ppareit_shutdown/appDeclaration/ACCESS_NETWORK_STATE$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, be_ppareit_shutdown/appDeclaration/CHANGE_WIFI_STATE$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, be_ppareit_shutdown/appDeclaration/ACCESS_COARSE_LOCATION$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, be_ppareit_shutdown/appDeclaration/READ_PHONE_STATE$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, be_ppareit_shutdown/appDeclaration/ACCESS_WIFI_STATE$0]]
+original ub: 672
+Adjusted ub: 48
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 54
+original ub: 1218
+Adjusted ub: 192
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 32
+original ub: 1972
+Adjusted ub: 276
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, be_ppareit_shutdown/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, be_ppareit_shutdown/appDeclaration/BIND_INPUT_METHOD$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, be_ppareit_shutdown/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0]]
+original ub: 1856
+Adjusted ub: 133
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 37
+original ub: 2320
+Adjusted ub: 413
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 36
+original ub: 1560
+Adjusted ub: 192
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 36
+original ub: 1560
+Adjusted ub: 192
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 41
+original ub: 1054
+Adjusted ub: 295
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 32
+original ub: 102
+Adjusted ub: 38
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 34
+original ub: 68
+Adjusted ub: 38
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 37
+original ub: 102
+Adjusted ub: 43
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 152
+original ub: 12064
+Adjusted ub: 4008
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 84
+original ub: 12064
+Adjusted ub: 3940
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 152
+original ub: 6448
+Adjusted ub: 2800
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 152
+original ub: 624
+Adjusted ub: 320
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 152
+original ub: 416
+Adjusted ub: 264
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 152
+original ub: 624
+Adjusted ub: 320
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 20[[intent1__c8477gc000ebiptaq3m4t830ji$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent1__c8477gc000ebiptaq3m4t830ji$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent1__c8477gc000ebiptaq3m4t830ji$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0], [intent3__ddjhnv6jg0e9u1fg9brmc7lvfh$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent3__ddjhnv6jg0e9u1fg9brmc7lvfh$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent3__ddjhnv6jg0e9u1fg9brmc7lvfh$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0], [intent6__mr2cuijc9v8vum26gbj2v1iti2$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent6__mr2cuijc9v8vum26gbj2v1iti2$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent6__mr2cuijc9v8vum26gbj2v1iti2$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0], [intent7__ukkb6cgc3dr19ijsvtp5tbfp5q$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent7__ukkb6cgc3dr19ijsvtp5tbfp5q$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent7__ukkb6cgc3dr19ijsvtp5tbfp5q$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0], [intent142__vd9dik2mkj5ebdc2u60i9ji99j$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_1$0], [intent142__vd9dik2mkj5ebdc2u60i9ji99j$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_2$0], [intent144__19h9onbd4cvrm4q99h0ndc3ook$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_1$0], [intent144__19h9onbd4cvrm4q99h0ndc3ook$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_2$0], [intent146__tftrrjmm023b50jd23fgq6u67c$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_1$0], [intent146__tftrrjmm023b50jd23fgq6u67c$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_2$0], [intent147__ndjtevc27eqs8bq4ti9c995pl1$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_1$0], [intent147__ndjtevc27eqs8bq4ti9c995pl1$0, fr_magistry_taigime/detailedPath_fr_magistry_taigime_2$0]]
+original ub: 8320
+Adjusted ub: 2868
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 58
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 58
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 58
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 208
+Adjusted ub: 56
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 208
+Adjusted ub: 56
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 40
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 40
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 40
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 40
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 58
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 58
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 208
+Adjusted ub: 56
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 40
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 58
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 58
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetUpdateService$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_widget_STWidgetProvider$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 208
+Adjusted ub: 56
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 40
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 40
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0]]
+--------------------------
+Adjustment Time: 1941 ms. 
+
+
+---STATS---
+p cnf 54260 112939
+primary variables: 15856
+
+............
+Total Kodkod Rels: 529
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 12
+Analysis Time: 1300 ms. 
+
+=====================================

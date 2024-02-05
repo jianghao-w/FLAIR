@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_45/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 4301573 8701585
+primary variables: 554669
+
+................................................................
+Total Sol.s: 64
+Analysis Time: 99290 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b3_46/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 123
+original ub: 2115
+Adjusted ub: 170
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2115
+Adjusted ub: 47
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 47
+original ub: 2115
+Adjusted ub: 94
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 216
+original ub: 9945
+Adjusted ub: 657
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 108
+original ub: 21879
+Adjusted ub: 819
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 9[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_viper_simplert/com_viper_simplert_TetherService$0, app_varlorg_unote/appDeclaration/BIND_VPN_SERVICE$0], [de_markusfisch_android_shadereditor/de_markusfisch_android_shadereditor_service_ShaderWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [me_writeily/me_writeily_widget_FilesWidgetService$0, app_varlorg_unote/appDeclaration/BIND_REMOTEVIEWS$0], [org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0, app_varlorg_unote/appDeclaration/ACCESS_COARSE_LOCATION$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 10387
+Adjusted ub: 244
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 229
+original ub: 26299
+Adjusted ub: 1904
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 114
+original ub: 4641
+Adjusted ub: 309
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 114
+original ub: 4641
+Adjusted ub: 309
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 127
+original ub: 5742
+Adjusted ub: 185
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 112
+original ub: 2376
+Adjusted ub: 136
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 104
+original ub: 198
+Adjusted ub: 106
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 114
+original ub: 792
+Adjusted ub: 122
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 292
+original ub: 161551
+Adjusted ub: 98771
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 233
+original ub: 161551
+Adjusted ub: 98712
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 292
+original ub: 42398
+Adjusted ub: 25754
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 292
+original ub: 17544
+Adjusted ub: 10828
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 292
+original ub: 1462
+Adjusted ub: 1170
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 292
+original ub: 5848
+Adjusted ub: 3804
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 172
+original ub: 86989
+Adjusted ub: 53873
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 221
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_AddEntry$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ItemDetails$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ListOfItems$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ListOfShops$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ShoppingList$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 221
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_AddEntry$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ItemDetails$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ListOfItems$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ListOfShops$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ShoppingList$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 221
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_AddEntry$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ItemDetails$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ListOfItems$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ListOfShops$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/eu_domob_shopt_ShoppingList$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 731
+Adjusted ub: 439
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 731
+Adjusted ub: 439
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, eu_domob_shopt/detailedPath_eu_domob_shopt_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 221
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/eu_domob_shopt_AddEntry$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/eu_domob_shopt_ItemDetails$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/eu_domob_shopt_ListOfItems$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/eu_domob_shopt_ListOfShops$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/eu_domob_shopt_ShoppingList$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 221
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/eu_domob_shopt_AddEntry$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/eu_domob_shopt_ItemDetails$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/eu_domob_shopt_ListOfItems$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/eu_domob_shopt_ListOfShops$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/eu_domob_shopt_ShoppingList$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 731
+Adjusted ub: 439
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/detailedPath_eu_domob_shopt_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/detailedPath_eu_domob_shopt_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/detailedPath_eu_domob_shopt_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/detailedPath_eu_domob_shopt_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, eu_domob_shopt/detailedPath_eu_domob_shopt_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 221
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/eu_domob_shopt_AddEntry$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/eu_domob_shopt_ItemDetails$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/eu_domob_shopt_ListOfItems$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/eu_domob_shopt_ListOfShops$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/eu_domob_shopt_ShoppingList$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 221
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/eu_domob_shopt_AddEntry$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/eu_domob_shopt_ItemDetails$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/eu_domob_shopt_ListOfItems$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/eu_domob_shopt_ListOfShops$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/eu_domob_shopt_ShoppingList$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 731
+Adjusted ub: 439
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/detailedPath_eu_domob_shopt_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/detailedPath_eu_domob_shopt_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/detailedPath_eu_domob_shopt_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/detailedPath_eu_domob_shopt_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/detailedPath_eu_domob_shopt_5$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 119
+Adjusted ub: 5[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/detailedPath_eu_domob_shopt_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/detailedPath_eu_domob_shopt_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/detailedPath_eu_domob_shopt_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/detailedPath_eu_domob_shopt_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, eu_domob_shopt/detailedPath_eu_domob_shopt_5$0]]
+--------------------------
+Adjustment Time: 91396 ms. 
+
+
+---STATS---
+p cnf 1022326 2163512
+primary variables: 297778
+
+................................................................
+Total Kodkod Rels: 1451
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 64
+Analysis Time: 41130 ms. 
+
+=====================================

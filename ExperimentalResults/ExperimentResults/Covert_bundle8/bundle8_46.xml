@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<analysisReport>
+    <name>bundle8</name>
+    <apps/>
+    <vulnerabilities>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.botbrew.basil puts data (retrieved from an Explicit Intent (Component = Main)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (com.botbrew.basil.Main). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.botbrew.basil</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.botbrew.basil.Main</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = Main)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.botbrew.basil.Main: void onNewIntent(android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App uk.co.danieljarvis.android.flashback puts data (retrieved from an Explicit Intent (Component = MainActivity)) on an unsafe sink (LOG) in one of its components (uk.co.danieljarvis.android.flashback.MainActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>uk.co.danieljarvis.android.flashback</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>uk.co.danieljarvis.android.flashback.MainActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = MainActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>uk.co.danieljarvis.android.flashback.MainActivity: void commonStart(android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.notriddle.budget puts data (retrieved from an Explicit Intent (Component = PinActivity)) on an unsafe sink (LOG) in one of its components (com.notriddle.budget.PinActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.notriddle.budget</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.notriddle.budget.PinActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = PinActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.notriddle.budget.PinActivity: boolean ensureUnlocked(android.app.Activity)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App io.github.phora.androptpb puts data (retrieved from an Explicit Intent (Component = MainActivity)) on an unsafe sink (LOG) in one of its components (io.github.phora.androptpb.activities.MainActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>io.github.phora.androptpb</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>io.github.phora.androptpb.activities.MainActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = MainActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>io.github.phora.androptpb.activities.MainActivity: void onActivityResult(int,int,android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App uk.co.danieljarvis.android.flashback puts data (retrieved from an Explicit Intent (Component = CustomPhoneStateListener)) on an unsafe sink (LOG) in one of its components (uk.co.danieljarvis.android.flashback.CustomPhoneStateListener). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>uk.co.danieljarvis.android.flashback</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>uk.co.danieljarvis.android.flashback.CustomPhoneStateListener</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = CustomPhoneStateListener)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>uk.co.danieljarvis.android.flashback.MainActivity: void commonStart(android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+    </vulnerabilities>
+</analysisReport>
+It took 526 seconds for DIFF_Specification 
+It took 1348 seconds for DIFF_Solvemodel 
+It took 71 seconds for DIFF_Generatemodel 
+It took 2526 seconds for DIEF_Total 

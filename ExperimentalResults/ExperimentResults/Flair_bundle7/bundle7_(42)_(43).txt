@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_42/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 3031932 6394016
+primary variables: 391382
+
+................................
+Total Sol.s: 32
+Analysis Time: 51180 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_43/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 149
+original ub: 2666
+Adjusted ub: 211
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2666
+Adjusted ub: 62
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 54
+original ub: 2666
+Adjusted ub: 116
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 198
+original ub: 8686
+Adjusted ub: 568
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 120
+original ub: 18180
+Adjusted ub: 876
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 24
+original ub: 12524
+Adjusted ub: 272
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 160
+original ub: 27674
+Adjusted ub: 1500
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 133
+original ub: 5343
+Adjusted ub: 289
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 133
+original ub: 5343
+Adjusted ub: 289
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 143
+original ub: 8100
+Adjusted ub: 323
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 88
+original ub: 450
+Adjusted ub: 98
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 89
+original ub: 180
+Adjusted ub: 93
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 98
+original ub: 450
+Adjusted ub: 196
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 456
+original ub: 99384
+Adjusted ub: 9552
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 332
+original ub: 99384
+Adjusted ub: 9428
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 456
+original ub: 44280
+Adjusted ub: 3696
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 456
+original ub: 2460
+Adjusted ub: 636
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 456
+original ub: 984
+Adjusted ub: 528
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 456
+original ub: 2460
+Adjusted ub: 1092
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 244
+original ub: 67404
+Adjusted ub: 7000
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 202
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_About$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_IPv6Config$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootService$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootServiceReceiver$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 202
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_About$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_IPv6Config$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootService$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootServiceReceiver$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 202
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_About$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_IPv6Config$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootService$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootServiceReceiver$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 492
+Adjusted ub: 36
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 492
+Adjusted ub: 36
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 137
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 137
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 137
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 137
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExp$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 202
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/to_doc_android_ipv6config_About$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/to_doc_android_ipv6config_IPv6Config$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootService$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootServiceReceiver$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 202
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/to_doc_android_ipv6config_About$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/to_doc_android_ipv6config_IPv6Config$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootService$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootServiceReceiver$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 492
+Adjusted ub: 36
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 137
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 202
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/to_doc_android_ipv6config_About$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/to_doc_android_ipv6config_IPv6Config$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootService$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootServiceReceiver$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 202
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/to_doc_android_ipv6config_About$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/to_doc_android_ipv6config_IPv6Config$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootService$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/to_doc_android_ipv6config_StartAtBootServiceReceiver$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 492
+Adjusted ub: 36
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 137
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_4$0]]
+--------------------------
+Adjusted: com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 137
+Adjusted ub: 4[[com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_1$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_2$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_3$0], [com_manuelmaly_hn/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, to_doc_android_ipv6config/detailedPath_to_doc_android_ipv6config_4$0]]
+--------------------------
+Adjustment Time: 8731 ms. 
+
+
+---STATS---
+p cnf 111964 347728
+primary variables: 33738
+
+................................
+Total Kodkod Rels: 1225
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 32
+Analysis Time: 5207 ms. 
+
+=====================================

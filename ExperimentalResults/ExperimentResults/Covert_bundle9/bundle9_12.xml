@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<analysisReport>
+    <name>bundle9</name>
+    <apps/>
+    <vulnerabilities/>
+</analysisReport>
+It took 148 seconds for DIFF_Specification 
+It took 32 seconds for DIFF_Solvemodel 
+It took 9 seconds for DIFF_Generatemodel 
+It took 327 seconds for DIEF_Total 

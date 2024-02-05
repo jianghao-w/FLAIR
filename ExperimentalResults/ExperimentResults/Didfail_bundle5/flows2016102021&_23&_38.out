@@ -1,0 +1,22 @@
+---- Flows with 0 intent(s) ---------------------------------
+[Flow(src=StaticField(field='<com.gokhanmoral.stweaks.app.q: java.lang.String a>'), app='com.gokhanmoral.stweaks.app', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.gokhanmoral.stweaks.app.q: java.io.BufferedReader e>'), app='com.gokhanmoral.stweaks.app', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.gokhanmoral.stweaks.app.q: java.io.BufferedReader f>'), app='com.gokhanmoral.stweaks.app', sink='Sink: <android.util.Log: int d(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.gokhanmoral.stweaks.app.MainActivity: java.lang.String p>'), app='com.gokhanmoral.stweaks.app', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.gokhanmoral.stweaks.app.MainActivity: java.util.ArrayList q>'), app='com.gokhanmoral.stweaks.app', sink='Sink: <android.util.Log: int e(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.gokhanmoral.stweaks.app.MainActivity: java.lang.String p>'), app='com.gokhanmoral.stweaks.app', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.gokhanmoral.stweaks.app.q: java.lang.String a>'), app='com.gokhanmoral.stweaks.app', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.gokhanmoral.stweaks.app.MainActivity: java.util.ArrayList q>'), app='com.gokhanmoral.stweaks.app', sink='Sink: <android.util.Log: int i(java.lang.String,java.lang.String)>'),
+ Flow(src=StaticField(field='<com.gokhanmoral.stweaks.app.q: java.io.BufferedReader f>'), app='com.gokhanmoral.stweaks.app', sink='Sink: <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>'),
+ Flow(src=StaticField(field='<com.gokhanmoral.stweaks.app.q: java.lang.String a>'), app='com.gokhanmoral.stweaks.app', sink='Sink: <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>')]
+---- Flows with 1 intent(s) ---------------------------------
+[]
+---- Flows with 2 intent(s) ---------------------------------
+[]
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------
+--------------------
+--------------------
+--------------------
+total running time 46 seconds

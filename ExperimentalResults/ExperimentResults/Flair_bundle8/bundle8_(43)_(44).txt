@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_43/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 3154013 4685165
+primary variables: 416060
+
+................................................................................................................................................................................................................
+Total Sol.s: 208
+Analysis Time: 137036 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b8_44/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 96
+original ub: 1462
+Adjusted ub: 130
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1462
+Adjusted ub: 34
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 42
+original ub: 1462
+Adjusted ub: 76
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 164
+original ub: 7353
+Adjusted ub: 629
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 68
+original ub: 11628
+Adjusted ub: 872
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 4[[com_invano_ambientweather/com_invano_ambientweather_AmbientWeatherExtension$0, at_bitfire_cadroid/appDeclaration/READ_EXTENSION_DATA$0], [com_miqote_angelplayerwp/com_miqote_angelplayerwp_LiveWallpaperService$0, at_bitfire_cadroid/appDeclaration/BIND_WALLPAPER$0], [io_github_benoitduffez_cupsprint/io_github_benoitduffez_cupsprint_printservice_CupsService$0, at_bitfire_cadroid/appDeclaration/BIND_PRINT_SERVICE$0], [org_xapek_andiodine/org_xapek_andiodine_IodineVpnService$0, at_bitfire_cadroid/appDeclaration/BIND_VPN_SERVICE$0]]
+original ub: 5814
+Adjusted ub: 242
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 126
+original ub: 21375
+Adjusted ub: 1001
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 125
+original ub: 4875
+Adjusted ub: 125
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 125
+original ub: 4875
+Adjusted ub: 125
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 80
+original ub: 2652
+Adjusted ub: 158
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 66
+original ub: 340
+Adjusted ub: 208
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 68
+original ub: 136
+Adjusted ub: 72
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 74
+original ub: 272
+Adjusted ub: 82
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 141
+original ub: 121239
+Adjusted ub: 98256
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 127
+original ub: 121239
+Adjusted ub: 98242
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 141
+original ub: 27651
+Adjusted ub: 22293
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 141
+original ub: 3545
+Adjusted ub: 3263
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 141
+original ub: 1418
+Adjusted ub: 1277
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 141
+original ub: 2836
+Adjusted ub: 2413
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 65
+original ub: 88625
+Adjusted ub: 71065
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 171
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_ComposeMessageActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_FriendNodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_ListMessagesActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_ListRecipientsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_NodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_OpenReferenceActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 171
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_ComposeMessageActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_FriendNodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_ListMessagesActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_ListRecipientsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_NodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_OpenReferenceActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 171
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_ComposeMessageActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_FriendNodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_ListMessagesActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_ListRecipientsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_NodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp$0, co_loubo_icicle/co_loubo_icicle_OpenReferenceActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 709
+Adjusted ub: 568
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 709
+Adjusted ub: 568
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 125
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 125
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 125
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 125
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 171
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_ComposeMessageActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_FriendNodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_ListMessagesActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_ListRecipientsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_NodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_OpenReferenceActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 171
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_ComposeMessageActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_FriendNodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_ListMessagesActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_ListRecipientsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_NodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, co_loubo_icicle/co_loubo_icicle_OpenReferenceActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 709
+Adjusted ub: 568
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 125
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 171
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_ComposeMessageActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_FriendNodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_ListMessagesActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_ListRecipientsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_NodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_OpenReferenceActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 171
+Adjusted ub: 7[[at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_ComposeMessageActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_FriendNodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_ListMessagesActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_ListRecipientsActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_MainActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_NodeManagerActivity$0], [at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, co_loubo_icicle/co_loubo_icicle_OpenReferenceActivity$0]]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 709
+Adjusted ub: 568
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 125
+Adjusted ub: 0[]
+--------------------------
+Adjusted: at_bitfire_cadroid/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 125
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 91120 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1297
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 714 ms. 
+
+=====================================

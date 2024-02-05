@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_49/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 4383473 10005181
+primary variables: 569880
+
+................................
+Total Sol.s: 32
+Analysis Time: 85505 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_50/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 192
+original ub: 3550
+Adjusted ub: 263
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 3550
+Adjusted ub: 71
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 71
+original ub: 3550
+Adjusted ub: 142
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 234
+original ub: 11800
+Adjusted ub: 568
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 141
+original ub: 25252
+Adjusted ub: 589
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 24
+original ub: 16756
+Adjusted ub: 166
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 199
+original ub: 39412
+Adjusted ub: 1001
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 165
+original ub: 6513
+Adjusted ub: 243
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 165
+original ub: 6513
+Adjusted ub: 243
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 162
+original ub: 10700
+Adjusted ub: 262
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 111
+original ub: 1177
+Adjusted ub: 122
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 107
+original ub: 214
+Adjusted ub: 109
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 116
+original ub: 535
+Adjusted ub: 121
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 103
+original ub: 138060
+Adjusted ub: 114061
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 65
+original ub: 138060
+Adjusted ub: 114023
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 103
+original ub: 58500
+Adjusted ub: 48303
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 103
+original ub: 6435
+Adjusted ub: 5405
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 103
+original ub: 1170
+Adjusted ub: 1067
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 103
+original ub: 2925
+Adjusted ub: 2513
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 101
+original ub: 97695
+Adjusted ub: 80801
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 236
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_MainActivity$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 236
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_MainActivity$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 236
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_MainActivity$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 585
+Adjusted ub: 482
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 585
+Adjusted ub: 482
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 167
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_2$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 167
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_2$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 167
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_2$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 167
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_2$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 236
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_MainActivity$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 236
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_MainActivity$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 585
+Adjusted ub: 482
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 167
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_2$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 236
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_MainActivity$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 236
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_AboutActivity$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_brunoparmentier_dnssetter/be_brunoparmentier_dnssetter_MainActivity$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 585
+Adjusted ub: 482
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 167
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_2$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 167
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_brunoparmentier_dnssetter/detailedPath_be_brunoparmentier_dnssetter_2$0]]
+--------------------------
+Adjustment Time: 102712 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1431
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 753 ms. 
+
+=====================================

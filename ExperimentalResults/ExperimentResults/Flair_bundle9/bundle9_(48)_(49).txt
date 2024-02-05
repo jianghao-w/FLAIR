@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_48/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 3494360 6993450
+primary variables: 449654
+
+................................................................................................................................................................................................................................................................................................
+Total Sol.s: 288
+Analysis Time: 220506 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_49/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 151
+original ub: 2940
+Adjusted ub: 259
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2940
+Adjusted ub: 108
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 50
+original ub: 2940
+Adjusted ub: 158
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 185
+original ub: 9506
+Adjusted ub: 811
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 119
+original ub: 20758
+Adjusted ub: 1822
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[com_mathi_amorim_emmanuel_metrictime/com_mathi_amorim_emmanuel_metrictime_MetricTimeNotificationProvider$0, cat_mvmike_minimalcalendarwidget/appDeclaration/RECEIVE_BOOT_COMPLETED$0], [it_reyboz_screenlock/it_reyboz_screenslock_AdminManageReceiver$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_DEVICE_ADMIN$0], [net_zygotelabs_locker/net_zygotelabs_locker_DeviceAdmin$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_DEVICE_ADMIN$0], [com_powerje_nyan/com_powerje_nyan_NyanPaper$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_WALLPAPER$0], [net_justdave_nwsweatheralertswidget/net_justdave_nwsweatheralertswidget_NWSBackgroundService$0, cat_mvmike_minimalcalendarwidget/appDeclaration/SIGNATURE$0]]
+original ub: 11640
+Adjusted ub: 730
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 155
+original ub: 25996
+Adjusted ub: 2471
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 128
+original ub: 5226
+Adjusted ub: 362
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 128
+original ub: 5226
+Adjusted ub: 362
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 170
+original ub: 12412
+Adjusted ub: 840
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 105
+original ub: 642
+Adjusted ub: 232
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 107
+original ub: 214
+Adjusted ub: 115
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 123
+original ub: 1177
+Adjusted ub: 167
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 555
+original ub: 112326
+Adjusted ub: 10206
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 447
+original ub: 112326
+Adjusted ub: 10098
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 555
+original ub: 67164
+Adjusted ub: 4449
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 555
+original ub: 3474
+Adjusted ub: 1254
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 555
+original ub: 1158
+Adjusted ub: 603
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 555
+original ub: 6369
+Adjusted ub: 819
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 154
+original ub: 77586
+Adjusted ub: 6700
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 194
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/com_ipaulpro_afilechooser_FileChooserActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ChooseActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneWriteNFCActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadTagActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteNFCActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 194
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/com_ipaulpro_afilechooser_FileChooserActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ChooseActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneWriteNFCActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadTagActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteNFCActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 194
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/com_ipaulpro_afilechooser_FileChooserActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ChooseActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneWriteNFCActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadTagActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteNFCActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 579
+Adjusted ub: 24
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 579
+Adjusted ub: 24
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_6$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_6$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_6$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_6$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 194
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/com_ipaulpro_afilechooser_FileChooserActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ChooseActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneWriteNFCActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadTagActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteNFCActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 194
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/com_ipaulpro_afilechooser_FileChooserActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ChooseActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneWriteNFCActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadTagActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteNFCActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 579
+Adjusted ub: 24
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_6$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 194
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/com_ipaulpro_afilechooser_FileChooserActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ChooseActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneWriteNFCActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadTagActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteNFCActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 194
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/com_ipaulpro_afilechooser_FileChooserActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ChooseActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_CloneWriteNFCActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_MainActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_ReadTagActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/pl_net_szafraniec_NFCKey_WriteNFCActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 579
+Adjusted ub: 24
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_6$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 134
+Adjusted ub: 6[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_5$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, pl_net_szafraniec_NFCKey/detailedPath_pl_net_szafraniec_NFCKey_6$0]]
+--------------------------
+Adjustment Time: 12448 ms. 
+
+
+---STATS---
+p cnf 121810 436592
+primary variables: 38992
+
+................................................................................................................................................................................................................................................................................................
+Total Kodkod Rels: 1355
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 288
+Analysis Time: 25955 ms. 
+
+=====================================

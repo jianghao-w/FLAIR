@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_16/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 446623 591518
+primary variables: 55991
+
+....................................
+Total Sol.s: 36
+Analysis Time: 8104 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b9_17/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 40
+original ub: 442
+Adjusted ub: 66
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 442
+Adjusted ub: 26
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 16[[com_dgmltn_morphclock_app/com_dgmltn_morphclock_app$0, cat_mvmike_minimalcalendarwidget/appDeclaration/ACCESS_COARSE_LOCATION$0], [com_numix_icons_circle/com_numix_icons_circle$0, cat_mvmike_minimalcalendarwidget/appDeclaration/SET_WALLPAPER$0], [com_powerpoint45_lucidbrowser/com_powerpoint45_lucidbrowser$0, cat_mvmike_minimalcalendarwidget/appDeclaration/WRITE_EXTERNAL_STORAGE$0], [com_powerpoint45_lucidbrowser/com_powerpoint45_lucidbrowser$0, cat_mvmike_minimalcalendarwidget/appDeclaration/INTERNET$0], [com_rubenroy_minimaltodo/com_rubenroy_minimaltodo$0, cat_mvmike_minimalcalendarwidget/appDeclaration/VIBRATE$0], [com_shkmishra_lyrically/com_shkmishra_lyrically$0, cat_mvmike_minimalcalendarwidget/appDeclaration/VIBRATE$0], [com_tomer_poke_notifier/com_tomer_poke_notifier$0, cat_mvmike_minimalcalendarwidget/appDeclaration/WRITE_SETTINGS$0], [com_tomer_poke_notifier/com_tomer_poke_notifier$0, cat_mvmike_minimalcalendarwidget/appDeclaration/WAKE_LOCK$0], [com_tomer_poke_notifier/com_tomer_poke_notifier$0, cat_mvmike_minimalcalendarwidget/appDeclaration/INTERNET$0], [com_tomer_poke_notifier/com_tomer_poke_notifier$0, cat_mvmike_minimalcalendarwidget/appDeclaration/KILL_BACKGROUND_PROCESSES$0], [com_tomer_poke_notifier/com_tomer_poke_notifier$0, cat_mvmike_minimalcalendarwidget/appDeclaration/GET_TASKS$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, cat_mvmike_minimalcalendarwidget/appDeclaration/ACCESS_NETWORK_STATE$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, cat_mvmike_minimalcalendarwidget/appDeclaration/CHANGE_WIFI_STATE$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, cat_mvmike_minimalcalendarwidget/appDeclaration/ACCESS_COARSE_LOCATION$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, cat_mvmike_minimalcalendarwidget/appDeclaration/READ_PHONE_STATE$0], [com_ultrafunk_network_info/com_ultrafunk_network_info$0, cat_mvmike_minimalcalendarwidget/appDeclaration/ACCESS_WIFI_STATE$0]]
+original ub: 442
+Adjusted ub: 42
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 60
+original ub: 1173
+Adjusted ub: 273
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 35
+original ub: 2484
+Adjusted ub: 419
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 2[[com_mathi_amorim_emmanuel_metrictime/com_mathi_amorim_emmanuel_metrictime_MetricTimeNotificationProvider$0, cat_mvmike_minimalcalendarwidget/appDeclaration/RECEIVE_BOOT_COMPLETED$0], [com_powerje_nyan/com_powerje_nyan_NyanPaper$0, cat_mvmike_minimalcalendarwidget/appDeclaration/BIND_WALLPAPER$0]]
+original ub: 1794
+Adjusted ub: 236
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 18[[com_mattallen_loaned/com_mattallen_loaned_addloan_AddLoanActivity$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0], [com_mattallen_loaned/com_mattallen_loaned_addloan_AddLoanActivity$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0], [com_mattallen_loaned/com_mattallen_loaned_history_LoanHistoryActivity$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0], [com_mattallen_loaned/com_mattallen_loaned_history_LoanHistoryActivity$0, com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0], [com_numix_icons_circle/com_numix_icons_circle_activity_MainActivity$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0], [com_numix_icons_circle/com_numix_icons_circle_activity_Wallpaper$0, com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0], [com_powerpoint45_lucidbrowser/com_powerpoint45_lucidbrowser_BookmarksActivity$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0], [com_powerpoint45_lucidbrowser/com_powerpoint45_lucidbrowser_MainActivity$0, com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0], [com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceActivity$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0], [com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceActivity$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceActivity$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0], [com_shkmishra_lyrically/com_shkmishra_lyrically_FetchLyrics$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [com_shkmishra_lyrically/com_shkmishra_lyrically_FetchLyrics$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0], [com_shkmishra_lyrically/com_shkmishra_lyrically_LyricsService$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [com_shkmishra_lyrically/com_shkmishra_lyrically_LyricsService$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0], [com_shkmishra_lyrically/com_shkmishra_lyrically_PreferenceTrigger$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0], [com_shkmishra_lyrically/com_shkmishra_lyrically_ShowLyrics$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0], [com_shkmishra_lyrically/com_shkmishra_lyrically_ShowLyrics$0, com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0]]
+original ub: 1518
+Adjusted ub: 516
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 17[[com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/BUNDLE$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/UNDEFINED$0], [com_mridang_throttle/detailedPath_com_mridang_throttle_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/UNDEFINED$0], [com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_numix_icons_circle/detailedPath_com_numix_icons_circle_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/CALENDAR_INFORMATION$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/BUNDLE$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/UNDEFINED$0]]
+original ub: 858
+Adjusted ub: 212
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 17[[com_mattallen_loaned/detailedPath_com_mattallen_loaned_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/UNDEFINED$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_3$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/LOG$0], [com_mattallen_loaned/detailedPath_com_mattallen_loaned_4$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/LOG$0], [com_morlunk_mountie/detailedPath_com_morlunk_mountie_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_mridang_throttle/detailedPath_com_mridang_throttle_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_numix_icons_circle/detailedPath_com_numix_icons_circle_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_numix_icons_circle/detailedPath_com_numix_icons_circle_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0], [com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DATABASE_INFORMATION$0], [com_powerpoint45_lucidbrowser/detailedPath_com_powerpoint45_lucidbrowser_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NETWORK$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_1$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/LOG$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_2$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_3$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/SYSTEM_SETTINGS$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_4$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/DATABASE_INFORMATION$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_5$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_6$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/NO_CATEGORY$0], [com_shkmishra_lyrically/detailedPath_com_shkmishra_lyrically_7$0, cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IPC$0]]
+original ub: 858
+Adjusted ub: 212
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 60
+original ub: 1692
+Adjusted ub: 107
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 35
+original ub: 72
+Adjusted ub: 37
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 36
+original ub: 72
+Adjusted ub: 38
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 43
+original ub: 288
+Adjusted ub: 51
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 224
+original ub: 17940
+Adjusted ub: 4724
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 192
+original ub: 17940
+Adjusted ub: 4692
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 224
+original ub: 12220
+Adjusted ub: 1916
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 224
+original ub: 520
+Adjusted ub: 296
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 224
+original ub: 520
+Adjusted ub: 296
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 224
+original ub: 2080
+Adjusted ub: 512
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 28
+original ub: 5720
+Adjusted ub: 1940
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_ClientGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameClientActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameServerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_InstructionsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MainMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_SinglePlayerGameSetupActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_ClientGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameClientActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameServerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_InstructionsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MainMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_SinglePlayerGameSetupActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_ClientGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameClientActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameServerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_InstructionsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MainMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_SinglePlayerGameSetupActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 260
+Adjusted ub: 36
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 260
+Adjusted ub: 36
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 22
+Adjusted ub: 5[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_5$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 22
+Adjusted ub: 5[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_5$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 22
+Adjusted ub: 5[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_5$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 22
+Adjusted ub: 5[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExp$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_5$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_ClientGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameClientActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameServerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_InstructionsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MainMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_SinglePlayerGameSetupActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_ClientGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameClientActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameServerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_InstructionsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MainMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_SinglePlayerGameSetupActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 260
+Adjusted ub: 36
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 22
+Adjusted ub: 5[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_5$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_ClientGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameClientActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameServerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_InstructionsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MainMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_SinglePlayerGameSetupActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 9[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_ClientGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameClientActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_GameServerActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_InstructionsActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MainMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerGameSetupActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_MultiplayerMenuActivity$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/com_xenris_liquidwarsos_SinglePlayerGameSetupActivity$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 260
+Adjusted ub: 36
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 22
+Adjusted ub: 5[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_5$0]]
+--------------------------
+Adjusted: cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 22
+Adjusted ub: 5[[cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_1$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_2$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_3$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_4$0], [cat_mvmike_minimalcalendarwidget/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_xenris_liquidwarsos/detailedPath_com_xenris_liquidwarsos_5$0]]
+--------------------------
+Adjustment Time: 1844 ms. 
+
+
+---STATS---
+p cnf 50950 110641
+primary variables: 15558
+
+....................................
+Total Kodkod Rels: 586
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 36
+Analysis Time: 1987 ms. 
+
+=====================================

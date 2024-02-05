@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b2_45/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1674647 3181915
+primary variables: 211855
+
+....................
+Total Sol.s: 20
+Analysis Time: 21129 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b2_46/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 102
+original ub: 1840
+Adjusted ub: 142
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1840
+Adjusted ub: 40
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 26
+original ub: 1840
+Adjusted ub: 66
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 138
+original ub: 6486
+Adjusted ub: 414
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 83
+original ub: 11703
+Adjusted ub: 608
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 7[[com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_LatticeService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_SundancerService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_TunnelService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, app_varlorg_unote/appDeclaration/BIND_INPUT_METHOD$0], [me_writeily/me_writeily_widget_FilesWidgetService$0, app_varlorg_unote/appDeclaration/BIND_REMOTEVIEWS$0], [org_mariotaku_twidere_extension_twitlonger/org_mariotaku_twidere_extension_twitlonger_TwitLongerService2$0, app_varlorg_unote/appDeclaration/SHORTEN_STATUS$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0]]
+original ub: 5640
+Adjusted ub: 127
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 118
+original ub: 14523
+Adjusted ub: 1669
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 94
+original ub: 4017
+Adjusted ub: 445
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 94
+original ub: 4017
+Adjusted ub: 445
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 100
+original ub: 4067
+Adjusted ub: 198
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 93
+original ub: 1328
+Adjusted ub: 125
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 84
+original ub: 166
+Adjusted ub: 88
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 88
+original ub: 747
+Adjusted ub: 106
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 54
+original ub: 50760
+Adjusted ub: 43362
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 41
+original ub: 50760
+Adjusted ub: 43349
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 54
+original ub: 17640
+Adjusted ub: 15048
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 54
+original ub: 5760
+Adjusted ub: 4950
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 54
+original ub: 720
+Adjusted ub: 666
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 54
+original ub: 3240
+Adjusted ub: 2808
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 8[[intent10__qn87rl6f7pocgm0glbk0smep3q$0, app_varlorg_unote/detailedPath_app_varlorg_unote_4$0], [intent13__vqtibuphb44kk65rpg32rrq2bl$0, app_varlorg_unote/detailedPath_app_varlorg_unote_4$0], [intent17__e6armuqcs4hkf8q3qs3832csn8$0, app_varlorg_unote/detailedPath_app_varlorg_unote_4$0], [intent18__2fg0lr2lg15071mc1ijn08qocs$0, app_varlorg_unote/detailedPath_app_varlorg_unote_4$0], [intent25__b4cih04dstemp641e6j2h2ui2d$0, biz_gyrus_yaab/detailedPath_biz_gyrus_yaab_3$0], [intent42__kg7g8afik6ajuuviil35m0p06i$0, biz_gyrus_yaab/detailedPath_biz_gyrus_yaab_3$0], [intent44__4bg3fk7fe8tabg6hlgdf4hpjml$0, biz_gyrus_yaab/detailedPath_biz_gyrus_yaab_3$0], [intent47__7b428qq1j6sv50fbqemkms7jrr$0, biz_gyrus_yaab/detailedPath_biz_gyrus_yaab_3$0]]
+original ub: 37080
+Adjusted ub: 32012
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_PriceBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_WidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_PriceBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_WidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_PriceBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_WidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 360
+Adjusted ub: 306
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 360
+Adjusted ub: 306
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_PriceBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_WidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_PriceBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_WidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 360
+Adjusted ub: 306
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_PriceBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_WidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 141
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_SettingsActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_PriceBroadcastReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/com_brentpanther_bitcoinwidget_WidgetProvider$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 360
+Adjusted ub: 306
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_9$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 103
+Adjusted ub: 9[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_brentpanther_bitcoinwidget/detailedPath_com_brentpanther_bitcoinwidget_9$0]]
+--------------------------
+Adjustment Time: 26654 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 946
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 373 ms. 
+
+=====================================

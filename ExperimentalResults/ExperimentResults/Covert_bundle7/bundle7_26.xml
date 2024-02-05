@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<analysisReport>
+    <name>bundle7</name>
+    <apps/>
+    <vulnerabilities>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.umang.dashnotifier puts data (retrieved from an Explicit Intent (Component = ClickIntentActivity)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (com.umang.dashnotifier.ClickIntentActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.umang.dashnotifier</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.umang.dashnotifier.ClickIntentActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = ClickIntentActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.umang.dashnotifier.ClickIntentActivity: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App de.quaddyservices.dynamicnightlight puts data (retrieved from an Explicit Intent (Component = FullscreenActivity)) on an unsafe sink (LOG) in one of its components (de.quaddyservices.dynamicnightlight.FullscreenActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>de.quaddyservices.dynamicnightlight</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>de.quaddyservices.dynamicnightlight.FullscreenActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = FullscreenActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>de.quaddyservices.dynamicnightlight.FullscreenActivity: void onActivityResult(int,int,android.content.Intent)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App net.lardcave.keepassnfc puts data (retrieved from an Explicit Intent (Component = WriteNFCActivity)) on an unsafe sink (NFC) in one of its components (net.lardcave.keepassnfc.WriteNFCActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>net.lardcave.keepassnfc</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>net.lardcave.keepassnfc.WriteNFCActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = WriteNFCActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>net.lardcave.keepassnfc.WriteNFCActivity: void nfc_enable()</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>NFC</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+    </vulnerabilities>
+</analysisReport>
+It took 256 seconds for DIFF_Specification 
+It took 199 seconds for DIFF_Solvemodel 
+It took 2 seconds for DIFF_Generatemodel 
+It took 732 seconds for DIEF_Total 

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<analysisReport>
+    <name>bundle2</name>
+    <apps/>
+    <vulnerabilities>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App com.doomy.torch puts data (retrieved from an Explicit Intent (Component = WidgetActivity)) on an unsafe sink (DATABASE_INFORMATION) in one of its components (com.doomy.torch.WidgetActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>com.doomy.torch</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>com.doomy.torch.WidgetActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = WidgetActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>com.doomy.torch.WidgetActivity: void onCreate(android.os.Bundle)</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>DATABASE_INFORMATION</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App org.poirsouille.tinc.gui puts data (retrieved from an Explicit Intent (Component = TincActivity)) on an unsafe sink (LOG) in one of its components (org.poirsouille.tinc.gui.TincActivity). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.poirsouille.tinc.gui</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.poirsouille.tinc.gui.TincActivity</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TincActivity)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>&lt;org.poirsouille.tinc_gui.TincActivity$1: void onServiceConnected(android.content.ComponentName,android.os.IBinder)&gt;</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+        <vulnerability>
+            <type>Intent Spoofing</type>
+            <description>App org.poirsouille.tinc.gui puts data (retrieved from an Explicit Intent (Component = TincdService)) on an unsafe sink (LOG) in one of its components (org.poirsouille.tinc.gui.TincdService). A malicious app can send a sensitive data from this channel.</description>
+            <vulnerabilityElements>
+                <type>APP</type>
+                <description>org.poirsouille.tinc.gui</description>
+                <element>
+                    <type>COMPONENT</type>
+                    <description>org.poirsouille.tinc.gui.TincdService</description>
+                    <element>
+                        <type>INTENT</type>
+                        <description>Explicit Intent (Component = TincdService)</description>
+                        <alloyLabel>i2</alloyLabel>
+                    </element>
+                    <element>
+                        <type>METHOD</type>
+                        <description>&lt;org.poirsouille.tinc_gui.TincActivity$1: void onServiceConnected(android.content.ComponentName,android.os.IBinder)&gt;</description>
+                        <element>
+                            <type>SINK_TYPE</type>
+                            <description>LOG</description>
+                            <alloyLabel>dComponent</alloyLabel>
+                        </element>
+                        <alloyLabel>dComponent</alloyLabel>
+                    </element>
+                    <alloyLabel>c2</alloyLabel>
+                </element>
+                <alloyLabel>c2</alloyLabel>
+            </vulnerabilityElements>
+        </vulnerability>
+    </vulnerabilities>
+</analysisReport>
+It took 218 seconds for DIFF_Specification 
+It took 43 seconds for DIFF_Solvemodel 
+It took 3 seconds for DIFF_Generatemodel 
+It took 466 seconds for DIEF_Total 

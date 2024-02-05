@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_24/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 596124 739407
+primary variables: 77180
+
+............
+Total Sol.s: 12
+Analysis Time: 7923 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_25/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 60
+original ub: 792
+Adjusted ub: 93
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 792
+Adjusted ub: 33
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 23
+original ub: 792
+Adjusted ub: 56
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 69
+original ub: 1728
+Adjusted ub: 210
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 38
+original ub: 2880
+Adjusted ub: 296
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, be_ppareit_shutdown/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, be_ppareit_shutdown/appDeclaration/BIND_INPUT_METHOD$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, be_ppareit_shutdown/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0]]
+original ub: 2376
+Adjusted ub: 104
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 64
+original ub: 4248
+Adjusted ub: 379
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 57
+original ub: 2301
+Adjusted ub: 135
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 57
+original ub: 2301
+Adjusted ub: 135
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 51
+original ub: 1400
+Adjusted ub: 159
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 38
+original ub: 160
+Adjusted ub: 84
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 40
+original ub: 80
+Adjusted ub: 44
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 44
+original ub: 160
+Adjusted ub: 52
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 236
+original ub: 17568
+Adjusted ub: 1520
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 144
+original ub: 17568
+Adjusted ub: 1428
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 236
+original ub: 8540
+Adjusted ub: 752
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 236
+original ub: 976
+Adjusted ub: 504
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 236
+original ub: 488
+Adjusted ub: 252
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 236
+original ub: 976
+Adjusted ub: 268
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 84
+original ub: 14396
+Adjusted ub: 1028
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 72
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_DataOverviewActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 72
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_DataOverviewActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 72
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_DataOverviewActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 244
+Adjusted ub: 8[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent237__tinlfe0sbu7fpn5cihtj5je4en$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent238__pu4d4ql8rh1ei8n75sqfig56i4$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent239__kuveb9e5fjaiq57qnneo7pojtn$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent240__lprnfv8pjbkdogo5erehcdkppv$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent241__2uo34bcsrigrggohnkpnjuo243$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent242__kshh67bpg0hk2vvgcmtn597aq6$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent243__hkissdhmd3jcdnaahda1n2b60j$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent244__kvij6ilupph0dk2tdvfcvk7bl7$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 244
+Adjusted ub: 8[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent237__tinlfe0sbu7fpn5cihtj5je4en$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent238__pu4d4ql8rh1ei8n75sqfig56i4$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent239__kuveb9e5fjaiq57qnneo7pojtn$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent240__lprnfv8pjbkdogo5erehcdkppv$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent241__2uo34bcsrigrggohnkpnjuo243$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent242__kshh67bpg0hk2vvgcmtn597aq6$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent243__hkissdhmd3jcdnaahda1n2b60j$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent244__kvij6ilupph0dk2tdvfcvk7bl7$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 72
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_DataOverviewActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 72
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_DataOverviewActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 244
+Adjusted ub: 8[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent237__tinlfe0sbu7fpn5cihtj5je4en$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent238__pu4d4ql8rh1ei8n75sqfig56i4$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent239__kuveb9e5fjaiq57qnneo7pojtn$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent240__lprnfv8pjbkdogo5erehcdkppv$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent241__2uo34bcsrigrggohnkpnjuo243$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent242__kshh67bpg0hk2vvgcmtn597aq6$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent243__hkissdhmd3jcdnaahda1n2b60j$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent244__kvij6ilupph0dk2tdvfcvk7bl7$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 72
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_DataOverviewActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 72
+Adjusted ub: 3[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_DataOverviewActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, name_soulayrol_rhaa_sholi/name_soulayrol_rhaa_sholi_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 244
+Adjusted ub: 8[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent237__tinlfe0sbu7fpn5cihtj5je4en$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent238__pu4d4ql8rh1ei8n75sqfig56i4$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent239__kuveb9e5fjaiq57qnneo7pojtn$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent240__lprnfv8pjbkdogo5erehcdkppv$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent241__2uo34bcsrigrggohnkpnjuo243$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent242__kshh67bpg0hk2vvgcmtn597aq6$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent243__hkissdhmd3jcdnaahda1n2b60j$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent244__kvij6ilupph0dk2tdvfcvk7bl7$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_2$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 59
+Adjusted ub: 2[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, name_soulayrol_rhaa_sholi/detailedPath_name_soulayrol_rhaa_sholi_2$0]]
+--------------------------
+Adjustment Time: 878 ms. 
+
+
+---STATS---
+p cnf 21190 57370
+primary variables: 6066
+
+............
+Total Kodkod Rels: 614
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 12
+Analysis Time: 1051 ms. 
+
+=====================================

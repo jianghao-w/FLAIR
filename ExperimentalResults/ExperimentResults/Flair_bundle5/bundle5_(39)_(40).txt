@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_39/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1596459 2299314
+primary variables: 207356
+
+............
+Total Sol.s: 12
+Analysis Time: 15630 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_40/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 94
+original ub: 1404
+Adjusted ub: 130
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 1[[org_logicallycreative_movingpolygons/org_logicallycreative_movingpolygons$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0]]
+original ub: 1404
+Adjusted ub: 37
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 43
+original ub: 1404
+Adjusted ub: 79
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 112
+original ub: 4446
+Adjusted ub: 302
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 62
+original ub: 7296
+Adjusted ub: 414
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 6[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, am_zoom_mlauncher/appDeclaration/BIND_INPUT_METHOD$0], [org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0, am_zoom_mlauncher/appDeclaration/ACCESS_COARSE_LOCATION$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, am_zoom_mlauncher/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0]]
+original ub: 4104
+Adjusted ub: 78
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 90
+original ub: 9690
+Adjusted ub: 260
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 85
+original ub: 3315
+Adjusted ub: 85
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 85
+original ub: 3315
+Adjusted ub: 85
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 84
+original ub: 3264
+Adjusted ub: 248
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 65
+original ub: 576
+Adjusted ub: 83
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 65
+original ub: 128
+Adjusted ub: 69
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 77
+original ub: 576
+Adjusted ub: 95
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 123
+original ub: 49248
+Adjusted ub: 35595
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 70
+original ub: 49248
+Adjusted ub: 35542
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 123
+original ub: 22032
+Adjusted ub: 16005
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 123
+original ub: 3888
+Adjusted ub: 2904
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 123
+original ub: 864
+Adjusted ub: 741
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 123
+original ub: 3888
+Adjusted ub: 2904
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 22
+original ub: 36720
+Adjusted ub: 26287
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 2[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainDream$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 2[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainDream$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 2[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainDream$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 309
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 309
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 2[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainDream$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 2[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainDream$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 309
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 2[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainDream$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 114
+Adjusted ub: 2[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainActivity$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dgmltn_morphclock_app/com_dgmltn_morphclock_app_MainDream$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 309
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 24686 ms. 
+
+
+---STATS---
+p cnf 408246 850344
+primary variables: 122313
+
+............
+Total Kodkod Rels: 938
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 12
+Analysis Time: 5821 ms. 
+
+=====================================

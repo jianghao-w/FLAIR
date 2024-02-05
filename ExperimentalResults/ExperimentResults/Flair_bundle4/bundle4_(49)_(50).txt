@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b4_49/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 2938552 5385908
+primary variables: 379679
+
+........................................................................................................
+Total Sol.s: 104
+Analysis Time: 85760 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b4_50/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 139
+original ub: 2254
+Adjusted ub: 185
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2254
+Adjusted ub: 46
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 46
+original ub: 2254
+Adjusted ub: 92
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 169
+original ub: 8477
+Adjusted ub: 534
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 91
+original ub: 16089
+Adjusted ub: 970
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [me_writeily/me_writeily_widget_FilesWidgetService$0, app_varlorg_unote/appDeclaration/BIND_REMOTEVIEWS$0], [org_mariotaku_twidere_extension_twitlonger/org_mariotaku_twidere_extension_twitlonger_TwitLongerService2$0, app_varlorg_unote/appDeclaration/SHORTEN_STATUS$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0]]
+original ub: 7958
+Adjusted ub: 189
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 118
+original ub: 20241
+Adjusted ub: 1093
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 114
+original ub: 4563
+Adjusted ub: 231
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 114
+original ub: 4563
+Adjusted ub: 231
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 105
+original ub: 4743
+Adjusted ub: 348
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 98
+original ub: 1209
+Adjusted ub: 137
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 92
+original ub: 186
+Adjusted ub: 98
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 98
+original ub: 465
+Adjusted ub: 113
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 579
+original ub: 101551
+Adjusted ub: 4279
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 431
+original ub: 101551
+Adjusted ub: 4131
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 579
+original ub: 29937
+Adjusted ub: 1566
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 579
+original ub: 7631
+Adjusted ub: 683
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 579
+original ub: 1174
+Adjusted ub: 595
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 579
+original ub: 2935
+Adjusted ub: 619
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 69
+original ub: 68679
+Adjusted ub: 2742
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_SLWCpuWidget$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_SLWCpuWidget$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_SLWCpuWidget$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 587
+Adjusted ub: 8[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent580__nhjd1vplat6bkcskrkj57tsthd$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent581__6tdrncim24m1varg0v5q0f7nch$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent582__30dghtmj4gjrhcsdg0787ep537$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent583__21ej59tcjacdon2ed37goh95iu$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent584__7ulmsojdgpvkbiaamm47usld8f$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent585__tsjsie51lnggtomlr79a80774h$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent586__vcscn3h0c2io33k3n5v6r5t93s$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent587__m1cajond3t6mb9u4pnn5lvihao$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 587
+Adjusted ub: 8[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent580__nhjd1vplat6bkcskrkj57tsthd$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent581__6tdrncim24m1varg0v5q0f7nch$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent582__30dghtmj4gjrhcsdg0787ep537$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent583__21ej59tcjacdon2ed37goh95iu$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent584__7ulmsojdgpvkbiaamm47usld8f$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent585__tsjsie51lnggtomlr79a80774h$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent586__vcscn3h0c2io33k3n5v6r5t93s$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent587__m1cajond3t6mb9u4pnn5lvihao$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 117
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 117
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 117
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 117
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_SLWCpuWidget$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_SLWCpuWidget$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 587
+Adjusted ub: 8[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent580__nhjd1vplat6bkcskrkj57tsthd$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent581__6tdrncim24m1varg0v5q0f7nch$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent582__30dghtmj4gjrhcsdg0787ep537$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent583__21ej59tcjacdon2ed37goh95iu$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent584__7ulmsojdgpvkbiaamm47usld8f$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent585__tsjsie51lnggtomlr79a80774h$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent586__vcscn3h0c2io33k3n5v6r5t93s$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent587__m1cajond3t6mb9u4pnn5lvihao$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 117
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_SLWCpuWidget$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 173
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_CpuReceiver$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/tritop_androidSLWCpuWidget_SLWCpuWidget$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 587
+Adjusted ub: 8[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent580__nhjd1vplat6bkcskrkj57tsthd$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent581__6tdrncim24m1varg0v5q0f7nch$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent582__30dghtmj4gjrhcsdg0787ep537$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent583__21ej59tcjacdon2ed37goh95iu$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent584__7ulmsojdgpvkbiaamm47usld8f$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent585__tsjsie51lnggtomlr79a80774h$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent586__vcscn3h0c2io33k3n5v6r5t93s$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent587__m1cajond3t6mb9u4pnn5lvihao$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 117
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 117
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_androidSLWCpuWidget/detailedPath_tritop_androidSLWCpuWidget_3$0]]
+--------------------------
+Adjustment Time: 4483 ms. 
+
+
+---STATS---
+p cnf 49073 219785
+primary variables: 15358
+
+........................................................................................................
+Total Kodkod Rels: 1233
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 104
+Analysis Time: 7112 ms. 
+
+=====================================

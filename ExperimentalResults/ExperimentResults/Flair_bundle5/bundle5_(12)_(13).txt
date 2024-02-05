@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_12/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 130931 121298
+primary variables: 16860
+
+............
+Total Sol.s: 12
+Analysis Time: 1930 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_13/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 34
+original ub: 338
+Adjusted ub: 60
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 338
+Adjusted ub: 26
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 10[[com_danielkim_soundrecorder/com_danielkim_soundrecorder$0, be_ppareit_shutdown/appDeclaration/RECORD_AUDIO$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/WRITE_SETTINGS$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/NFC$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/ACCESS_NETWORK_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/CHANGE_WIFI_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/REORDER_TASKS$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/CAMERA$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/READ_PHONE_STATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/VIBRATE$0], [com_moonpi_tapunlock/com_moonpi_tapunlock$0, be_ppareit_shutdown/appDeclaration/ACCESS_WIFI_STATE$0]]
+original ub: 338
+Adjusted ub: 36
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 27
+original ub: 403
+Adjusted ub: 106
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 15[[be_ppareit_shutdown/be_ppareit_shutdown_SdActivity$0, be_ppareit_shutdown/IntentFilter1$0], [com_danielkim_soundrecorder/com_danielkim_soundrecorder_activities_MainActivity$0, com_danielkim_soundrecorder/IntentFilter1$0], [com_gokhanmoral_stweaks_app/com_gokhanmoral_stweaks_app_MainActivity$0, com_gokhanmoral_stweaks_app/IntentFilter1$0], [com_jmartin_temaki/com_jmartin_temaki_MainDrawerActivity$0, com_jmartin_temaki/IntentFilter1$0], [com_launcher_silverfish/com_launcher_silverfish_LauncherActivity$0, com_launcher_silverfish/IntentFilter1$0], [com_moonpi_tapunlock/com_moonpi_tapunlock_MainActivity$0, com_moonpi_tapunlock/IntentFilter1$0], [com_notriddle_null_launcer/com_notriddle_null_launcer_Home$0, com_notriddle_null_launcer/IntentFilter1$0], [com_nutomic_zertman/com_nutomic_zertman_MainActivity$0, com_nutomic_zertman/IntentFilter1$0], [de_freewarepoint_whohasmystuff/de_freewarepoint_whohasmystuff_MainActivity$0, de_freewarepoint_whohasmystuff/IntentFilter1$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedActivity$0, fr_xgouchet_texteditor/IntentFilter1$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, fr_xgouchet_texteditor/IntentFilter3$0], [com_example_muzei_muzeiapod/com_example_muzei_muzeiapod_ApodNasaArtSource$0, com_example_muzei_muzeiapod/IntentFilter1$0], [com_moonpi_tapunlock/com_moonpi_tapunlock_ScreenLockReceiver$0, com_moonpi_tapunlock/IntentFilter2$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, fr_xgouchet_texteditor/IntentFilter2$0], [free_rm_netcfgwidget/free_rm_netcfgwidget_NetcfgWidget$0, free_rm_netcfgwidget/IntentFilter1$0]]
+original ub: 496
+Adjusted ub: 106
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 2[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0]]
+original ub: 806
+Adjusted ub: 106
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 34
+original ub: 961
+Adjusted ub: 158
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 31
+original ub: 1209
+Adjusted ub: 31
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 31
+original ub: 1209
+Adjusted ub: 31
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 19[[be_ppareit_shutdown/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [com_danielkim_soundrecorder/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [com_example_muzei_muzeiapod/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/com_google_android_apps_muzei_api_MuzeiArtSource_A$0], [com_gokhanmoral_stweaks_app/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [com_jmartin_temaki/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [com_launcher_silverfish/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [com_moonpi_tapunlock/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [com_moonpi_tapunlock/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/android_intent_action_BOOT_COMPLETED_A$0], [com_notriddle_null_launcer/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [com_nutomic_zertman/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [de_freewarepoint_whohasmystuff/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/android_intent_action_VIEW_A$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/android_intent_action_EDIT_A$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/fr_xgouchet_texteditor_ACTION_TED_WIDGET_OPEN_A$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/fr_xgouchet_texteditor_ACTION_TED_BOX_OPEN_A$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_action_MAIN_A$0], [fr_xgouchet_texteditor/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/android_appwidget_action_APPWIDGET_UPDATE_A$0], [fr_xgouchet_texteditor/IntentFilter3$0, be_ppareit_shutdown/appDeclaration/android_appwidget_action_APPWIDGET_CONFIGURE_A$0], [free_rm_netcfgwidget/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/android_appwidget_action_APPWIDGET_UPDATE_A$0]]
+original ub: 192
+Adjusted ub: 31
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 15[[be_ppareit_shutdown/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_danielkim_soundrecorder/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_example_muzei_muzeiapod/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_gokhanmoral_stweaks_app/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_jmartin_temaki/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_launcher_silverfish/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_moonpi_tapunlock/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_moonpi_tapunlock/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_notriddle_null_launcer/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_nutomic_zertman/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [de_freewarepoint_whohasmystuff/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/text__D$0], [fr_xgouchet_texteditor/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [fr_xgouchet_texteditor/IntentFilter3$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [free_rm_netcfgwidget/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0]]
+original ub: 32
+Adjusted ub: 17[[be_ppareit_shutdown/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_danielkim_soundrecorder/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_example_muzei_muzeiapod/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_gokhanmoral_stweaks_app/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_jmartin_temaki/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_launcher_silverfish/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_moonpi_tapunlock/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_moonpi_tapunlock/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_notriddle_null_launcer/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_nutomic_zertman/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [com_rubenroy_minimaltodo/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/text__D$0], [com_rubenroy_minimaltodo/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [de_freewarepoint_whohasmystuff/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/text__D$0], [fr_xgouchet_texteditor/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [fr_xgouchet_texteditor/IntentFilter3$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [free_rm_netcfgwidget/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 16[[be_ppareit_shutdown/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_danielkim_soundrecorder/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_example_muzei_muzeiapod/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_gokhanmoral_stweaks_app/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_jmartin_temaki/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_launcher_silverfish/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_moonpi_tapunlock/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_moonpi_tapunlock/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_notriddle_null_launcer/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_nutomic_zertman/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [de_freewarepoint_whohasmystuff/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/YesScheme$0], [fr_xgouchet_texteditor/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [fr_xgouchet_texteditor/IntentFilter3$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [free_rm_netcfgwidget/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0]]
+original ub: 32
+Adjusted ub: 18[[be_ppareit_shutdown/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_danielkim_soundrecorder/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_example_muzei_muzeiapod/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_gokhanmoral_stweaks_app/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_jmartin_temaki/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_launcher_silverfish/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_moonpi_tapunlock/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_moonpi_tapunlock/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_notriddle_null_launcer/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_nutomic_zertman/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_rubenroy_minimaltodo/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [com_rubenroy_minimaltodo/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/YesScheme$0], [de_freewarepoint_whohasmystuff/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/YesScheme$0], [fr_xgouchet_texteditor/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [fr_xgouchet_texteditor/IntentFilter3$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [free_rm_netcfgwidget/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 19[[be_ppareit_shutdown/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [com_danielkim_soundrecorder/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [com_example_muzei_muzeiapod/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [com_gokhanmoral_stweaks_app/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [com_jmartin_temaki/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [com_launcher_silverfish/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/android_intent_category_HOME_C$0], [com_launcher_silverfish/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [com_launcher_silverfish/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [com_moonpi_tapunlock/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [com_moonpi_tapunlock/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [com_notriddle_null_launcer/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/android_intent_category_HOME_C$0], [com_notriddle_null_launcer/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [com_nutomic_zertman/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [de_freewarepoint_whohasmystuff/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [fr_xgouchet_texteditor/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_LAUNCHER_C$0], [fr_xgouchet_texteditor/IntentFilter2$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [fr_xgouchet_texteditor/IntentFilter3$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [free_rm_netcfgwidget/IntentFilter1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0]]
+original ub: 48
+Adjusted ub: 22
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 65
+original ub: 3348
+Adjusted ub: 1658
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 29
+original ub: 3348
+Adjusted ub: 1622
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 65
+original ub: 1296
+Adjusted ub: 581
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 65
+original ub: 216
+Adjusted ub: 151
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 65
+original ub: 216
+Adjusted ub: 151
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 65
+original ub: 324
+Adjusted ub: 194
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 12[[intent1__c8477gc000ebiptaq3m4t830ji$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent1__c8477gc000ebiptaq3m4t830ji$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent1__c8477gc000ebiptaq3m4t830ji$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0], [intent3__ddjhnv6jg0e9u1fg9brmc7lvfh$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent3__ddjhnv6jg0e9u1fg9brmc7lvfh$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent3__ddjhnv6jg0e9u1fg9brmc7lvfh$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0], [intent6__mr2cuijc9v8vum26gbj2v1iti2$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent6__mr2cuijc9v8vum26gbj2v1iti2$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent6__mr2cuijc9v8vum26gbj2v1iti2$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0], [intent7__ukkb6cgc3dr19ijsvtp5tbfp5q$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_6$0], [intent7__ukkb6cgc3dr19ijsvtp5tbfp5q$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_7$0], [intent7__ukkb6cgc3dr19ijsvtp5tbfp5q$0, com_jmartin_temaki/detailedPath_com_jmartin_temaki_8$0]]
+original ub: 3348
+Adjusted ub: 1345
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_AboutActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_ReminderActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_AboutActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_ReminderActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_AboutActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_ReminderActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 108
+Adjusted ub: 43
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 108
+Adjusted ub: 43
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_AboutActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_ReminderActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_AboutActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_ReminderActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 108
+Adjusted ub: 43
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_AboutActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_ReminderActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_AboutActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_ReminderActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_rubenroy_minimaltodo/com_rubenroy_minimaltodo_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 108
+Adjusted ub: 43
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 31
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 777 ms. 
+
+
+---STATS---
+p cnf 20583 40761
+primary variables: 6227
+
+............
+Total Kodkod Rels: 341
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 12
+Analysis Time: 603 ms. 
+
+=====================================

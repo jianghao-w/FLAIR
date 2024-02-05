@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_40/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1625424 2386638
+primary variables: 210630
+
+............
+Total Sol.s: 12
+Analysis Time: 16412 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_41/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 95
+original ub: 1440
+Adjusted ub: 131
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 1[[org_logicallycreative_movingpolygons/org_logicallycreative_movingpolygons$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0]]
+original ub: 1440
+Adjusted ub: 37
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 44
+original ub: 1440
+Adjusted ub: 80
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 114
+original ub: 4600
+Adjusted ub: 268
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 64
+original ub: 7475
+Adjusted ub: 243
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 6[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, am_zoom_mlauncher/appDeclaration/BIND_INPUT_METHOD$0], [org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0, am_zoom_mlauncher/appDeclaration/ACCESS_COARSE_LOCATION$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, am_zoom_mlauncher/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0]]
+original ub: 4140
+Adjusted ub: 42
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 90
+original ub: 10235
+Adjusted ub: 635
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 85
+original ub: 3471
+Adjusted ub: 241
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 85
+original ub: 3471
+Adjusted ub: 241
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 86
+original ub: 3315
+Adjusted ub: 137
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 67
+original ub: 585
+Adjusted ub: 76
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 67
+original ub: 130
+Adjusted ub: 69
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 79
+original ub: 585
+Adjusted ub: 88
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 158
+original ub: 49680
+Adjusted ub: 31826
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 86
+original ub: 49680
+Adjusted ub: 31754
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 158
+original ub: 22032
+Adjusted ub: 14132
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 158
+original ub: 3888
+Adjusted ub: 2624
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 158
+original ub: 864
+Adjusted ub: 706
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 158
+original ub: 3888
+Adjusted ub: 2624
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 43
+original ub: 38448
+Adjusted ub: 25061
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 115
+Adjusted ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/com_example_android_monthcalendarwidget_MonthCalendarWidget$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 115
+Adjusted ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/com_example_android_monthcalendarwidget_MonthCalendarWidget$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 115
+Adjusted ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/com_example_android_monthcalendarwidget_MonthCalendarWidget$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 274
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 274
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 115
+Adjusted ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_example_android_monthcalendarwidget/com_example_android_monthcalendarwidget_MonthCalendarWidget$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 115
+Adjusted ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_example_android_monthcalendarwidget/com_example_android_monthcalendarwidget_MonthCalendarWidget$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 274
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 115
+Adjusted ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_example_android_monthcalendarwidget/com_example_android_monthcalendarwidget_MonthCalendarWidget$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 115
+Adjusted ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_example_android_monthcalendarwidget/com_example_android_monthcalendarwidget_MonthCalendarWidget$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 432
+Adjusted ub: 274
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_4$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 89
+Adjusted ub: 4[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_example_android_monthcalendarwidget/detailedPath_com_example_android_monthcalendarwidget_4$0]]
+--------------------------
+Adjustment Time: 21535 ms. 
+
+
+---STATS---
+p cnf 366664 752195
+primary variables: 111042
+
+............
+Total Kodkod Rels: 945
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 12
+Analysis Time: 4920 ms. 
+
+=====================================

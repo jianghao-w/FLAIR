@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_36/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 936904 1375477
+primary variables: 119872
+
+............
+Total Sol.s: 12
+Analysis Time: 9246 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_37/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 83
+original ub: 1296
+Adjusted ub: 119
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 1[[org_logicallycreative_movingpolygons/org_logicallycreative_movingpolygons$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0]]
+original ub: 1296
+Adjusted ub: 37
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 36
+original ub: 1296
+Adjusted ub: 72
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 92
+original ub: 3528
+Adjusted ub: 400
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 55
+original ub: 5782
+Adjusted ub: 777
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 6[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, am_zoom_mlauncher/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, am_zoom_mlauncher/appDeclaration/BIND_INPUT_METHOD$0], [org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0, am_zoom_mlauncher/appDeclaration/ACCESS_COARSE_LOCATION$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, am_zoom_mlauncher/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, am_zoom_mlauncher/appDeclaration/TED_INTERNAL$0]]
+original ub: 3528
+Adjusted ub: 222
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 78
+original ub: 8330
+Adjusted ub: 1784
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 72
+original ub: 3315
+Adjusted ub: 579
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 72
+original ub: 3315
+Adjusted ub: 579
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 69
+original ub: 2773
+Adjusted ub: 532
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 55
+original ub: 413
+Adjusted ub: 193
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 57
+original ub: 118
+Adjusted ub: 65
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 65
+original ub: 531
+Adjusted ub: 211
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 30282
+Adjusted ub: 30282
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 30282
+Adjusted ub: 30282
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 14523
+Adjusted ub: 14523
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2163
+Adjusted ub: 2163
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 618
+Adjusted ub: 618
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2781
+Adjusted ub: 2781
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 26265
+Adjusted ub: 26265
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 98
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_NoteEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_NoteList$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_NoteSearchResults$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_Preferences$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_TitleEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_provider_NoteProvider$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 98
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_NoteEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_NoteList$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_NoteSearchResults$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_Preferences$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_TitleEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_provider_NoteProvider$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 98
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_NoteEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_NoteList$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_NoteSearchResults$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_Preferences$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_notepad_TitleEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/bander_provider_NoteProvider$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 309
+Adjusted ub: 309
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 309
+Adjusted ub: 309
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 13[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_4$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_5$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_6$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_7$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_8$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_9$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_10$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_11$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_12$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_13$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 13[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_4$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_5$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_6$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_7$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_8$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_9$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_10$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_11$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_12$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_13$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 13[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_4$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_5$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_6$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_7$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_8$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_9$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_10$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_11$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_12$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_13$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 13[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_4$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_5$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_6$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_7$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_8$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_9$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_10$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_11$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_12$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExp$0, bander_notepad/detailedPath_bander_notepad_13$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 98
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_notepad_NoteEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_notepad_NoteList$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_notepad_NoteSearchResults$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_notepad_Preferences$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_notepad_TitleEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_provider_NoteProvider$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 98
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_notepad_NoteEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_notepad_NoteList$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_notepad_NoteSearchResults$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_notepad_Preferences$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_notepad_TitleEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/bander_provider_NoteProvider$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 309
+Adjusted ub: 309
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 13[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_4$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_5$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_6$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_7$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_8$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_9$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_10$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_11$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_12$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, bander_notepad/detailedPath_bander_notepad_13$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 98
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_notepad_NoteEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_notepad_NoteList$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_notepad_NoteSearchResults$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_notepad_Preferences$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_notepad_TitleEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_provider_NoteProvider$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 98
+Adjusted ub: 6[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_notepad_NoteEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_notepad_NoteList$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_notepad_NoteSearchResults$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_notepad_Preferences$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_notepad_TitleEdit$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/bander_provider_NoteProvider$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 309
+Adjusted ub: 309
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 13[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_4$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_5$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_6$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_7$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_8$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_9$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_10$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_11$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_12$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_13$0]]
+--------------------------
+Adjusted: am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 85
+Adjusted ub: 13[[am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_1$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_2$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_3$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_4$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_5$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_6$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_7$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_8$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_9$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_10$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_11$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_12$0], [am_zoom_mlauncher/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, bander_notepad/detailedPath_bander_notepad_13$0]]
+--------------------------
+Adjustment Time: 18237 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 785
+Adjusted Kodkod Rels: 30 
+
+Total Sol.s: 0
+Analysis Time: 289 ms. 
+
+=====================================

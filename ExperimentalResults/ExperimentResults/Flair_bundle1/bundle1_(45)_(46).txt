@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_45/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 3668175 7163467
+primary variables: 475187
+
+............................................................................................
+Total Sol.s: 92
+Analysis Time: 99718 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b1_46/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 123
+original ub: 2116
+Adjusted ub: 169
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 2116
+Adjusted ub: 46
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 36
+original ub: 2116
+Adjusted ub: 82
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 201
+original ub: 9430
+Adjusted ub: 586
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 103
+original ub: 19270
+Adjusted ub: 1082
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 10[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_LatticeService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_SundancerService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [com_unwrappedapps_android_wallpaper_creative/com_unwrappedapps_android_wallpaper_creative_TunnelService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, app_varlorg_unote/appDeclaration/BIND_INPUT_METHOD$0], [org_mariotaku_twidere_extension_twitlonger/org_mariotaku_twidere_extension_twitlonger_TwitLongerService2$0, app_varlorg_unote/appDeclaration/SHORTEN_STATUS$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, app_varlorg_unote/appDeclaration/TED_INTERNAL$0]]
+original ub: 9430
+Adjusted ub: 194
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 229
+original ub: 26240
+Adjusted ub: 1344
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 125
+original ub: 4992
+Adjusted ub: 242
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 125
+original ub: 4992
+Adjusted ub: 242
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 115
+original ub: 5546
+Adjusted ub: 656
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 96
+original ub: 1128
+Adjusted ub: 132
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 94
+original ub: 188
+Adjusted ub: 100
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 101
+original ub: 1128
+Adjusted ub: 137
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 632
+original ub: 132020
+Adjusted ub: 5620
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 496
+original ub: 132020
+Adjusted ub: 5484
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 632
+original ub: 37996
+Adjusted ub: 3868
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 632
+original ub: 7728
+Adjusted ub: 776
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 632
+original ub: 1288
+Adjusted ub: 656
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 632
+original ub: 7728
+Adjusted ub: 776
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 223
+original ub: 82432
+Adjusted ub: 3655
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 205
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_SLWTrafficMeterWidget$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 205
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_SLWTrafficMeterWidget$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 205
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_SLWTrafficMeterWidget$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 644
+Adjusted ub: 12[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent633__jlile7q9sn2ffe19ogv9g01ark$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent634__aqogb0i3af8lnt692dta62hc83$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent635__pl5fto2rm4cifse2tbphha5epe$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent636__mt2mn192u6qk5d92v1uijju7rd$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent637__q4da18ckog7oatmbqtbrhn4ifa$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent638__vhrl6aat3d5ktj78s83rp40da8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent639__8ch18fh60et15o8jhvaumkeho1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent640__3732b50djqm22ur97u9bn1hcbt$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent641__81qi8ksofib4i2igfi6fs8jmkp$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent642__1tsok99atp6ubgdj2617fms50$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent643__v056aoe2nbheddeof7cfngfp3f$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent644__5op2b4lvpf14lgq7fe406g71rt$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 644
+Adjusted ub: 12[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent633__jlile7q9sn2ffe19ogv9g01ark$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent634__aqogb0i3af8lnt692dta62hc83$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent635__pl5fto2rm4cifse2tbphha5epe$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent636__mt2mn192u6qk5d92v1uijju7rd$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent637__q4da18ckog7oatmbqtbrhn4ifa$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent638__vhrl6aat3d5ktj78s83rp40da8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent639__8ch18fh60et15o8jhvaumkeho1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent640__3732b50djqm22ur97u9bn1hcbt$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent641__81qi8ksofib4i2igfi6fs8jmkp$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent642__1tsok99atp6ubgdj2617fms50$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent643__v056aoe2nbheddeof7cfngfp3f$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, intent644__5op2b4lvpf14lgq7fe406g71rt$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 205
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_SLWTrafficMeterWidget$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 205
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_SLWTrafficMeterWidget$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 644
+Adjusted ub: 12[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent633__jlile7q9sn2ffe19ogv9g01ark$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent634__aqogb0i3af8lnt692dta62hc83$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent635__pl5fto2rm4cifse2tbphha5epe$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent636__mt2mn192u6qk5d92v1uijju7rd$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent637__q4da18ckog7oatmbqtbrhn4ifa$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent638__vhrl6aat3d5ktj78s83rp40da8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent639__8ch18fh60et15o8jhvaumkeho1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent640__3732b50djqm22ur97u9bn1hcbt$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent641__81qi8ksofib4i2igfi6fs8jmkp$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent642__1tsok99atp6ubgdj2617fms50$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent643__v056aoe2nbheddeof7cfngfp3f$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent644__5op2b4lvpf14lgq7fe406g71rt$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 205
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_SLWTrafficMeterWidget$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 205
+Adjusted ub: 4[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_InfoActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterService$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_SLWTrafficMeterWidget$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/tritop_android_SLWTrafficMeterWidget_TrafficMeterReceiver$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 644
+Adjusted ub: 12[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent633__jlile7q9sn2ffe19ogv9g01ark$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent634__aqogb0i3af8lnt692dta62hc83$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent635__pl5fto2rm4cifse2tbphha5epe$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent636__mt2mn192u6qk5d92v1uijju7rd$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent637__q4da18ckog7oatmbqtbrhn4ifa$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent638__vhrl6aat3d5ktj78s83rp40da8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent639__8ch18fh60et15o8jhvaumkeho1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent640__3732b50djqm22ur97u9bn1hcbt$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent641__81qi8ksofib4i2igfi6fs8jmkp$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent642__1tsok99atp6ubgdj2617fms50$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent643__v056aoe2nbheddeof7cfngfp3f$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent644__5op2b4lvpf14lgq7fe406g71rt$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_3$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 128
+Adjusted ub: 3[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, tritop_android_SLWTrafficMeterWidget/detailedPath_tritop_android_SLWTrafficMeterWidget_3$0]]
+--------------------------
+Adjustment Time: 6931 ms. 
+
+
+---STATS---
+p cnf 74164 311193
+primary variables: 21807
+
+............................................................................................
+Total Kodkod Rels: 1345
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 92
+Analysis Time: 8655 ms. 
+
+=====================================

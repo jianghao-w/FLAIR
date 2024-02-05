@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_48/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 4310190 9786049
+primary variables: 560271
+
+................................
+Total Sol.s: 32
+Analysis Time: 85939 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b7_49/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 191
+original ub: 3479
+Adjusted ub: 262
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 3479
+Adjusted ub: 71
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 71
+original ub: 3479
+Adjusted ub: 142
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 232
+original ub: 11466
+Adjusted ub: 562
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 140
+original ub: 24804
+Adjusted ub: 584
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 24
+original ub: 16614
+Adjusted ub: 166
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 197
+original ub: 38610
+Adjusted ub: 1223
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 162
+original ub: 6435
+Adjusted ub: 279
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 162
+original ub: 6435
+Adjusted ub: 279
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 161
+original ub: 10600
+Adjusted ub: 261
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 110
+original ub: 1166
+Adjusted ub: 121
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 106
+original ub: 212
+Adjusted ub: 108
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 115
+original ub: 530
+Adjusted ub: 120
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 101
+original ub: 135954
+Adjusted ub: 112623
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 61
+original ub: 135954
+Adjusted ub: 112583
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 101
+original ub: 58100
+Adjusted ub: 48101
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 101
+original ub: 6391
+Adjusted ub: 5381
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 101
+original ub: 1162
+Adjusted ub: 1061
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 101
+original ub: 2905
+Adjusted ub: 2501
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 92
+original ub: 95865
+Adjusted ub: 79595
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 234
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMFileChooser$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMViewer$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 234
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMFileChooser$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMViewer$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 234
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMFileChooser$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMViewer$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 581
+Adjusted ub: 480
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 581
+Adjusted ub: 480
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 165
+Adjusted ub: 3[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_3$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 165
+Adjusted ub: 3[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_3$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 165
+Adjusted ub: 3[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_3$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 165
+Adjusted ub: 3[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExp$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_3$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 234
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMFileChooser$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMViewer$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 234
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMFileChooser$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMViewer$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 581
+Adjusted ub: 480
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 165
+Adjusted ub: 3[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_3$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 234
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMFileChooser$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMViewer$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 234
+Adjusted ub: 2[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMFileChooser$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_ac_ulb_lisa_idot_android_dicomviewer/be_ac_ulb_lisa_idot_android_dicomviewer_DICOMViewer$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 581
+Adjusted ub: 480
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 165
+Adjusted ub: 3[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_3$0]]
+--------------------------
+Adjusted: am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 165
+Adjusted ub: 3[[am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_1$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_2$0], [am_ed_exportcontacts/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, be_ac_ulb_lisa_idot_android_dicomviewer/detailedPath_be_ac_ulb_lisa_idot_android_dicomviewer_3$0]]
+--------------------------
+Adjustment Time: 98742 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1421
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 740 ms. 
+
+=====================================

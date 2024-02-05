@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b4_41/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 1887886 3182479
+primary variables: 242074
+
+........................
+Total Sol.s: 24
+Analysis Time: 23565 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b4_42/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 117
+original ub: 1681
+Adjusted ub: 278
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1681
+Adjusted ub: 161
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 41
+original ub: 1681
+Adjusted ub: 202
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 134
+original ub: 5576
+Adjusted ub: 350
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 76
+original ub: 10472
+Adjusted ub: 364
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, app_varlorg_unote/appDeclaration/BIND_WALLPAPER$0], [me_writeily/me_writeily_widget_FilesWidgetService$0, app_varlorg_unote/appDeclaration/BIND_REMOTEVIEWS$0], [org_mariotaku_twidere_extension_twitlonger/org_mariotaku_twidere_extension_twitlonger_TwitLongerService2$0, app_varlorg_unote/appDeclaration/SHORTEN_STATUS$0], [com_pikselbit_wrongpinshutdown/com_pikselbit_wrongpinshutdown_LogInReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, app_varlorg_unote/appDeclaration/BIND_DEVICE_ADMIN$0]]
+original ub: 5576
+Adjusted ub: 489
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 85
+original ub: 13600
+Adjusted ub: 1625
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 90
+original ub: 3900
+Adjusted ub: 480
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 90
+original ub: 3900
+Adjusted ub: 480
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 90
+original ub: 3619
+Adjusted ub: 137
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 84
+original ub: 924
+Adjusted ub: 96
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 78
+original ub: 154
+Adjusted ub: 80
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 83
+original ub: 385
+Adjusted ub: 88
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 102
+original ub: 60520
+Adjusted ub: 46954
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 86
+original ub: 60520
+Adjusted ub: 46938
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 102
+original ub: 20915
+Adjusted ub: 16223
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 102
+original ub: 5340
+Adjusted ub: 4218
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 102
+original ub: 890
+Adjusted ub: 788
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 102
+original ub: 2225
+Adjusted ub: 1817
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 32
+original ub: 44500
+Adjusted ub: 35352
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/com_android_shellms_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/com_android_shellms_sendSMS$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/com_android_shellms_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/com_android_shellms_sendSMS$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/com_android_shellms_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/com_android_shellms_sendSMS$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 445
+Adjusted ub: 343
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 445
+Adjusted ub: 343
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 100
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_9$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_10$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 100
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_9$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_10$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 100
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_9$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_10$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 100
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_9$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExp$0, com_android_shellms/detailedPath_com_android_shellms_10$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/com_android_shellms_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/com_android_shellms_sendSMS$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/com_android_shellms_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/com_android_shellms_sendSMS$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 445
+Adjusted ub: 343
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 100
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/detailedPath_com_android_shellms_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/detailedPath_com_android_shellms_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/detailedPath_com_android_shellms_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/detailedPath_com_android_shellms_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/detailedPath_com_android_shellms_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/detailedPath_com_android_shellms_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/detailedPath_com_android_shellms_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/detailedPath_com_android_shellms_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/detailedPath_com_android_shellms_9$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_android_shellms/detailedPath_com_android_shellms_10$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/com_android_shellms_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/com_android_shellms_sendSMS$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 136
+Adjusted ub: 2[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/com_android_shellms_MainActivity$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/com_android_shellms_sendSMS$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 445
+Adjusted ub: 343
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 100
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_9$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_10$0]]
+--------------------------
+Adjusted: app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 100
+Adjusted ub: 10[[app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_1$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_2$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_3$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_4$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_5$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_6$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_7$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_8$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_9$0], [app_varlorg_unote/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_android_shellms/detailedPath_com_android_shellms_10$0]]
+--------------------------
+Adjustment Time: 32847 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 1003
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 437 ms. 
+
+=====================================

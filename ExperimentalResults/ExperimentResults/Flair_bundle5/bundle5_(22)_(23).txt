@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_22/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 541809 658842
+primary variables: 70263
+
+............
+Total Sol.s: 12
+Analysis Time: 6399 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_23/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 57
+original ub: 759
+Adjusted ub: 90
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 759
+Adjusted ub: 33
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 22
+original ub: 759
+Adjusted ub: 55
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 64
+original ub: 1587
+Adjusted ub: 243
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 37
+original ub: 2622
+Adjusted ub: 291
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 5[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, be_ppareit_shutdown/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, be_ppareit_shutdown/appDeclaration/BIND_INPUT_METHOD$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, be_ppareit_shutdown/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0]]
+original ub: 2277
+Adjusted ub: 170
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 52
+original ub: 3933
+Adjusted ub: 721
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 51
+original ub: 2223
+Adjusted ub: 285
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 51
+original ub: 2223
+Adjusted ub: 285
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 49
+original ub: 1292
+Adjusted ub: 120
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 37
+original ub: 114
+Adjusted ub: 40
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 39
+original ub: 76
+Adjusted ub: 41
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 42
+original ub: 152
+Adjusted ub: 46
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 232
+original ub: 16284
+Adjusted ub: 1668
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 140
+original ub: 16284
+Adjusted ub: 1576
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 232
+original ub: 8024
+Adjusted ub: 600
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 232
+original ub: 708
+Adjusted ub: 244
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 232
+original ub: 472
+Adjusted ub: 240
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 232
+original ub: 944
+Adjusted ub: 248
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 84
+original ub: 13452
+Adjusted ub: 1704
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 5[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_InstapaperViewer$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_TTS$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_NewsAutoRefresh$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 5[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_InstapaperViewer$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_TTS$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_NewsAutoRefresh$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 5[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_InstapaperViewer$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_TTS$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_NewsAutoRefresh$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 236
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent233__ss9sq974g98q5caugj2ggh59q9$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent234__5njtrpi0hdokofg6p7hp50cs8i$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent235__76mi8mjmi7ga4o97dniru07h37$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent236__hi9rcfsj1gc99d67e1jnvl1scv$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 236
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent233__ss9sq974g98q5caugj2ggh59q9$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent234__5njtrpi0hdokofg6p7hp50cs8i$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent235__76mi8mjmi7ga4o97dniru07h37$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, intent236__hi9rcfsj1gc99d67e1jnvl1scv$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 57
+Adjusted ub: 6[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_4$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_5$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_6$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 57
+Adjusted ub: 6[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_4$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_5$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_6$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 57
+Adjusted ub: 6[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_4$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_5$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_6$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 57
+Adjusted ub: 6[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_4$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_5$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_6$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 5[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_InstapaperViewer$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_TTS$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_NewsAutoRefresh$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 5[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_InstapaperViewer$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_TTS$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_NewsAutoRefresh$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 236
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent233__ss9sq974g98q5caugj2ggh59q9$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent234__5njtrpi0hdokofg6p7hp50cs8i$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent235__76mi8mjmi7ga4o97dniru07h37$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, intent236__hi9rcfsj1gc99d67e1jnvl1scv$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 57
+Adjusted ub: 6[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_4$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_5$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_6$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 5[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_InstapaperViewer$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_TTS$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_NewsAutoRefresh$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 69
+Adjusted ub: 5[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_InstapaperViewer$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_MainActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_SettingsActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_TTS$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/in_ac_dtu_subtlenews_NewsAutoRefresh$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 236
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent233__ss9sq974g98q5caugj2ggh59q9$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent234__5njtrpi0hdokofg6p7hp50cs8i$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent235__76mi8mjmi7ga4o97dniru07h37$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, intent236__hi9rcfsj1gc99d67e1jnvl1scv$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 57
+Adjusted ub: 6[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_4$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_5$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_6$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 57
+Adjusted ub: 6[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_1$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_2$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_3$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_4$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_5$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, in_ac_dtu_subtlenews/detailedPath_in_ac_dtu_subtlenews_6$0]]
+--------------------------
+Adjustment Time: 841 ms. 
+
+
+---STATS---
+p cnf 21845 52058
+primary variables: 7310
+
+............
+Total Kodkod Rels: 596
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 12
+Analysis Time: 925 ms. 
+
+=====================================

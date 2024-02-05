@@ -1,0 +1,276 @@
+Analyzing the original Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_34/analysis/dsl/ICC.als
+
+---STATS---
+p cnf 858851 1215856
+primary variables: 110167
+
+............
+Total Sol.s: 12
+Analysis Time: 9193 ms.
+------------------------------------
+Analyzing the updated Specification:
+/Users/hok/Documents/UNLResearch/Covert/app_repo/b5_35/analysis/dsl/ICC.als
+Adjusting bounds for the updated specification:
+
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 1[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0]]
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.usesPermissions
+original lb: 0[]
+Adjusted lb: 80
+original ub: 1224
+Adjusted ub: 116
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.appPermissions
+original lb: 0[]
+Adjusted lb: 1[[org_logicallycreative_movingpolygons/org_logicallycreative_movingpolygons$0, be_ppareit_shutdown/appDeclaration/BIND_WALLPAPER$0]]
+original ub: 1224
+Adjusted ub: 37
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Application.APIPermissions
+original lb: 0[]
+Adjusted lb: 36
+original ub: 1224
+Adjusted ub: 72
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.app
+original lb: 0[]
+Adjusted lb: 87
+original ub: 3094
+Adjusted ub: 310
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.intentFilter
+original lb: 0[]
+Adjusted lb: 51
+original ub: 4914
+Adjusted ub: 528
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.compPermissions
+original lb: 0[]
+Adjusted lb: 6[[fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedWidgetConfigActivity$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0], [com_tjm_stripepaper/com_tjm_stripepaper_MyWallpaperService$0, be_ppareit_shutdown/appDeclaration/BIND_WALLPAPER$0], [fr_magistry_taigime/fr_magistry_taigime_TaigIMEService$0, be_ppareit_shutdown/appDeclaration/BIND_INPUT_METHOD$0], [org_openbmap_unifiedNlp/org_openbmap_unifiedNlp_services_OpenbmapNlpService$0, be_ppareit_shutdown/appDeclaration/ACCESS_COARSE_LOCATION$0], [cz_eutopia_snooperstopper/cz_eutopia_snooperstopper_SnooperStopperDeviceAdminReceiver$0, be_ppareit_shutdown/appDeclaration/BIND_DEVICE_ADMIN$0], [fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAppWidgetProvider$0, be_ppareit_shutdown/appDeclaration/TED_INTERNAL$0]]
+original ub: 3276
+Adjusted ub: 150
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Component.detailedPaths
+original lb: 0[]
+Adjusted lb: 76
+original ub: 6370
+Adjusted ub: 356
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.source
+original lb: 0[]
+Adjusted lb: 70
+original ub: 2730
+Adjusted ub: 70
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/DetailedPath.sink
+original lb: 0[]
+Adjusted lb: 70
+original ub: 2730
+Adjusted ub: 70
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.actions
+original lb: 0[]
+Adjusted lb: 65
+original ub: 2268
+Adjusted ub: 293
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataType
+original lb: 0[]
+Adjusted lb: 51
+original ub: 270
+Adjusted ub: 117
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.dataScheme
+original lb: 0[]
+Adjusted lb: 53
+original ub: 108
+Adjusted ub: 59
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/IntentFilter.categories
+original lb: 0[]
+Adjusted lb: 58
+original ub: 378
+Adjusted ub: 181
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.sender
+original lb: 0[]
+Adjusted lb: 7[[intent64__d5o4fjaa4qlgm219jgcoe6ojbf$0, com_moonpi_tapunlock/com_moonpi_tapunlock_LockActivity$0], [intent117__8liitnqq7sog2n2iapfjlfr3gu$0, com_simplemobiletools_notes/com_simplemobiletools_notes_activities_MainActivity$0], [intent134__n1l40gcvsr9g9lcsf9kc4qh6i5$0, com_simplemobiletools_notes/com_simplemobiletools_notes_activities_AboutActivity$0], [intent150__7idotm6j1674n1jq0sr672i05m$0, com_ultrafunk_network_info/com_ultrafunk_network_info_WidgetProvider$0], [intent193__sgu0fjqnlkb1lnkcdf2qjr4sk1$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [intent219__mrsqd4bsn3ndh01dp7kb8ji925$0, fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedSettingsActivity$0], [intent224__jt9v3gj5j4e8ge1ekp61sp13p8$0, fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedActivity$0]]
+original ub: 25207
+Adjusted ub: 24605
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.component
+original lb: 0[]
+Adjusted lb: 5[[intent117__8liitnqq7sog2n2iapfjlfr3gu$0, com_simplemobiletools_notes/com_simplemobiletools_notes_activities_SettingsActivity$0], [intent150__7idotm6j1674n1jq0sr672i05m$0, com_ultrafunk_network_info/com_ultrafunk_network_info_WidgetProvider$0], [intent193__sgu0fjqnlkb1lnkcdf2qjr4sk1$0, fr_tvbarthel_apps_simplethermometer/fr_tvbarthel_apps_simplethermometer_services_TemperatureUpdaterService$0], [intent219__mrsqd4bsn3ndh01dp7kb8ji925$0, fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedOpenActivity$0], [intent224__jt9v3gj5j4e8ge1ekp61sp13p8$0, fr_xgouchet_texteditor/fr_xgouchet_texteditor_TedAboutActivity$0]]
+original ub: 25207
+Adjusted ub: 24603
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.action
+original lb: 0[]
+Adjusted lb: 7[[intent64__d5o4fjaa4qlgm219jgcoe6ojbf$0, be_ppareit_shutdown/appDeclaration/android_intent_action_CLOSE_SYSTEM_DIALOGS_A$0], [intent117__8liitnqq7sog2n2iapfjlfr3gu$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoAction$0], [intent134__n1l40gcvsr9g9lcsf9kc4qh6i5$0, be_ppareit_shutdown/appDeclaration/android_intent_action_VIEW_A$0], [intent150__7idotm6j1674n1jq0sr672i05m$0, be_ppareit_shutdown/appDeclaration/com_ultrafunk_network_info_action_UPDATE_WIDGET_A$0], [intent193__sgu0fjqnlkb1lnkcdf2qjr4sk1$0, be_ppareit_shutdown/appDeclaration/TemperatureUpdaterService_Actions_Update_A$0], [intent219__mrsqd4bsn3ndh01dp7kb8ji925$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoAction$0], [intent224__jt9v3gj5j4e8ge1ekp61sp13p8$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoAction$0]]
+original ub: 11634
+Adjusted ub: 11361
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataType
+original lb: 0[]
+Adjusted lb: 7[[intent64__d5o4fjaa4qlgm219jgcoe6ojbf$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [intent117__8liitnqq7sog2n2iapfjlfr3gu$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [intent134__n1l40gcvsr9g9lcsf9kc4qh6i5$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [intent150__7idotm6j1674n1jq0sr672i05m$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [intent193__sgu0fjqnlkb1lnkcdf2qjr4sk1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [intent219__mrsqd4bsn3ndh01dp7kb8ji925$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0], [intent224__jt9v3gj5j4e8ge1ekp61sp13p8$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoMIMEType$0]]
+original ub: 1385
+Adjusted ub: 1364
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.dataScheme
+original lb: 0[]
+Adjusted lb: 7[[intent64__d5o4fjaa4qlgm219jgcoe6ojbf$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [intent117__8liitnqq7sog2n2iapfjlfr3gu$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [intent134__n1l40gcvsr9g9lcsf9kc4qh6i5$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/YesScheme$0], [intent150__7idotm6j1674n1jq0sr672i05m$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [intent193__sgu0fjqnlkb1lnkcdf2qjr4sk1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [intent219__mrsqd4bsn3ndh01dp7kb8ji925$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0], [intent224__jt9v3gj5j4e8ge1ekp61sp13p8$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/NoScheme$0]]
+original ub: 554
+Adjusted ub: 547
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.categories
+original lb: 0[]
+Adjusted lb: 7[[intent64__d5o4fjaa4qlgm219jgcoe6ojbf$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [intent117__8liitnqq7sog2n2iapfjlfr3gu$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [intent134__n1l40gcvsr9g9lcsf9kc4qh6i5$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [intent150__7idotm6j1674n1jq0sr672i05m$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [intent193__sgu0fjqnlkb1lnkcdf2qjr4sk1$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [intent219__mrsqd4bsn3ndh01dp7kb8ji925$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0], [intent224__jt9v3gj5j4e8ge1ekp61sp13p8$0, be_ppareit_shutdown/appDeclaration/androidDeclaration/android_intent_category_DEFAULT_C$0]]
+original ub: 1939
+Adjusted ub: 1911
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/Intent.detailedPaths
+original lb: 0[]
+Adjusted lb: 3[[intent193__sgu0fjqnlkb1lnkcdf2qjr4sk1$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_3$0], [intent193__sgu0fjqnlkb1lnkcdf2qjr4sk1$0, fr_tvbarthel_apps_simplethermometer/detailedPath_fr_tvbarthel_apps_simplethermometer_4$0], [intent219__mrsqd4bsn3ndh01dp7kb8ji925$0, fr_xgouchet_texteditor/detailedPath_fr_xgouchet_texteditor_12$0]]
+original ub: 19390
+Adjusted ub: 18903
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 91
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_BrowserActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_PickerActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_SearchActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_settings_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 91
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_BrowserActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_PickerActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_SearchActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_settings_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 91
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_BrowserActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_PickerActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_SearchActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp$0, com_dnielfe_manager/com_dnielfe_manager_settings_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 277
+Adjusted ub: 270
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 277
+Adjusted ub: 270
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.d2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExp.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.c2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 91
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dnielfe_manager/com_dnielfe_manager_BrowserActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dnielfe_manager/com_dnielfe_manager_PickerActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dnielfe_manager/com_dnielfe_manager_SearchActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dnielfe_manager/com_dnielfe_manager_settings_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 91
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dnielfe_manager/com_dnielfe_manager_BrowserActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dnielfe_manager/com_dnielfe_manager_PickerActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dnielfe_manager/com_dnielfe_manager_SearchActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch$0, com_dnielfe_manager/com_dnielfe_manager_settings_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.i2
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 277
+Adjusted ub: 270
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpActivityLunch.dComponent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.c1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 91
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dnielfe_manager/com_dnielfe_manager_BrowserActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dnielfe_manager/com_dnielfe_manager_PickerActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dnielfe_manager/com_dnielfe_manager_SearchActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dnielfe_manager/com_dnielfe_manager_settings_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.b
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 91
+Adjusted ub: 4[[be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dnielfe_manager/com_dnielfe_manager_BrowserActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dnielfe_manager/com_dnielfe_manager_PickerActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dnielfe_manager/com_dnielfe_manager_SearchActivity$0], [be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack$0, com_dnielfe_manager/com_dnielfe_manager_settings_SettingsActivity$0]]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.i1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 277
+Adjusted ub: 270
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.d1
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 0[]
+--------------------------
+Adjusted: be_ppareit_shutdown/appDeclaration/androidDeclaration/GeneratedExpIntentHijack.dIntent
+original lb: 0[]
+Adjusted lb: 0[]
+original ub: 70
+Adjusted ub: 0[]
+--------------------------
+Adjustment Time: 12388 ms. 
+
+
+---STATS---
+p cnf 0 0
+primary variables: 0
+
+
+Total Kodkod Rels: 715
+Adjusted Kodkod Rels: 41 
+
+Total Sol.s: 0
+Analysis Time: 236 ms. 
+
+=====================================
