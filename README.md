@@ -4,4 +4,4 @@ FLAIR is a novel approach for efficient analysis of Android ICC (inter-component
 
 ## Approach
 
-![Image Alt text](/images/img.jpg
+![Image Alt text](/Image/Flair_1.png
